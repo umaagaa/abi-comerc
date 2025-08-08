@@ -20,7 +20,7 @@ export default function App() {
       </Routes>
 
       <footer className="bg-gray-100 text-center py-4 mt-10">
-        <p className="text-sm text-gray-500">&copy; 2025 Firma. Sva prava zadržana.</p>
+        <p className="text-sm text-gray-500">&copy; 2025 Abi Comerc. All rights reserved.</p>
       </footer>
     </Router>
   );
