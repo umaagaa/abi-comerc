@@ -1,32 +1,27 @@
 export default function Hero() {
-    return (
-      <section className="bg-gray-50">
-        
-        <div className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
-          
-          
-          <div className="flex-1">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Dobrodošli 
-            </h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe perferendis iusto a neque eligendi facilis natus inventore, ab debitis voluptas.
-            </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
-              Kontaktirajte nas
-            </button>
-          </div>
-  
-          {/* Slika */}
-          <div className="flex-1 mt-10 md:mt-0">
-            <img 
-              src="assets/images/ABI-PNG.png" 
-              alt="abi" 
-              className="rounded-lg shadow-lg"
-            />
-          </div>
+  return (
+    <div className="relative h-[90vh] w-full bg-cover bg-center" 
+      style={{ backgroundImage: 'url("src/assets/images/blackwindow.avif")' }}
+    >
+      <div className="flex flex-col items-start justify-center h-full ml-12">
+        <div className="bg-gray-900/70 text-white rounded-lg p-8 max-w-xl">
+          <h2 className="text-xl mb-2">
+            Inovativna PVC i ALU rješenja za budućnost gradnje
+          </h2>
+          <h1 className="text-4xl font-bold mb-4">
+            PVC i ALU profili i sistemi
+          </h1>
+          <p className="mb-6 text-sm leading-relaxed">
+            Abi koristi najnoviju tehnologiju za proizvodnju i obradu aluminijskih profila.
+            Naši proizvodi prilagođeni su vašim specifičnim potrebama, od ideje do realizacije,
+            pružajući vrhunska rješenja za modernu arhitekturu i industriju diljem svijeta.
+          </p>
+          <button className="bg-green-700 font-bold text-white px-8 py-3 rounded-xs hover:bg-green-600 transition">
+            ISTRAŽITE RJEŠENJA
+          </button>
         </div>
-      </section>
-    );
-  }
-  
+      </div>
+      
+    </div>
+  );
+}
