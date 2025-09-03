@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* About US sa dropdownom */}
           <div className="relative group">
             <button
-              className="relative text-gray-700 transition duration-300 
+              className="relative text-gray-700 font-bold transition duration-300 
                          hover:text-red-600
                          after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 
                          after:bg-red-600 after:transition-all after:duration-300 group-hover:after:w-full"
@@ -63,7 +63,7 @@ const Navbar = () => {
             <Link
               key={idx}
               to={link.path}
-              className="relative text-gray-700 transition duration-300 
+              className="relative text-gray-700 font-bold transition duration-300 
                          hover:text-red-600
                          after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 
                          after:bg-red-600 after:transition-all after:duration-300 hover:after:w-full"
