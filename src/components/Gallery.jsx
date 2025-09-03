@@ -1,49 +1,56 @@
 import {Tags} from "lucide-react";
 export default function Gallery() {
-    const images = [
-      "src/assets/images/pvc1.jpg",
-      "src/assets/images/pvc2.jpg",
-      "src/assets/images/pvc3.jpg",
-      "src/assets/images/pvc4.jpg",
+    const items = [
+      { src: "src/assets/images/stolarija.jpg", title: "SISTEMI PROZORA I VRATA" },
+      { src: "src/assets/images/stolarija.jpg", title: "FASADNI SISTEMI" },
+      { src: "src/assets/images/stolarija.jpg", title: "OGRADNI SISTEMI" },
+      { src: "src/assets/images/stolarija.jpg", title: "ALUMINIJSKI TRGOVAČKI PROFILI" },
+      { src: "src/assets/images/stolarija.jpg", title: "ZAŠTITA OD SUNCA" },
+      { src: "src/assets/images/stolarija.jpg", title: "ZIMSKI VRT" },
+      { src: "src/assets/images/stolarija.jpg", title: "PREGARDNI SISTEMI" },
     ];
   
     return (
       <div className="w-full bg-white py-12">
         <div className="max-w-6xl mx-auto px-4">
+          
+          {/* === OVAJ DIO JE HEADER === */} 
+          <div className="text-center mb-12"> 
+            <div className="flex items-center justify-center gap-4 mb-4"> 
+                <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
+                {/* Ikonica u sredini */}
+                 <div className="text-red-500"> 
+                    <Tags size={42}/> 
+                    </div> 
+                    <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
+                    </div>
+                     <h2 className="text-[45px] font-bold mb-2">Proizvodi</h2>
+                      <p className="text-gray-600 max-w-2xl mx-auto text-[18px]"> Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost.
+                         </p> 
+                         </div>
   
-          {/* === OVAJ DIO JE HEADER === */}
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" />
-              
-              {/* Ikonica u sredini */}
-              <div className="text-red-500">
-                <Tags size={42}/>
-              </div>
-  
-              <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" />
-            </div>
-  
-            <h2 className="text-2xl font-bold mb-2">Proizvodi</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Napredni aluminijski sistemi za moderne građevinske projekte,
-              koji nude dugotrajnost, estetiku i energetsku učinkovitost.
-            </p>
-          </div>
-          {/* === KRAJ HEADERA === */}
-  
-          {/* Galerija */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {images.map((src, i) => (
-              <div 
-                key={i} 
-                className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition"
+          {/* Kartice */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
+            {items.map((item, i) => (
+              <div
+                key={i}
+                className="bg-white border border-gray-400 overflow-hidden shadow hover:shadow-lg transition"
               >
-                <img 
-                  src={src} 
-                  alt={`Stolarija ${i + 1}`} 
-                  className="w-full h-56 object-cover hover:scale-105 transition duration-300"
-                />
+                {/* Slika */}
+                <div className="overflow-hidden">
+                  <img
+                    src={item.src}
+                    alt={item.title}
+                    className="w-full h-32 p-3 object-cover transform hover:scale-105 transition duration-300"
+                  />
+                </div>
+  
+                {/* Naslov */}
+                <div className="p-4 text-center">
+                  <h3 className="text-sm font-bold text-gray-800 uppercase">
+                    {item.title}
+                  </h3>
+                </div>
               </div>
             ))}
           </div>

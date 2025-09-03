@@ -4,7 +4,7 @@ export default function Hero() {
       style={{ backgroundImage: 'url("src/assets/images/blackwindow.avif")' }}
     >
       <div className="flex flex-col items-start justify-center h-full ml-12">
-        <div className="bg-gray-900/70 text-white rounded-lg p-8 max-w-xl">
+        <div className="bg-gray-900/70 text-white rounded-lg p-8 max-w-xl ">
           <h2 className="text-xl mb-2">
             Inovativna PVC i ALU rješenja za budućnost gradnje
           </h2>
@@ -16,9 +16,10 @@ export default function Hero() {
             Naši proizvodi prilagođeni su vašim specifičnim potrebama, od ideje do realizacije,
             pružajući vrhunska rješenja za modernu arhitekturu i industriju diljem svijeta.
           </p>
-          <button className="bg-green-700 font-bold text-white px-8 py-3 rounded-xs hover:bg-green-600 transition">
-            ISTRAŽITE RJEŠENJA
-          </button>
+          <button className="bg-green-700 font-bold text-white px-8 py-3 rounded-xs hover:bg-green-600 hover:text-black">
+  ISTRAŽITE RJEŠENJA
+</button>
+
         </div>
       </div>
       
