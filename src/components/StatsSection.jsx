@@ -116,7 +116,7 @@ export default function StatsSection() {
 
       {/* Button */}
       <div className="relative z-10 mt-12 text-center">
-        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-500   hover:border-red-500  transition">
+        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-700   hover:border-red-700  transition">
           SAZNAJTE VIŠE O NAMA
         </button>
       </div>
