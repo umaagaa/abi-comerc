@@ -1,8 +1,8 @@
 import {Tags} from "lucide-react";
 export default function PartnersSection() {
     const partners = [
-      "/src/assets/logos/FEAL.svg",
       "/src/assets/logos/GEALAN.svg",
+      "/src/assets/logos/FEAL.svg", 
       "/src/assets/logos/velux.svg",
       "/src/assets/logos/BMI.svg",
       "/src/assets/logos/wurth.svg",

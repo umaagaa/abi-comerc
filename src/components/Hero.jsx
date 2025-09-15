@@ -1,5 +1,7 @@
 export default function Hero() {
   return (
+    
+    
     <div className="relative h-[90vh] w-full bg-cover bg-center" 
       style={{ backgroundImage: 'url("src/assets/images/blackwindow.avif")' }}
     >

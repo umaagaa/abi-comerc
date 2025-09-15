@@ -8,8 +8,8 @@ export default function Footer() {
     {
       title: 'Bužim',
       lines: [
-        'Proizvodnja',
-        'ul. Generala Izeta Nanića',
+        'ABI Proizvodnja i skladište ',
+        'ul. Zaradostovo bb',
         '77245 Bužim',
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
@@ -40,11 +40,13 @@ export default function Footer() {
     {
       title: 'Buzim',
       lines: [
-        'Zgrada',
-        'Adresa 3',
-        'Buzim',
-        'Tel: +387 XX XXX-XXX',
-        'buzim@abicomerc.ba'
+        'ABI INVEST d.o.o',
+        'ul. Generala Izeta Nanića bb',
+        '77245 Bužim',
+        'Bosna i Hercegovina',
+        'Tel: +387 37 411 004',
+        'JIB: 4263959840003',
+        'proizvodnja@abicomerc.ba'
       ],
     },
   ];
@@ -64,7 +66,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-5 text-[15px] leading-7">
-              <p className="text-white font-semibold">Abi Comerc d.o.o Bužim</p>
+              <p className="text-white font-semibold">BAUCENTAR Abi Comerc d.o.o Bužim</p>
               <p>ul. Generala Izeta Nanića</p>
               <p>77245 Bužim</p>
               <p>Bosna i Hercegovina</p>
