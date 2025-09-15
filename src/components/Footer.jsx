@@ -1,65 +1,155 @@
 import React from 'react';
+import { Instagram, Facebook, Tags } from 'lucide-react';
 
-function Footer() {
+// Footer component styled with Tailwind CSS
+// Edit the `branches` array below to change podružnice (title + lines/emails)
+export default function Footer() {
+  const branches = [
+    {
+      title: 'Bužim',
+      lines: [
+        'ABI Proizvodnja i skladište ',
+        'ul. Zaradostovo bb',
+        '77245 Bužim',
+        'Bosna i Hercegovina',
+        'Tel: +387 37 411 004',
+        'Fax: +387 37 411 004',
+        'proizvodnja@abicomerc.ba'
+      ],
+    },
+    {
+      title: 'Suhača',
+      lines: [
+        'Poslovnica 1',
+        'Adresa 1',
+        '',
+        'Tel: +387 XX XXX-XXX',
+        'suhača@abicomerc.ba'
+      ],
+    },
+    {
+      title: 'Novi Grad',
+      lines: [
+        'Poslovnica 2',
+        'Adresa 2',
+        '77220 suhaca',
+        'Tel: +387 XX XXX-XXX',
+        'suhaca@abicomerc.ba'
+      ],
+    },
+    {
+      title: 'Buzim',
+      lines: [
+        'ABI INVEST d.o.o',
+        'ul. Generala Izeta Nanića bb',
+        '77245 Bužim',
+        'Bosna i Hercegovina',
+        'Tel: +387 37 411 004',
+        'JIB: 4263959840003',
+        'proizvodnja@abicomerc.ba'
+      ],
+    },
+  ];
+
   return (
-    <footer className="bg-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-between items-center mb-4">
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-0">
-          <img src="src/assets/images/ABI-PNG.png" alt="Logo" className="w-14 h-11 mr-2" />
-            <p className="text-gray-600 font-Montserrat text-lg">
-              <strong>Abi Comerc d.o.o Bužim</strong>
-              <br/>
-              ul. Generala Izeta Nanića
-              <br/>
-              77245 Bužim
-              <br/>
-              Bosna i Hercegovina
-              <br/>
-              Tel: +387 37 411 004
-              <br/>
-              Fax: +387 37 411 004
-              <br/>
-              <a href="abicomerc2010@gmail.com" className="text-red-500 ">abicomerc2010@gmail.com</a>
-            </p>
+    <footer className="bg-black text-gray-300">
+      <div className="container mx-auto px-6 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          {/* LEFT: logo + info + socials */}
+          <div className="md:col-span-4">
+            <div className="flex items-start gap-4">
+              <img
+                src="/src/assets/images/ABI-PNG.png"
+                alt="ABI logo"
+                className="w-20 h-auto object-contain"
+              />
+            </div>
+
+            <div className="mt-5 text-[15px] leading-7">
+              <p className="text-white font-semibold">BAUCENTAR Abi Comerc d.o.o Bužim</p>
+              <p>ul. Generala Izeta Nanića</p>
+              <p>77245 Bužim</p>
+              <p>Bosna i Hercegovina</p>
+              <p>Tel: +387 37 411 004</p>
+              <p>Fax: +387 37 411 004</p>
+              <p>
+                <a
+                  href="mailto:abicomerc2010@gmail.com"
+                  className="text-red-500 hover:underline"
+                >
+                  abicomerc2010@gmail.com
+                </a>
+              </p>
+
+              <div className="flex gap-4 mt-5">
+                <a
+                  href="https://www.facebook.com/abicomercdoo.mulalic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  <Facebook size={20} />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/abi_comerc_d.o.o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  <Instagram size={20} />
+                </a>
+              </div>
+            </div>
           </div>
-          {/* Podružnice ~ dodati kasnije */}
-          
-            {/* Kontakt */}
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-0">
-            <h5 className="text-lg font-bold text-gray-600">Kontakt</h5>
-            
-          </div>
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-0">
-            <h5 className="text-lg font-bold text-gray-600">Socijalne mreže</h5>
-            <ul className="list-none mb-0">
-              <li className="mb-2">
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  <i className="fab fa-facebook-f mr-2"></i> Facebook
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  <i className="fab fa-twitter mr-2"></i> Twitter
-                </a>
-              </li>
-              <li className="mb-2">
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  <i className="fab fa-instagram mr-2"></i> Instagram
-                </a>
-              </li>
-            </ul>
+
+          {/* RIGHT: podružnice */}
+          <div className="md:col-span-8">
+            {/* Dekoracija: linije + Tags ikona */}
+            <div className="flex items-center justify-center mb-4">
+              <div className="border-t border-red-500 flex-1 max-w-[220px]" />
+              <div className="mx-4 text-red-500">
+                <Tags size={28} />
+              </div>
+              <div className="border-t border-red-500 flex-1 max-w-[220px]" />
+            </div>
+
+            {/* Naslov */}
+            <h3 className="text-white text-2xl font-semibold text-center mb-6">PODRUŽNICE</h3>
+
+            {/* Grid sa podružnicama - edit `branches` iznad */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {branches.map((b, idx) => (
+                <div key={idx}>
+                  <p className="text-white font-semibold mb-2">{b.title}</p>
+                  <div className="text-[14px] leading-6 text-gray-300">
+                    {b.lines.map((line, i) => {
+                      // ako linija izgleda kao email, prikaži kao mailto
+                      const isEmail = /@/.test(line);
+                      return (
+                        <div key={i}>
+                          {isEmail ? (
+                            <a href={`mailto:${line}`} className="text-red-500 hover:underline">
+                              {line}
+                            </a>
+                          ) : (
+                            <span>{line}</span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Copyright */}
-
-        <div className="text-gray-600 text-center">
-          &copy; 2025 ABI COMERC. Sva prava zadržana.
+        {/* copyright */}
+        <div className="border-t border-gray-800 mt-10 pt-6">
+          <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.</p>
         </div>
-        </div>
+      </div>
     </footer>
   );
 }
-
-export default Footer;

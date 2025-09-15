@@ -77,7 +77,7 @@ export default function StatsSection() {
         <div className="md:w-2/3 grid grid-cols-2 md:grid-cols-3 gap-y-12 text-center">
           <div>
             <p className="text-3xl font-bold">
-              <Counter target={10000} />
+              <Counter target={1000} />
             </p>
             <p className="text-sm">različitih profila</p>
           </div>
@@ -89,19 +89,19 @@ export default function StatsSection() {
           </div>
           <div>
             <p className="text-3xl font-bold">
-              <Counter target={80000} suffix=" t" />
+              <Counter target={8000} suffix=" t" />
             </p>
             <p className="text-sm">proizvodnog kapaciteta godišnje</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
-              <Counter target={1500} suffix="+" />
+              <Counter target={100} suffix="+" />
             </p>
             <p className="text-sm">kooperanata</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
-              <Counter target={750} />
+              <Counter target={50} />
             </p>
             <p className="text-sm">zaposlenika</p>
           </div>
@@ -116,7 +116,7 @@ export default function StatsSection() {
 
       {/* Button */}
       <div className="relative z-10 mt-12 text-center">
-        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-500   hover:border-red-500  transition">
+        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-700   hover:border-red-700  transition">
           SAZNAJTE VIŠE O NAMA
         </button>
       </div>
