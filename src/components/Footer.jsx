@@ -18,27 +18,7 @@ export default function Footer() {
       ],
     },
     {
-      title: 'Suhača',
-      lines: [
-        'Poslovnica 1',
-        'Adresa 1',
-        '',
-        'Tel: +387 XX XXX-XXX',
-        'suhača@abicomerc.ba'
-      ],
-    },
-    {
-      title: 'Novi Grad',
-      lines: [
-        'Poslovnica 2',
-        'Adresa 2',
-        '77220 suhaca',
-        'Tel: +387 XX XXX-XXX',
-        'suhaca@abicomerc.ba'
-      ],
-    },
-    {
-      title: 'Buzim',
+      title: 'Bužim',
       lines: [
         'ABI INVEST d.o.o',
         'ul. Generala Izeta Nanića bb',
@@ -46,7 +26,7 @@ export default function Footer() {
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
         'JIB: 4263959840003',
-        'proizvodnja@abicomerc.ba'
+        'info@abicomerc.ba'
       ],
     },
   ];

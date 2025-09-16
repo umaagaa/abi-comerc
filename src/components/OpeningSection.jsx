@@ -12,7 +12,7 @@ export default function OpeningSection() {
           <div className="flex-1 border-t-2 border-red-500 max-w-[200px]" />
         </div>
 
-        <h2 className="text-4xl font-bold mb-4 text-gray-900 italic">
+        <h2 className="text-4xl font-bold mb-4 text-gray-900 ">
         Otvaranje nove stambeno-poslovne zgrade
         </h2>
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">

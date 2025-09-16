@@ -11,7 +11,7 @@ export default function Building() {
             omogućava bolje uvjete za rad i unapređenje proizvodnje PVC i ALU stolarije.
           </p>
   
-          
+            
           <img
             src="src/assets/images/building.jpg"
             alt="Nova poslovna zgrada"
