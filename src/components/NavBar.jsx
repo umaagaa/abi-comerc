@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const navLinks = [
     { path: "/about", label: t("O nama") },
-    { path: "/about", label: t("Proizvodi") },
+    { path: "/proizvodi", label: t("Proizvodi") },
     { path: "/products", label: t("Galerija") },
     { path: "/contact", label: t("Kontakt") },
   ];

@@ -2,14 +2,12 @@ import React from 'react';
 import { Instagram, Facebook, Tags } from 'lucide-react';
 
 // Footer component styled with Tailwind CSS
-// Edit the `branches` array below to change podružnice (title + lines/emails)
 export default function Footer() {
   const branches = [
     {
-      title: 'Bužim',
+      title: 'ABI Proizvodnja i skladište',
       lines: [
-        'ABI Proizvodnja i skladište ',
-        'ul. Zaradostovo bb',
+        'ul. Zaradostovo BB',
         '77245 Bužim',
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
@@ -18,10 +16,9 @@ export default function Footer() {
       ],
     },
     {
-      title: 'Bužim',
+      title: 'ABI INVEST d.o.o',
       lines: [
-        'ABI INVEST d.o.o',
-        'ul. Generala Izeta Nanića bb',
+        'ul. Generala Izeta Nanića BB',
         '77245 Bužim',
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
@@ -47,11 +44,11 @@ export default function Footer() {
 
             <div className="mt-5 text-[15px] leading-7">
               <p className="text-white font-semibold">BAUCENTAR Abi Comerc d.o.o Bužim</p>
-              <p>ul. Generala Izeta Nanića</p>
+              <p>ul. Generala Izeta Nanića BB</p>
               <p>77245 Bužim</p>
               <p>Bosna i Hercegovina</p>
               <p>Tel: +387 37 411 004</p>
-              <p>Fax: +387 37 411 004</p>
+              <p>JIB: 4263577130006</p>
               <p>
                 <a
                   href="mailto:abicomerc2010@gmail.com"
@@ -84,9 +81,9 @@ export default function Footer() {
           </div>
 
           {/* RIGHT: podružnice */}
-          <div className="md:col-span-8">
+          <div className="md:col-span-8 flex flex-col items-center">
             {/* Dekoracija: linije + Tags ikona */}
-            <div className="flex items-center justify-center mb-4">
+            <div className="flex items-center justify-center mb-4 w-full">
               <div className="border-t border-red-500 flex-1 max-w-[220px]" />
               <div className="mx-4 text-red-500">
                 <Tags size={28} />
@@ -96,38 +93,43 @@ export default function Footer() {
 
             {/* Naslov */}
             <h3 className="text-white text-2xl font-semibold text-center mb-6">PODRUŽNICE</h3>
-
-            {/* Grid sa podružnicama - edit `branches` iznad */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {branches.map((b, idx) => (
-                <div key={idx}>
-                  <p className="text-white font-semibold mb-2">{b.title}</p>
-                  <div className="text-[14px] leading-6 text-gray-300">
-                    {b.lines.map((line, i) => {
-                      // ako linija izgleda kao email, prikaži kao mailto
-                      const isEmail = /@/.test(line);
-                      return (
-                        <div key={i}>
-                          {isEmail ? (
-                            <a href={`mailto:${line}`} className="text-red-500 hover:underline">
-                              {line}
-                            </a>
-                          ) : (
-                            <span>{line}</span>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
+{/* Grid sa podružnicama - centriran ispod dekoracije */}
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-2xl mx-auto">
+  {branches.map((b, idx) => (
+    <div key={idx} className="text-left">
+      <p className="text-white font-semibold mb-2">{b.title}</p>
+      <div className="text-[15px] leading-7 text-gray-300">
+        {b.lines.map((line, i) => {
+          const isEmail = /@/.test(line);
+          return (
+            <div key={i}>
+              {isEmail ? (
+                <a
+                  href={`mailto:${line}`}
+                  className="text-red-500 hover:underline"
+                >
+                  {line}
+                </a>
+              ) : (
+                <span>{line}</span>
+              )}
             </div>
+          );
+        })}
+      </div>
+    </div>
+  ))}
+</div>
+
+
           </div>
         </div>
 
         {/* copyright */}
         <div className="border-t border-gray-800 mt-10 pt-6">
-          <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.</p>
+          <p className="text-center text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.
+          </p>
         </div>
       </div>
     </footer>
