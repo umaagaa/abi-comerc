@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import { Building2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function OpeningSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-gray-100">
       <div className="container mx-auto px-6 text-center">
@@ -13,12 +16,10 @@ export default function OpeningSection() {
         </div>
 
         <h2 className="text-4xl font-bold mb-4 text-gray-900 ">
-        Otvaranje nove stambeno-poslovne zgrade
+          {t('opening.title')}
         </h2>
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">
-        ABI COMERC s ponosom najavljuje otvaranje moderne stambeno–poslovne zgrade u srcu grada.
-Projekat objedinjuje vrhunski dizajn, funkcionalnost i kvalitetu, nudeći stanove različitih struktura te savremene poslovne prostore prilagođene potrebama današnjeg tržišta.
-Na posebnoj stranici možete istražiti detalje o zgradi, pogledati tlocrte, 3D animacije i raspoložive stanove.
+          {t('opening.description')}
         </p>
 
         {/* Button */}
@@ -26,7 +27,7 @@ Na posebnoj stranici možete istražiti detalje o zgradi, pogledati tlocrte, 3D 
           to="/zgrada"
           className="inline-block bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition"
         >
-          Saznaj više
+          {t('opening.cta')}
         </Link>
       </div>
     </section>

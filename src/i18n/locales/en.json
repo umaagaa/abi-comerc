@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "About Us",
+    "products": "Products",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Innovative PVC and ALU solutions for the future of construction",
+    "title": "PVC and ALU profiles and systems",
+    "description": "Abi uses the latest technology for the production and processing of aluminum profiles. Our products are tailored to your specific needs, from idea to realization, providing excellent solutions for modern architecture and industry worldwide.",
+    "cta": "EXPLORE SOLUTIONS"
+  },
+  "opening": {
+    "title": "Opening of new residential-commercial building",
+    "description": "ABI COMERC proudly announces the opening of a modern residential-commercial building in the heart of the city. The project combines excellent design, functionality and quality, offering apartments of various structures and modern business spaces adapted to the needs of today's market. On a special page you can explore building details, view floor plans, 3D animations and available apartments.",
+    "cta": "Learn more"
+  },
+  "features": {
+    "pvc": {
+      "title": "PVC JOINERY",
+      "subtitle": "Windows, doors and PVC products"
+    },
+    "alu": {
+      "title": "ALU JOINERY",
+      "subtitle": "Windows, doors and aluminum products"
+    },
+    "construction": {
+      "title": "CONSTRUCTION MATERIAL",
+      "subtitle": "Facade profiles, hardware, etc."
+    },
+    "other": {
+      "title": "OTHER PRODUCTS",
+      "subtitle": "Mosquito nets, blinds, garage doors..."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "ABI COMERC d.o.o. Bužim is a family company specialized in the production and sale of PVC and ALU joinery. We provide complete solutions - from design and production to professional installation. With more than 15 years of experience, we build quality reputation and long-term relationships with clients and partners. Among other things, we also deal with the sale of construction materials.",
+    "contactUs": "Contact Us",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide advanced aluminum and PVC systems that guarantee durability, energy efficiency and aesthetic value. We focus on innovation, quality workmanship and fast and reliable service."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "quality": {
+        "title": "Quality",
+        "description": "We sell and produce durable and tested profiles."
+      },
+      "efficiency": {
+        "title": "Energy Efficiency",
+        "description": "Solutions that save heating and cooling."
+      },
+      "installation": {
+        "title": "Professional Installation",
+        "description": "Fast and precise installation by our team."
+      },
+      "support": {
+        "title": "Support and Service",
+        "description": "Long-term support after sale."
+      }
+    },
+    "projects": {
+      "title": "New Projects and Investments",
+      "description": "We work on multiple projects simultaneously - from residential buildings to business facilities. The project page for the new building will contain detailed floor plans, 3D animations, gallery and list of available apartments.",
+      "cta": "Learn more about the building"
+    },
+    "cta": {
+      "text": "Want a quote or visit? Contact us.",
+      "button": "Request Quote"
+    }
+  },
+  "building": {
+    "title": "Our New Business Building",
+    "description": "Welcome to the page dedicated to the opening of our new building. This investment represents a step forward in the development of our company, enabling better working conditions and improving the production of PVC and ALU joinery.",
+    "details": "The new building is equipped with modern equipment and modern premises so that we can provide even better quality services to our partners and clients. More information about the grand opening coming soon!"
+  },
+  "footer": {
+    "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
+    "address": "ul. Generala Izeta Nanića",
+    "city": "77245 Bužim",
+    "country": "Bosnia and Herzegovina",
+    "phone": "Tel: +387 37 411 004",
+    "fax": "Fax: +387 37 411 004",
+    "email": "abicomerc2010@gmail.com",
+    "branches": "BRANCHES",
+    "copyright": "All rights reserved."
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "Unfortunately, the page you are looking for does not exist or has been moved. You can return to the home page or explore our services.",
+    "homeButton": "HOME PAGE",
+    "aboutButton": "ABOUT US",
+    "exploreText": "Or you can explore our services:",
+    "building": "Building",
+    "about": "About Us"
+  },
+  "languages": {
+    "bs": "BS",
+    "en": "EN"
+  }
+}

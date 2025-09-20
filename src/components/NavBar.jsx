@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
 import "flag-icons/css/flag-icons.min.css";
 
 const Navbar = () => {
@@ -15,10 +16,10 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { path: "/about", label: t("O nama") },
-    { path: "/about", label: t("Proizvodi") },
-    { path: "/products", label: t("Galerija") },
-    { path: "/contact", label: t("Kontakt") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/about", label: t("nav.products") },
+    { path: "/products", label: t("nav.gallery") },
+    { path: "/contact", label: t("nav.contact") },
   ];
 
   return (
@@ -55,13 +56,7 @@ const Navbar = () => {
           ))}
 
           {/* Language Switch */}
-          <select
-            onChange={(e) => changeLanguage(e.target.value)}
-            className="bg-gray-100 text-gray-700 rounded-md px-2 py-1"
-          >
-            <option value="bs">BS</option>
-            <option value="EN">EN</option>
-          </select>
+          <LanguageSwitcher />
         </div>
 
         {/* Mobile Menu Button */}

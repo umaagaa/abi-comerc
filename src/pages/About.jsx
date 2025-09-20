@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Instagram, Facebook } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <main className="bg-white text-gray-900">
       <div className="container mx-auto px-6 py-20">
@@ -16,14 +18,9 @@ export default function About() {
             />
           </div>
           <div className="order-2 lg:order-2">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">O nama</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">{t('about.title')}</h1>
             <p className="text-gray-700 leading-relaxed mb-6">
-              ABI COMERC d.o.o. Bužim je porodična kompanija specijalizirana za
-              proizvodnju i prodaju PVC i ALU stolarije. Pružamo kompletna
-              rješenja — od projektovanja i proizvodnje do profesionalne montaže.
-              Sa više od 15 godina iskustva gradimo kvalitetnu reputaciju i
-              dugoročne odnose s klijentima i partnerima. Između ostalog, bavimo
-              se i prodajom građevinskog materijala.
+              {t('about.description')}
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -31,7 +28,7 @@ export default function About() {
                 href="#contact"
                 className="inline-block border border-gray-300 text-gray-800 px-6 py-3  hover:bg-gray-100 transition"
               >
-                Kontaktirajte nas
+                {t('about.contactUs')}
               </a>
             </div>
           </div>
@@ -41,13 +38,10 @@ export default function About() {
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-1 lg:order-1">
             <h2 className="text-3xl font-semibold text-red-600 mb-4">
-              Naša misija
+              {t('about.mission.title')}
             </h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              Pružiti napredne aluminijske i PVC sisteme koji garantuju
-              dugotrajnost, energetsku učinkovitost i estetsku vrijednost.
-              Fokusiramo se na inovacije, kvalitetnu izradu te brz i pouzdan
-              servis.
+              {t('about.mission.description')}
             </p>
           </div>
 
@@ -63,35 +57,35 @@ export default function About() {
         {/* --- ZAŠTO ODABRATI NAS --- */}
         <section className="mb-20">
           <h3 className="text-2xl font-bold mb-6 text-center">
-            Zašto odabrati nas?
+            {t('about.whyChooseUs.title')}
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">Kvaliteta</h4>
+              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.quality.title')}</h4>
               <p className="text-sm text-gray-600">
-                Prodajemo i proizvodimo trajne i testirane profile.
+                {t('about.whyChooseUs.quality.description')}
               </p>
             </div>
 
             <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">Energetska efikasnost</h4>
+              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.efficiency.title')}</h4>
               <p className="text-sm text-gray-600">
-                Rješenja koja štede grijanje i hlađenje.
+                {t('about.whyChooseUs.efficiency.description')}
               </p>
             </div>
 
             <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">Profesionalna montaža</h4>
+              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.installation.title')}</h4>
               <p className="text-sm text-gray-600">
-                Brza i precizna ugradnja od našeg tima.
+                {t('about.whyChooseUs.installation.description')}
               </p>
             </div>
 
             <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">Podrška i servis</h4>
+              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.support.title')}</h4>
               <p className="text-sm text-gray-600">
-                Dugoročna podrška nakon prodaje.
+                {t('about.whyChooseUs.support.description')}
               </p>
             </div>
           </div>
@@ -110,20 +104,17 @@ export default function About() {
 
             <div className="lg:w-1/2">
               <h3 className="text-3xl font-bold mb-4">
-                Novi projekti i investicije
+                {t('about.projects.title')}
               </h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Radimo na više projekata istovremeno — od stambenih zgrada do
-                poslovnih objekata. Na stranici projekta za novu zgradu nalazit će
-                se detaljni tlocrti, 3D animacije, galerija i popis raspoloživih
-                stanova.
+                {t('about.projects.description')}
               </p>
 
               <Link
                 to="/zgrada"
                 className="inline-block bg-red-600 text-white px-6 py-3  font-semibold hover:bg-red-700 transition"
               >
-                Saznaj više o zgradi
+                {t('about.projects.cta')}
               </Link>
             </div>
           </div>
@@ -188,13 +179,13 @@ export default function About() {
       {/* CTA */}
       <div className="flex flex-col items-start md:items-end justify-center">
         <p className="text-sm text-gray-400 mb-3">
-          Želite li ponudu ili posjetu? Javite nam se.
+          {t('about.cta.text')}
         </p>
         <Link
           to="/contact"
           className="bg-red-600 text-white px-5 py-2  text-sm font-medium hover:bg-red-700 transition"
         >
-          Zatraži ponudu
+          {t('about.cta.button')}
         </Link>
       </div>
     </div>
@@ -202,7 +193,7 @@ export default function About() {
     {/* copyright */}
     <div className="border-t border-gray-800 mt-6 pt-4">
       <p className="text-center text-xs text-gray-500">
-        &copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.
+        &copy; {new Date().getFullYear()} ABI COMERC. {t('footer.copyright')}
       </p>
     </div>
   </div>

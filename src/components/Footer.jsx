@@ -1,9 +1,11 @@
 import React from 'react';
 import { Instagram, Facebook, Tags } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Footer component styled with Tailwind CSS
 // Edit the `branches` array below to change podružnice (title + lines/emails)
 export default function Footer() {
+  const { t } = useTranslation();
   const branches = [
     {
       title: 'Bužim',
@@ -46,12 +48,12 @@ export default function Footer() {
             </div>
 
             <div className="mt-5 text-[15px] leading-7">
-              <p className="text-white font-semibold">BAUCENTAR Abi Comerc d.o.o Bužim</p>
-              <p>ul. Generala Izeta Nanića</p>
-              <p>77245 Bužim</p>
-              <p>Bosna i Hercegovina</p>
-              <p>Tel: +387 37 411 004</p>
-              <p>Fax: +387 37 411 004</p>
+              <p className="text-white font-semibold">{t('footer.companyName')}</p>
+              <p>{t('footer.address')}</p>
+              <p>{t('footer.city')}</p>
+              <p>{t('footer.country')}</p>
+              <p>{t('footer.phone')}</p>
+              <p>{t('footer.fax')}</p>
               <p>
                 <a
                   href="mailto:abicomerc2010@gmail.com"
@@ -95,7 +97,7 @@ export default function Footer() {
             </div>
 
             {/* Naslov */}
-            <h3 className="text-white text-2xl font-semibold text-center mb-6">PODRUŽNICE</h3>
+            <h3 className="text-white text-2xl font-semibold text-center mb-6">{t('footer.branches')}</h3>
 
             {/* Grid sa podružnicama - edit `branches` iznad */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -127,7 +129,7 @@ export default function Footer() {
 
         {/* copyright */}
         <div className="border-t border-gray-800 mt-10 pt-6">
-          <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.</p>
+          <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. {t('footer.copyright')}</p>
         </div>
       </div>
     </footer>
