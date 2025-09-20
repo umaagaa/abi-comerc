@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="flex items-start gap-4">
               <img
                 src="/src/assets/images/ABI-PNG.png"
-                alt="ABI logo"
+                alt={t('altTexts.logo')}
                 className="w-20 h-auto object-contain"
               />
             </div>

@@ -1,15 +1,17 @@
 import {Tags} from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SectionHeader from "./SectionHeader";
 
 export default function Gallery() {
+  const { t } = useTranslation();
     const items = [
-      { src: "src/assets/images/stolarija.jpg", title: "SISTEMI PROZORA I VRATA" },
-      { src: "src/assets/images/stolarija.jpg", title: "FASADNI SISTEMI" },
-      { src: "src/assets/images/stolarija.jpg", title: "OGRADNI SISTEMI" },
-      { src: "src/assets/images/stolarija.jpg", title: "ALUMINIJSKI TRGOVAČKI PROFILI" },
-      { src: "src/assets/images/stolarija.jpg", title: "ZAŠTITA OD SUNCA" },
-      { src: "src/assets/images/stolarija.jpg", title: "ZIMSKI VRT" },
-      { src: "src/assets/images/stolarija.jpg", title: "PREGARDNI SISTEMI" },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.windowSystems') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.facadeSystems') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.fenceSystems') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.aluminumProfiles') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.sunProtection') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.winterGarden') },
+      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.pregardSystems') },
     ];
   
     return (
@@ -19,8 +21,8 @@ export default function Gallery() {
           {/* === OVAJ DIO JE HEADER === */} 
           <SectionHeader
             icon={Tags}
-            title="Proizvodi"
-            description="Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost."
+            title={t('gallery.title')}
+            description={t('gallery.description')}
           />
   
           {/* Kartice */}

@@ -13,7 +13,7 @@ export default function About() {
           <div className="order-1 lg:order-1">
             <img
               src="src/assets/images/baucentar.jpg"
-              alt="Ilustracija zgrade - intro"
+              alt={t('altTexts.buildingIntro')}
               className="w-full rounded-xl shadow-lg object-cover"
             />
           </div>
@@ -48,7 +48,7 @@ export default function About() {
           <div className="order-2 lg:order-2">
             <img
               src="src/assets/images/kuca.jpg"
-              alt="Ilustracija - misija i vizija"
+              alt={t('altTexts.missionVision')}
               className="w-full rounded-xl shadow-lg object-cover"
             />
           </div>
@@ -97,7 +97,7 @@ export default function About() {
             <div className="lg:w-1/2">
               <img
                 src="src/assets/images/about-project-preview.jpg"
-                alt="Preview projekta"
+                alt={t('altTexts.projectPreview')}
                 className="w-full rounded-xl shadow-lg object-cover"
               />
             </div>
@@ -132,7 +132,7 @@ export default function About() {
         {/* Logo gore */}
         <img
           src="/src/assets/images/ABI-PNG.png"
-          alt="ABI logo"
+          alt={t('altTexts.logo')}
           className="w-20 h-auto object-contain mb-4"
         />
 

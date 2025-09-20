@@ -34,6 +34,14 @@
       "subtitle": "Fliegengitter, Rollläden, Garagentore..."
     }
   },
+  "gallery": {
+    "title": "Produkte",
+    "description": "Fortschrittliche Aluminiumsysteme für moderne Bauprojekte, die Langlebigkeit, Ästhetik und Energieeffizienz bieten."
+  },
+  "partners": {
+    "title": "Unsere Partner",
+    "description": "Wir sind stolz auf unsere langjährige Zusammenarbeit mit zahlreichen in- und ausländischen Partnern. Gemeinsam bauen wir Vertrauen, Qualität und Innovation auf, was es uns ermöglicht, Projekte auf höchstem Niveau zu realisieren."
+  },
   "about": {
     "title": "Über uns",
     "description": "ABI COMERC d.o.o. Bužim ist ein Familienunternehmen, das sich auf die Produktion und den Verkauf von PVC- und ALU-Tischlerei spezialisiert hat. Wir bieten komplette Lösungen - von Design und Produktion bis zur professionellen Installation. Mit mehr als 15 Jahren Erfahrung bauen wir eine qualitätsvolle Reputation und langfristige Beziehungen zu Kunden und Partnern auf. Unter anderem beschäftigen wir uns auch mit dem Verkauf von Baumaterialien.",
@@ -95,6 +103,33 @@
     "exploreText": "Oder Sie können unsere Dienstleistungen erkunden:",
     "building": "Gebäude",
     "about": "Über uns"
+  },
+  "stats": {
+    "subtitle": "QUALITÄT IN ZAHLEN",
+    "title": "Ein halbes Jahrhundert Erfahrung",
+    "button": "ERFAHREN SIE MEHR ÜBER UNS",
+    "differentProfiles": "verschiedene Profile",
+    "buildingSystems": "Bausysteme",
+    "productionCapacity": "jährliche Produktionskapazität",
+    "cooperators": "Kooperationspartner",
+    "employees": "Mitarbeiter",
+    "presses": "Pressen"
+  },
+  "galleryProducts": {
+    "windowSystems": "FENSTER- UND TÜRSYSTEME",
+    "facadeSystems": "FASSADENSYSTEME",
+    "fenceSystems": "ZAUNSYSTEME",
+    "aluminumProfiles": "ALUMINIUM-HANDELSPROFILE",
+    "sunProtection": "SONNENSCHUTZ",
+    "winterGarden": "WINTERGARTEN",
+    "pregardSystems": "PREGARD-SYSTEME"
+  },
+  "altTexts": {
+    "logo": "Logo",
+    "buildingIntro": "Gebäude-Illustration - Intro",
+    "missionVision": "Illustration - Mission und Vision",
+    "projectPreview": "Projektvorschau",
+    "newBuilding": "Neues Geschäftsgebäude"
   },
   "languages": {
     "bs": "BS",

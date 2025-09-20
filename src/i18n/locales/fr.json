@@ -34,6 +34,14 @@
       "subtitle": "Moustiquaires, stores, portes de garage..."
     }
   },
+  "gallery": {
+    "title": "Produits",
+    "description": "Systèmes d'aluminium avancés pour les projets de construction modernes, offrant durabilité, esthétique et efficacité énergétique."
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "description": "Nous sommes fiers de notre coopération à long terme avec de nombreux partenaires nationaux et internationaux. Ensemble, nous construisons la confiance, la qualité et l'innovation, ce qui nous permet de réaliser des projets au plus haut niveau."
+  },
   "about": {
     "title": "À propos de nous",
     "description": "ABI COMERC d.o.o. Bužim est une entreprise familiale spécialisée dans la production et la vente de menuiserie PVC et ALU. Nous fournissons des solutions complètes - de la conception et de la production à l'installation professionnelle. Avec plus de 15 ans d'expérience, nous construisons une réputation de qualité et des relations à long terme avec les clients et les partenaires. Entre autres, nous nous occupons également de la vente de matériaux de construction.",
@@ -95,6 +103,33 @@
     "exploreText": "Ou vous pouvez explorer nos services :",
     "building": "Bâtiment",
     "about": "À propos"
+  },
+  "stats": {
+    "subtitle": "QUALITÉ EN CHIFFRES",
+    "title": "Un demi-siècle d'expérience",
+    "button": "EN SAVOIR PLUS SUR NOUS",
+    "differentProfiles": "profils différents",
+    "buildingSystems": "systèmes de construction",
+    "productionCapacity": "capacité de production annuelle",
+    "cooperators": "coopérateurs",
+    "employees": "employés",
+    "presses": "presses"
+  },
+  "galleryProducts": {
+    "windowSystems": "SYSTÈMES DE FENÊTRES ET PORTES",
+    "facadeSystems": "SYSTÈMES DE FAÇADE",
+    "fenceSystems": "SYSTÈMES DE CLÔTURE",
+    "aluminumProfiles": "PROFILS COMMERCIAUX EN ALUMINIUM",
+    "sunProtection": "PROTECTION SOLAIRE",
+    "winterGarden": "JARDIN D'HIVER",
+    "pregardSystems": "SYSTÈMES PREGARD"
+  },
+  "altTexts": {
+    "logo": "Logo",
+    "buildingIntro": "Illustration de bâtiment - intro",
+    "missionVision": "Illustration - mission et vision",
+    "projectPreview": "Aperçu du projet",
+    "newBuilding": "Nouveau bâtiment commercial"
   },
   "languages": {
     "bs": "BS",

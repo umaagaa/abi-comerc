@@ -16,7 +16,7 @@ export default function Building() {
           
         <img
           src="src/assets/images/building.jpg"
-          alt="Nova poslovna zgrada"
+          alt={t('altTexts.newBuilding')}
           className="mx-auto rounded-lg shadow-lg mb-10"
         />
 

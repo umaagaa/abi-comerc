@@ -1,7 +1,9 @@
 import {Tags} from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SectionHeader from "./SectionHeader";
 
 export default function PartnersSection() {
+  const { t } = useTranslation();
     const partners = [
       "/src/assets/logos/GEALAN.svg",
       "/src/assets/logos/FEAL.svg", 
@@ -15,8 +17,8 @@ export default function PartnersSection() {
       <section className="w-full py-12 bg-white">
         <SectionHeader
           icon={Tags}
-          title="Naši Partneri"
-          description="Ponosni smo na dugogodišnju saradnju sa brojnim domaćim i međunarodnim partnerima. Zajedno gradimo povjerenje, kvalitet i inovacije, što nam omogućava da realizujemo projekte na najvišem nivou."
+          title={t('partners.title')}
+          description={t('partners.description')}
         />
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center justify-items-center">
             {partners.map((logo, i) => (

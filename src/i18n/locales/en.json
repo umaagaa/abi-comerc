@@ -34,6 +34,14 @@
       "subtitle": "Mosquito nets, blinds, garage doors..."
     }
   },
+  "gallery": {
+    "title": "Products",
+    "description": "Advanced aluminum systems for modern construction projects, offering durability, aesthetics and energy efficiency."
+  },
+  "partners": {
+    "title": "Our Partners",
+    "description": "We are proud of our long-term cooperation with numerous domestic and international partners. Together we build trust, quality and innovation, which allows us to realize projects at the highest level."
+  },
   "about": {
     "title": "About Us",
     "description": "ABI COMERC d.o.o. Bužim is a family company specialized in the production and sale of PVC and ALU joinery. We provide complete solutions - from design and production to professional installation. With more than 15 years of experience, we build quality reputation and long-term relationships with clients and partners. Among other things, we also deal with the sale of construction materials.",
@@ -95,6 +103,33 @@
     "exploreText": "Or you can explore our services:",
     "building": "Building",
     "about": "About Us"
+  },
+  "stats": {
+    "subtitle": "QUALITY IN NUMBERS",
+    "title": "Half a century of experience",
+    "button": "LEARN MORE ABOUT US",
+    "differentProfiles": "different profiles",
+    "buildingSystems": "building systems",
+    "productionCapacity": "annual production capacity",
+    "cooperators": "cooperators",
+    "employees": "employees",
+    "presses": "presses"
+  },
+  "galleryProducts": {
+    "windowSystems": "WINDOW AND DOOR SYSTEMS",
+    "facadeSystems": "FACADE SYSTEMS",
+    "fenceSystems": "FENCE SYSTEMS",
+    "aluminumProfiles": "ALUMINUM COMMERCIAL PROFILES",
+    "sunProtection": "SUN PROTECTION",
+    "winterGarden": "WINTER GARDEN",
+    "pregardSystems": "PREGARD SYSTEMS"
+  },
+  "altTexts": {
+    "logo": "Logo",
+    "buildingIntro": "Building illustration - intro",
+    "missionVision": "Illustration - mission and vision",
+    "projectPreview": "Project preview",
+    "newBuilding": "New business building"
   },
   "languages": {
     "bs": "BS",

@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <img
             src="src/assets/images/ABI-PNG.png"
-            alt="Logo"
+            alt={t('altTexts.logo')}
             className="w-17 h-14 mr-4"
           />
         </Link>
