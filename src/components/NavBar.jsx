@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white dark:bg-white-900 shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="w-full flex justify-between items-center py-4 px-5">
         {/* Logo */}
         <Link
           to="/"
@@ -37,10 +37,8 @@ const Navbar = () => {
           />
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex gap-6 items-center">
-
-
+        {/* Desktop Menu - Right Aligned */}
+        <div className="hidden md:flex gap-6 items-center ml-auto">
           {/* Ostali linkovi */}
           {navLinks.map((link, idx) => (
             <Link
@@ -76,26 +74,26 @@ const Navbar = () => {
           
 
           {/* Ostali linkovi */}
-          {navLinks.map((link, idx) => (
-            <Link
-              key={idx}
-              to={link.path}
-              onClick={() => setOpen(false)}
+            {navLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                to={link.path}
+                onClick={() => setOpen(false)}
               className="block text-gray-700 dark:text-gray-200 hover:text-red-600"
-            >
-              {link.label}
-            </Link>
-          ))}
+              >
+                {link.label}
+              </Link>
+            ))}
 
-          {/* Language Switch */}
-          <div className="flex gap-3 items-center">
-            <select
-              onChange={(e) => changeLanguage(e.target.value)}
-              className="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 rounded-md px-2 py-1"
-            >
-              <option value="BS">BS</option>
-              <option value="EN">EN</option>
-            </select>
+            {/* Language Switch */}
+            <div className="flex gap-3 items-center">
+              <select
+                onChange={(e) => changeLanguage(e.target.value)}
+                className="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 rounded-md px-2 py-1"
+              >
+                <option value="BS">BS</option>
+                <option value="EN">EN</option>
+              </select>
           </div>
         </div>
       )}
