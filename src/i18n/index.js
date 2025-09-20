@@ -6,6 +6,8 @@ import { initializeLanguage } from '../utils/languageUtils';
 // Import translation files
 import bsTranslation from './locales/bs.json';
 import enTranslation from './locales/en.json';
+import frTranslation from './locales/fr.json';
+import deTranslation from './locales/de.json';
 
 const resources = {
   bs: {
@@ -13,6 +15,12 @@ const resources = {
   },
   en: {
     translation: enTranslation
+  },
+  fr: {
+    translation: frTranslation
+  },
+  de: {
+    translation: deTranslation
   }
 };
 
@@ -41,7 +49,7 @@ i18n
     },
 
     // Ensure Bosnian is always the default
-    supportedLngs: ['bs', 'en'],
+    supportedLngs: ['bs', 'en', 'fr', 'de'],
     nonExplicitSupportedLngs: false,
   });
 

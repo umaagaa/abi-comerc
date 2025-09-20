@@ -24,7 +24,7 @@ export const initializeLanguage = (i18n) => {
   const storedLanguage = getStoredLanguage();
   
   // Ensure the language is valid
-  const validLanguages = ['bs', 'en'];
+  const validLanguages = ['bs', 'en', 'fr', 'de'];
   const languageToUse = validLanguages.includes(storedLanguage) ? storedLanguage : DEFAULT_LANGUAGE;
   
   // Set the language if it's different from current

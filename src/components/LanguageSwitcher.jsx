@@ -21,7 +21,9 @@ const LanguageSwitcher = ({ className = "" }) => {
 
   const languages = [
     { code: 'bs', name: t('languages.bs'), flag: '🇧🇦' },
-    { code: 'en', name: t('languages.en'), flag: '🇺🇸' }
+    { code: 'en', name: t('languages.en'), flag: '🇺🇸' },
+    { code: 'fr', name: t('languages.fr'), flag: '🇫🇷' },
+    { code: 'de', name: t('languages.de'), flag: '🇩🇪' }
   ];
 
   return (
