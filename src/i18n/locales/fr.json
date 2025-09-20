@@ -131,6 +131,16 @@
     "projectPreview": "Aperçu du projet",
     "newBuilding": "Nouveau bâtiment commercial"
   },
+  "underConstruction": {
+    "title": "En construction",
+    "description": "Cette page est actuellement en développement. Nous travaillons pour vous offrir la meilleure expérience.",
+    "note": "La page sera bientôt disponible. Merci pour votre patience !",
+    "progress": "Progrès",
+    "homeButton": "Page d'accueil",
+    "backButton": "Retour",
+    "contactTitle": "Besoin d'aide ?",
+    "contactDescription": "Contactez-nous si vous avez des questions ou besoin d'informations supplémentaires."
+  },
   "languages": {
     "bs": "BS",
     "en": "EN",

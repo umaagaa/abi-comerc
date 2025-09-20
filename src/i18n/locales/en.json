@@ -131,6 +131,16 @@
     "projectPreview": "Project preview",
     "newBuilding": "New business building"
   },
+  "underConstruction": {
+    "title": "Under Construction",
+    "description": "This page is currently under development. We're working to provide you with the best experience.",
+    "note": "The page will be available soon. Thank you for your patience!",
+    "progress": "Progress",
+    "homeButton": "Home Page",
+    "backButton": "Go Back",
+    "contactTitle": "Need Help?",
+    "contactDescription": "Contact us if you have questions or need additional information."
+  },
   "languages": {
     "bs": "BS",
     "en": "EN",

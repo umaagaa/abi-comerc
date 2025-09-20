@@ -131,6 +131,16 @@
     "projectPreview": "Projektvorschau",
     "newBuilding": "Neues Geschäftsgebäude"
   },
+  "underConstruction": {
+    "title": "In Bearbeitung",
+    "description": "Diese Seite befindet sich derzeit in der Entwicklung. Wir arbeiten daran, Ihnen die beste Erfahrung zu bieten.",
+    "note": "Die Seite wird bald verfügbar sein. Vielen Dank für Ihre Geduld!",
+    "progress": "Fortschritt",
+    "homeButton": "Startseite",
+    "backButton": "Zurück",
+    "contactTitle": "Brauchen Sie Hilfe?",
+    "contactDescription": "Kontaktieren Sie uns, wenn Sie Fragen haben oder zusätzliche Informationen benötigen."
+  },
   "languages": {
     "bs": "BS",
     "en": "EN",

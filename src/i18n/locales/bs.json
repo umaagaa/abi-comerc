@@ -131,6 +131,16 @@
     "projectPreview": "Preview projekta",
     "newBuilding": "Nova poslovna zgrada"
   },
+  "underConstruction": {
+    "title": "U izgradnji",
+    "description": "Ova stranica je trenutno u razvoju. Radimo na tome da vam pružimo najbolje iskustvo.",
+    "note": "Stranica će biti dostupna uskoro. Hvala na strpljenju!",
+    "progress": "Napredak",
+    "homeButton": "Početna stranica",
+    "backButton": "Nazad",
+    "contactTitle": "Trebate pomoć?",
+    "contactDescription": "Kontaktirajte nas ako imate pitanja ili trebate dodatne informacije."
+  },
   "languages": {
     "bs": "BS",
     "en": "EN",
