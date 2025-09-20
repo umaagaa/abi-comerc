@@ -111,7 +111,7 @@ export default function About() {
               </p>
 
               <Link
-                to="/zgrada"
+                to="/building"
                 className="inline-block bg-red-600 text-white px-6 py-3  font-semibold hover:bg-red-700 transition"
               >
                 {t('about.projects.cta')}

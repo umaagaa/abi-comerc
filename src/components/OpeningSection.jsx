@@ -24,7 +24,7 @@ export default function OpeningSection() {
 
         {/* Button */}
         <Link
-          to="/zgrada"
+          to="/building"
           className="inline-block bg-red-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-700 transition"
         >
           {t('opening.cta')}
