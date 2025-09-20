@@ -1,4 +1,6 @@
 import {Tags} from "lucide-react";
+import SectionHeader from "./SectionHeader";
+
 export default function Gallery() {
     const items = [
       { src: "src/assets/images/stolarija.jpg", title: "SISTEMI PROZORA I VRATA" },
@@ -15,19 +17,11 @@ export default function Gallery() {
         <div className="max-w-6xl mx-auto px-4">
           
           {/* === OVAJ DIO JE HEADER === */} 
-          <div className="text-center mb-12"> 
-            <div className="flex items-center justify-center gap-4 mb-4"> 
-                <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
-                {/* Ikonica u sredini */}
-                 <div className="text-red-500"> 
-                    <Tags size={42}/> 
-                    </div> 
-                    <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
-                    </div>
-                     <h2 className="text-[45px] font-bold mb-2">Proizvodi</h2>
-                      <p className="text-gray-600 max-w-2xl mx-auto text-[18px]"> Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost.
-                         </p> 
-                         </div>
+          <SectionHeader
+            icon={Tags}
+            title="Proizvodi"
+            description="Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost."
+          />
   
           {/* Kartice */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
