@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Instagram, Facebook } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import FeatureCard from "../components/FeatureCard";
 
 export default function About() {
   const { t } = useTranslation();
@@ -61,33 +62,22 @@ export default function About() {
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.quality.title')}</h4>
-              <p className="text-sm text-gray-600">
-                {t('about.whyChooseUs.quality.description')}
-              </p>
-            </div>
-
-            <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.efficiency.title')}</h4>
-              <p className="text-sm text-gray-600">
-                {t('about.whyChooseUs.efficiency.description')}
-              </p>
-            </div>
-
-            <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.installation.title')}</h4>
-              <p className="text-sm text-gray-600">
-                {t('about.whyChooseUs.installation.description')}
-              </p>
-            </div>
-
-            <div className="p-6 border rounded-xs">
-              <h4 className="font-semibold mb-2">{t('about.whyChooseUs.support.title')}</h4>
-              <p className="text-sm text-gray-600">
-                {t('about.whyChooseUs.support.description')}
-              </p>
-            </div>
+            <FeatureCard
+              title="about.whyChooseUs.quality.title"
+              description="about.whyChooseUs.quality.description"
+            />
+            <FeatureCard
+              title="about.whyChooseUs.efficiency.title"
+              description="about.whyChooseUs.efficiency.description"
+            />
+            <FeatureCard
+              title="about.whyChooseUs.installation.title"
+              description="about.whyChooseUs.installation.description"
+            />
+            <FeatureCard
+              title="about.whyChooseUs.support.title"
+              description="about.whyChooseUs.support.description"
+            />
           </div>
         </section>
 
