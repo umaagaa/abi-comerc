@@ -1,17 +1,18 @@
 import {Tags} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import SectionHeader from "./SectionHeader";
+import GalleryCard from "./GalleryCard";
 
 export default function Gallery() {
   const { t } = useTranslation();
     const items = [
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.windowSystems') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.facadeSystems') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.fenceSystems') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.aluminumProfiles') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.sunProtection') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.winterGarden') },
-      { src: "src/assets/images/stolarija.jpg", title: t('galleryProducts.pregardSystems') },
+      { src: "src/assets/images/stolarija.jpg", title: "Category1" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category2" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category3" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category4" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category5" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category6" },
+      { src: "src/assets/images/stolarija.jpg", title: "Category7" },
     ];
   
     return (
@@ -28,26 +29,12 @@ export default function Gallery() {
           {/* Kartice */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
             {items.map((item, i) => (
-              <div
+              <GalleryCard
                 key={i}
-                className="bg-white border border-gray-400 overflow-hidden shadow hover:shadow-lg transition"
-              >
-                {/* Slika */}
-                <div className="overflow-hidden">
-                  <img
-                    src={item.src}
-                    alt={item.title}
-                    className="w-full h-32 p-3 object-cover transform hover:scale-105 transition duration-300"
-                  />
-                </div>
-  
-                {/* Naslov */}
-                <div className="p-4 text-center">
-                  <h3 className="text-sm font-bold text-gray-800 uppercase">
-                    {item.title}
-                  </h3>
-                </div>
-              </div>
+                src={item.src}
+                title={item.title}
+                alt={item.title}
+              />
             ))}
           </div>
         </div>
