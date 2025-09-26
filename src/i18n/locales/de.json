@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "products": "Produkte",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Innovative PVC- und ALU-Lösungen für die Zukunft des Bauens",
+    "title": "PVC- und ALU-Profile und Systeme",
+    "description": "Abi nutzt die neueste Technologie für die Produktion und Verarbeitung von Aluminiumprofilen. Unsere Produkte sind auf Ihre spezifischen Bedürfnisse zugeschnitten, von der Idee bis zur Realisierung, und bieten erstklassige Lösungen für moderne Architektur und Industrie weltweit.",
+    "cta": "LÖSUNGEN ERKUNDEN"
+  },
+  "opening": {
+    "title": "Eröffnung des neuen Wohn- und Geschäftsgebäudes",
+    "description": "ABI COMERC kündigt stolz die Eröffnung eines modernen Wohn- und Geschäftsgebäudes im Herzen der Stadt an. Das Projekt vereint exzellentes Design, Funktionalität und Qualität und bietet Wohnungen verschiedener Strukturen sowie moderne Geschäftsräume, die an die Bedürfnisse des heutigen Marktes angepasst sind. Auf einer speziellen Seite können Sie Gebäudedetails erkunden, Grundrisse ansehen, 3D-Animationen und verfügbare Wohnungen betrachten.",
+    "cta": "Mehr erfahren"
+  },
+  "features": {
+    "pvc": {
+      "title": "PVC-TISCHLEREI",
+      "subtitle": "Fenster, Türen und PVC-Produkte"
+    },
+    "alu": {
+      "title": "ALU-TISCHLEREI",
+      "subtitle": "Fenster, Türen und Aluminiumprodukte"
+    },
+    "construction": {
+      "title": "BAUMATERIAL",
+      "subtitle": "Fassadenprofile, Beschläge usw."
+    },
+    "other": {
+      "title": "ANDERE PRODUKTE",
+      "subtitle": "Fliegengitter, Rollläden, Garagentore..."
+    }
+  },
+  "gallery": {
+    "title": "Produkte",
+    "description": "Fortschrittliche Aluminiumsysteme für moderne Bauprojekte, die Langlebigkeit, Ästhetik und Energieeffizienz bieten."
+  },
+  "partners": {
+    "title": "Unsere Partner",
+    "description": "Wir sind stolz auf unsere langjährige Zusammenarbeit mit zahlreichen in- und ausländischen Partnern. Gemeinsam bauen wir Vertrauen, Qualität und Innovation auf, was es uns ermöglicht, Projekte auf höchstem Niveau zu realisieren."
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "ABI COMERC d.o.o. Bužim ist ein Familienunternehmen, das sich auf die Produktion und den Verkauf von PVC- und ALU-Tischlerei spezialisiert hat. Wir bieten komplette Lösungen - von Design und Produktion bis zur professionellen Installation. Mit mehr als 15 Jahren Erfahrung bauen wir eine qualitätsvolle Reputation und langfristige Beziehungen zu Kunden und Partnern auf. Unter anderem beschäftigen wir uns auch mit dem Verkauf von Baumaterialien.",
+    "contactUs": "Kontaktieren Sie uns",
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Fortschrittliche Aluminium- und PVC-Systeme bereitzustellen, die Langlebigkeit, Energieeffizienz und ästhetischen Wert garantieren. Wir konzentrieren uns auf Innovation, qualitätsvolle Verarbeitung und schnellen, zuverlässigen Service."
+    },
+    "whyChooseUs": {
+      "title": "Warum uns wählen?",
+      "quality": {
+        "title": "Qualität",
+        "description": "Wir verkaufen und produzieren dauerhafte und getestete Profile."
+      },
+      "efficiency": {
+        "title": "Energieeffizienz",
+        "description": "Lösungen, die Heizung und Kühlung sparen."
+      },
+      "installation": {
+        "title": "Professionelle Installation",
+        "description": "Schnelle und präzise Installation durch unser Team."
+      },
+      "support": {
+        "title": "Support und Service",
+        "description": "Langfristige Unterstützung nach dem Verkauf."
+      }
+    },
+    "projects": {
+      "title": "Neue Projekte und Investitionen",
+      "description": "Wir arbeiten an mehreren Projekten gleichzeitig - von Wohngebäuden bis zu Geschäftseinrichtungen. Die Projektseite für das neue Gebäude wird detaillierte Grundrisse, 3D-Animationen, eine Galerie und eine Liste verfügbarer Wohnungen enthalten.",
+      "cta": "Mehr über das Gebäude erfahren"
+    },
+    "cta": {
+      "text": "Möchten Sie ein Angebot oder einen Besuch? Kontaktieren Sie uns.",
+      "button": "Angebot anfordern"
+    }
+  },
+  "building": {
+    "title": "Unser neues Geschäftsgebäude",
+    "description": "Willkommen auf der Seite, die der Eröffnung unseres neuen Gebäudes gewidmet ist. Diese Investition stellt einen Schritt nach vorn in der Entwicklung unseres Unternehmens dar und ermöglicht bessere Arbeitsbedingungen und die Verbesserung der Produktion von PVC- und ALU-Tischlerei.",
+    "details": "Das neue Gebäude ist mit moderner Ausrüstung und modernen Räumen ausgestattet, damit wir unseren Partnern und Kunden noch bessere Qualitätsdienstleistungen bieten können. Bald mehr Informationen über die feierliche Eröffnung!"
+  },
+  "footer": {
+    "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
+    "address": "ul. Generala Izeta Nanića",
+    "city": "77245 Bužim",
+    "country": "Bosnien und Herzegowina",
+    "phone": "Tel: +387 37 411 004",
+    "fax": "Fax: +387 37 411 004",
+    "email": "abicomerc2010@gmail.com",
+    "branches": "NIEDERLASSUNGEN",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "404": {
+    "title": "Seite nicht gefunden",
+    "description": "Leider existiert die gesuchte Seite nicht oder wurde verschoben. Sie können zur Startseite zurückkehren oder unsere Dienstleistungen erkunden.",
+    "homeButton": "STARTSEITE",
+    "aboutButton": "ÜBER UNS",
+    "exploreText": "Oder Sie können unsere Dienstleistungen erkunden:",
+    "building": "Gebäude",
+    "about": "Über uns"
+  },
+  "stats": {
+    "subtitle": "QUALITÄT IN ZAHLEN",
+    "title": "Ein halbes Jahrhundert Erfahrung",
+    "button": "ERFAHREN SIE MEHR ÜBER UNS",
+    "differentProfiles": "verschiedene Profile",
+    "buildingSystems": "Bausysteme",
+    "productionCapacity": "jährliche Produktionskapazität",
+    "cooperators": "Kooperationspartner",
+    "employees": "Mitarbeiter",
+    "presses": "Pressen"
+  },
+  "galleryProducts": {
+    "windowSystems": "FENSTER- UND TÜRSYSTEME",
+    "facadeSystems": "FASSADENSYSTEME",
+    "fenceSystems": "ZAUNSYSTEME",
+    "aluminumProfiles": "ALUMINIUM-HANDELSPROFILE",
+    "sunProtection": "SONNENSCHUTZ",
+    "winterGarden": "WINTERGARTEN",
+    "pregardSystems": "PREGARD-SYSTEME"
+  },
+  "altTexts": {
+    "logo": "Logo",
+    "buildingIntro": "Gebäude-Illustration - Intro",
+    "missionVision": "Illustration - Mission und Vision",
+    "projectPreview": "Projektvorschau",
+    "newBuilding": "Neues Geschäftsgebäude"
+  },
+  "underConstruction": {
+    "title": "In Bearbeitung",
+    "description": "Diese Seite befindet sich derzeit in der Entwicklung. Wir arbeiten daran, Ihnen die beste Erfahrung zu bieten.",
+    "note": "Die Seite wird bald verfügbar sein. Vielen Dank für Ihre Geduld!",
+    "progress": "Fortschritt",
+    "homeButton": "Startseite",
+    "backButton": "Zurück",
+    "contactTitle": "Brauchen Sie Hilfe?",
+    "contactDescription": "Kontaktieren Sie uns, wenn Sie Fragen haben oder zusätzliche Informationen benötigen."
+  },
+  "languages": {
+    "bs": "BS",
+    "en": "EN",
+    "fr": "FR",
+    "de": "DE"
+  }
+}

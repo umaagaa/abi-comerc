@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "about": "O nama",
+    "products": "Proizvodi",
+    "gallery": "Galerija",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Inovativna PVC i ALU rješenja za budućnost gradnje",
+    "title": "PVC i ALU profili i sistemi",
+    "description": "Abi koristi najnoviju tehnologiju za proizvodnju i obradu aluminijskih profila. Naši proizvodi prilagođeni su vašim specifičnim potrebama, od ideje do realizacije, pružajući vrhunska rješenja za modernu arhitekturu i industriju diljem svijeta.",
+    "cta": "ISTRAŽITE RJEŠENJA"
+  },
+  "opening": {
+    "title": "Otvaranje nove stambeno-poslovne zgrade",
+    "description": "ABI COMERC s ponosom najavljuje otvaranje moderne stambeno–poslovne zgrade u srcu grada. Projekat objedinjuje vrhunski dizajn, funkcionalnost i kvalitetu, nudeći stanove različitih struktura te savremene poslovne prostore prilagođene potrebama današnjeg tržišta. Na posebnoj stranici možete istražiti detalje o zgradi, pogledati tlocrte, 3D animacije i raspoložive stanove.",
+    "cta": "Saznaj više"
+  },
+  "features": {
+    "pvc": {
+      "title": "PVC STOLARIJA",
+      "subtitle": "Prozori, vrata i proizvodi od PVC-a"
+    },
+    "alu": {
+      "title": "ALU STOLARIJA", 
+      "subtitle": "Prozori, vrata i proizvodi od aluminija"
+    },
+    "construction": {
+      "title": "GRAĐEVINSKI MATERIJAL",
+      "subtitle": "Fasadni profili, bravarija i dr."
+    },
+    "other": {
+      "title": "OSTALI PROIZVODI",
+      "subtitle": "Komarnici, roletne, garažna vrata..."
+    }
+  },
+  "gallery": {
+    "title": "Proizvodi",
+    "description": "Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost."
+  },
+  "partners": {
+    "title": "Naši Partneri",
+    "description": "Ponosni smo na dugogodišnju saradnju sa brojnim domaćim i međunarodnim partnerima. Zajedno gradimo povjerenje, kvalitet i inovacije, što nam omogućava da realizujemo projekte na najvišem nivou."
+  },
+  "about": {
+    "title": "O nama",
+    "description": "ABI COMERC d.o.o. Bužim je porodična kompanija specijalizirana za proizvodnju i prodaju PVC i ALU stolarije. Pružamo kompletna rješenja — od projektovanja i proizvodnje do profesionalne montaže. Sa više od 15 godina iskustva gradimo kvalitetnu reputaciju i dugoročne odnose s klijentima i partnerima. Između ostalog, bavimo se i prodajom građevinskog materijala.",
+    "contactUs": "Kontaktirajte nas",
+    "mission": {
+      "title": "Naša misija",
+      "description": "Pružiti napredne aluminijske i PVC sisteme koji garantuju dugotrajnost, energetsku učinkovitost i estetsku vrijednost. Fokusiramo se na inovacije, kvalitetnu izradu te brz i pouzdan servis."
+    },
+    "whyChooseUs": {
+      "title": "Zašto odabrati nas?",
+      "quality": {
+        "title": "Kvaliteta",
+        "description": "Prodajemo i proizvodimo trajne i testirane profile."
+      },
+      "efficiency": {
+        "title": "Energetska efikasnost",
+        "description": "Rješenja koja štede grijanje i hlađenje."
+      },
+      "installation": {
+        "title": "Profesionalna montaža",
+        "description": "Brza i precizna ugradnja od našeg tima."
+      },
+      "support": {
+        "title": "Podrška i servis",
+        "description": "Dugoročna podrška nakon prodaje."
+      }
+    },
+    "projects": {
+      "title": "Novi projekti i investicije",
+      "description": "Radimo na više projekata istovremeno — od stambenih zgrada do poslovnih objekata. Na stranici projekta za novu zgradu nalazit će se detaljni tlocrti, 3D animacije, galerija i popis raspoloživih stanova.",
+      "cta": "Saznaj više o zgradi"
+    },
+    "cta": {
+      "text": "Želite li ponudu ili posjetu? Javite nam se.",
+      "button": "Zatraži ponudu"
+    }
+  },
+  "building": {
+    "title": "Naša nova poslovna zgrada",
+    "description": "Dobrodošli na stranicu posvećenu otvaranju naše nove zgrade. Ova investicija predstavlja korak naprijed u razvoju naše firme, omogućava bolje uvjete za rad i unapređenje proizvodnje PVC i ALU stolarije.",
+    "details": "Nova zgrada je opremljena savremenom opremom i modernim prostorijama kako bismo pružili još kvalitetnije usluge našim partnerima i klijentima. Uskoro više informacija o svečanom otvaranju!"
+  },
+  "footer": {
+    "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
+    "address": "ul. Generala Izeta Nanića",
+    "city": "77245 Bužim",
+    "country": "Bosna i Hercegovina",
+    "phone": "Tel: +387 37 411 004",
+    "fax": "Fax: +387 37 411 004",
+    "email": "abicomerc2010@gmail.com",
+    "branches": "PODRUŽNICE",
+    "copyright": "Sva prava zadržana."
+  },
+  "404": {
+    "title": "Stranica nije pronađena",
+    "description": "Nažalost, stranica koju tražite ne postoji ili je premještena. Možete se vratiti na početnu stranicu ili istražiti naše usluge.",
+    "homeButton": "POČETNA STRANICA",
+    "aboutButton": "O NAMA",
+    "exploreText": "Ili možete istražiti naše usluge:",
+    "building": "Gradnja",
+    "about": "O nama"
+  },
+  "stats": {
+    "subtitle": "KVALITETA U BROJKAMA",
+    "title": "Već pola stoljeća iskustva",
+    "button": "SAZNAJTE VIŠE O NAMA",
+    "differentProfiles": "različitih profila",
+    "buildingSystems": "građevinskih sistema",
+    "productionCapacity": "proizvodnog kapaciteta godišnje",
+    "cooperators": "kooperanata",
+    "employees": "zaposlenika",
+    "presses": "preša"
+  },
+  "galleryProducts": {
+    "windowSystems": "SISTEMI PROZORA I VRATA",
+    "facadeSystems": "FASADNI SISTEMI",
+    "fenceSystems": "OGRADNI SISTEMI",
+    "aluminumProfiles": "ALUMINIJSKI TRGOVAČKI PROFILI",
+    "sunProtection": "ZAŠTITA OD SUNCA",
+    "winterGarden": "ZIMSKI VRT",
+    "pregardSystems": "PREGARDNI SISTEMI"
+  },
+  "altTexts": {
+    "logo": "Logo",
+    "buildingIntro": "Ilustracija zgrade - intro",
+    "missionVision": "Ilustracija - misija i vizija",
+    "projectPreview": "Preview projekta",
+    "newBuilding": "Nova poslovna zgrada"
+  },
+  "underConstruction": {
+    "title": "U izgradnji",
+    "description": "Ova stranica je trenutno u razvoju. Radimo na tome da vam pružimo najbolje iskustvo.",
+    "note": "Stranica će biti dostupna uskoro. Hvala na strpljenju!",
+    "progress": "Napredak",
+    "homeButton": "Početna stranica",
+    "backButton": "Nazad",
+    "contactTitle": "Trebate pomoć?",
+    "contactDescription": "Kontaktirajte nas ako imate pitanja ili trebate dodatne informacije."
+  },
+  "languages": {
+    "bs": "BS",
+    "en": "EN",
+    "fr": "FR",
+    "de": "DE"
+  }
+}

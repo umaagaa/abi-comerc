@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 function Counter({ target, duration = 2000, suffix = "" }) {
   const [count, setCount] = useState(0);
@@ -48,23 +50,25 @@ function Counter({ target, duration = 2000, suffix = "" }) {
 }
              
 export default function StatsSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="relative w-full py-16 text-white">
       {/* Pozadinska slika */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/images/status.jpg')" }}
+        style={{ backgroundImage: "url('/src/assets/images/otoka.jpg')" }}
       />
       {/* Sadržaj */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
+      <div className="relative z-10 max-w-6xl ml-45 flex flex-col md:flex-row items-start gap-12">
         
         
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 ">
           <h2 className="text-sm uppercase tracking-wider text-gray-200">
-            KVALITETA U BROJKAMA
+            {t('stats.subtitle')}
           </h2>
           <p className="mt-4 text-3xl md:text-4xl font-bold leading-snug">
-            Već pola <br /> stoljeća iskustva
+            {t('stats.title')}
           </p>
         </div>
 
@@ -79,47 +83,51 @@ export default function StatsSection() {
             <p className="text-3xl font-bold">
               <Counter target={1000} />
             </p>
-            <p className="text-sm">različitih profila</p>
+            <p className="text-sm">{t('stats.differentProfiles')}</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
               <Counter target={45} />
             </p>
-            <p className="text-sm">građevinskih sistema</p>
+            <p className="text-sm">{t('stats.buildingSystems')}</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
               <Counter target={8000} suffix=" t" />
             </p>
-            <p className="text-sm">proizvodnog kapaciteta godišnje</p>
+            <p className="text-sm">{t('stats.productionCapacity')}</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
               <Counter target={100} suffix="+" />
             </p>
-            <p className="text-sm">kooperanata</p>
+            <p className="text-sm">{t('stats.cooperators')}</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
               <Counter target={50} />
             </p>
-            <p className="text-sm">zaposlenika</p>
+            <p className="text-sm">{t('stats.employees')}</p>
           </div>
           <div>
             <p className="text-3xl font-bold">
               <Counter target={7} />
             </p>
-            <p className="text-sm">preša</p>
+            <p className="text-sm">{t('stats.presses')}</p>
           </div>
         </div>
       </div>
 
       {/* Button */}
       <div className="relative z-10 mt-12 text-center">
-        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-700   hover:border-red-700  transition">
-          SAZNAJTE VIŠE O NAMA
-        </button>
-      </div>
+  <Link
+    to="/about"
+    className="px-6 py-3 bg-black text-white font-semibold rounded border-1 border-white hover:bg-red-700 hover:border-red-700 transition inline-block"
+  >
+    {t('stats.button')}
+  </Link>
+</div>
+
     </section>
   );
 }

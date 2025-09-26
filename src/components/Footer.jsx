@@ -1,8 +1,10 @@
 import React from 'react';
 import { Instagram, Facebook, Tags } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Footer component styled with Tailwind CSS
 export default function Footer() {
+  const { t } = useTranslation();
   const branches = [
     {
       title: 'ABI Proizvodnja i skladište',
@@ -37,18 +39,18 @@ export default function Footer() {
             <div className="flex items-start gap-4">
               <img
                 src="/src/assets/images/ABI-PNG.png"
-                alt="ABI logo"
+                alt={t('altTexts.logo')}
                 className="w-20 h-auto object-contain"
               />
             </div>
 
             <div className="mt-5 text-[15px] leading-7">
-              <p className="text-white font-semibold">BAUCENTAR Abi Comerc d.o.o Bužim</p>
-              <p>ul. Generala Izeta Nanića BB</p>
-              <p>77245 Bužim</p>
-              <p>Bosna i Hercegovina</p>
-              <p>Tel: +387 37 411 004</p>
-              <p>JIB: 4263577130006</p>
+              <p className="text-white font-semibold">{t('footer.companyName')}</p>
+              <p>{t('footer.address')}</p>
+              <p>{t('footer.city')}</p>
+              <p>{t('footer.country')}</p>
+              <p>{t('footer.phone')}</p>
+              <p>{t('footer.fax')}</p>
               <p>
                 <a
                   href="mailto:abicomerc2010@gmail.com"
@@ -92,46 +94,46 @@ export default function Footer() {
             </div>
 
             {/* Naslov */}
-            <h3 className="text-white text-2xl font-semibold text-center mb-6">PODRUŽNICE</h3>
-{/* Grid sa podružnicama - centriran ispod dekoracije */}
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-2xl mx-auto">
-  {branches.map((b, idx) => (
-    <div key={idx} className="text-left">
-      <p className="text-white font-semibold mb-2">{b.title}</p>
-      <div className="text-[15px] leading-7 text-gray-300">
-        {b.lines.map((line, i) => {
-          const isEmail = /@/.test(line);
-          return (
-            <div key={i}>
-              {isEmail ? (
-                <a
-                  href={`mailto:${line}`}
-                  className="text-red-500 hover:underline"
-                >
-                  {line}
-                </a>
-              ) : (
-                <span>{line}</span>
-              )}
+            <h3 className="text-white text-2xl font-semibold text-center mb-6">{t('footer.branches')}</h3>
+
+            {/* Grid sa podružnicama - edit `branches` iznad */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {branches.map((b, idx) => (
+                <div key={idx}>
+                  <p className="text-white font-semibold mb-2">{b.title}</p>
+                  <div className="text-[14px] leading-6 text-gray-300">
+                    {b.lines.map((line, i) => {
+                      // ako linija izgleda kao email, prikaži kao mailto
+                      const isEmail = /@/.test(line);
+                      return (
+                        <div key={i}>
+                          {isEmail ? (
+                            <a href={`mailto:${line}`} className="text-red-500 hover:underline">
+                              {line}
+                            </a>
+                          ) : (
+                            <span>{line}</span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
             </div>
-          );
-        })}
+          
       </div>
     </div>
-  ))}
 </div>
 
 
-          </div>
-        </div>
+          
+        
 
         {/* copyright */}
         <div className="border-t border-gray-800 mt-10 pt-6">
-          <p className="text-center text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} ABI COMERC. Sva prava zadržana.
-          </p>
+          <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. {t('footer.copyright')}</p>
         </div>
-      </div>
     </footer>
   );
 }

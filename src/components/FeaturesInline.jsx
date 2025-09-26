@@ -1,11 +1,14 @@
 import { PanelBottom, DoorClosed, BrickWall, Package } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function FeaturesInline() {
+  const { t } = useTranslation();
+  
   const features = [
-    { title: "PVC STOLARIJA", subtitle: "Prozori, vrata i proizvodi od PVC-a", icon: <PanelBottom size={46} /> },
-    { title: "ALU STOLARIJA", subtitle: "Prozori, vrata i proizvodi od aluminija", icon: <DoorClosed size={46} /> },
-    { title: "GRAĐEVINSKI MATERIJAL", subtitle: "Fasadni profili, bravarija i dr.", icon: <BrickWall size={46} /> },
-    { title: "OSTALI PROIZVODI", subtitle: "Komarnici, roletne, garažna vrata...", icon: <Package size={46} /> },
+    { title: t('features.pvc.title'), subtitle: t('features.pvc.subtitle'), icon: <PanelBottom size={46} /> },
+    { title: t('features.alu.title'), subtitle: t('features.alu.subtitle'), icon: <DoorClosed size={46} /> },
+    { title: t('features.construction.title'), subtitle: t('features.construction.subtitle'), icon: <BrickWall size={46} /> },
+    { title: t('features.other.title'), subtitle: t('features.other.subtitle'), icon: <Package size={46} /> },
   ];
 
   return (

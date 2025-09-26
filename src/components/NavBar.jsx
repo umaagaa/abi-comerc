@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
 import "flag-icons/css/flag-icons.min.css";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [openAbout, setOpenAbout] = useState(false); // 👈 za mobilni dropdown
+  const [openAbout, setOpenAbout] = useState(false); // za mobilni dropdown
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -15,15 +16,15 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { path: "/about", label: t("O nama") },
-    { path: "/proizvodi", label: t("Proizvodi") },
-    { path: "/products", label: t("Galerija") },
-    { path: "/contact", label: t("Kontakt") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/products", label: t("nav.products") },
+    { path: "/products", label: t("nav.gallery") },
+    { path: "/contact", label: t("nav.contact") },
   ];
 
   return (
     <nav className="w-full bg-white dark:bg-white-900 shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="w-full flex justify-between items-center py-4 px-5">
         {/* Logo */}
         <Link
           to="/"
@@ -31,15 +32,13 @@ const Navbar = () => {
         >
           <img
             src="src/assets/images/ABI-PNG.png"
-            alt="Logo"
+            alt={t('altTexts.logo')}
             className="w-17 h-14 mr-4"
           />
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex gap-6 items-center">
-
-
+        {/* Desktop Menu - Right Aligned */}
+        <div className="hidden md:flex gap-6 items-center ml-auto">
           {/* Ostali linkovi */}
           {navLinks.map((link, idx) => (
             <Link
@@ -55,13 +54,7 @@ const Navbar = () => {
           ))}
 
           {/* Language Switch */}
-          <select
-            onChange={(e) => changeLanguage(e.target.value)}
-            className="bg-gray-100 text-gray-700 rounded-md px-2 py-1"
-          >
-            <option value="bs">BS</option>
-            <option value="EN">EN</option>
-          </select>
+          <LanguageSwitcher />
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,26 +74,26 @@ const Navbar = () => {
           
 
           {/* Ostali linkovi */}
-          {navLinks.map((link, idx) => (
-            <Link
-              key={idx}
-              to={link.path}
-              onClick={() => setOpen(false)}
+            {navLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                to={link.path}
+                onClick={() => setOpen(false)}
               className="block text-gray-700 dark:text-gray-200 hover:text-red-600"
-            >
-              {link.label}
-            </Link>
-          ))}
+              >
+                {link.label}
+              </Link>
+            ))}
 
-          {/* Language Switch */}
-          <div className="flex gap-3 items-center">
-            <select
-              onChange={(e) => changeLanguage(e.target.value)}
-              className="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 rounded-md px-2 py-1"
-            >
-              <option value="BS">BS</option>
-              <option value="EN">EN</option>
-            </select>
+            {/* Language Switch */}
+            <div className="flex gap-3 items-center">
+              <select
+                onChange={(e) => changeLanguage(e.target.value)}
+                className="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 rounded-md px-2 py-1"
+              >
+                <option value="BS">BS</option>
+                <option value="EN">EN</option>
+              </select>
           </div>
         </div>
       )}

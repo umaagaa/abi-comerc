@@ -1,13 +1,19 @@
 import {Tags} from "lucide-react";
+import { useTranslation } from "react-i18next";
+import SectionHeader from "./SectionHeader";
+import GalleryCard from "./GalleryCard";
+
 export default function Gallery() {
+  const { t } = useTranslation();
     const items = [
-      { src: "src/assets/images/stolarija.jpg", title: "SISTEMI PROZORA I VRATA" },
-      { src: "src/assets/images/stolarija.jpg", title: "FASADNI SISTEMI" },
-      { src: "src/assets/images/stolarija.jpg", title: "OGRADNI SISTEMI" },
-      { src: "src/assets/images/stolarija.jpg", title: "ALUMINIJSKI TRGOVAČKI PROFILI" },
-      { src: "src/assets/images/stolarija.jpg", title: "ZAŠTITA OD SUNCA" },
-      { src: "src/assets/images/stolarija.jpg", title: "ZIMSKI VRT" },
-      { src: "src/assets/images/stolarija.jpg", title: "PREGARDNI SISTEMI" },
+      { src: "src/assets/images/blok.jpg", title: "Građevinski Materijal", path: "/categories/Category1" },
+      { src: "src/assets/images/gealan.png", title: "pvc i alu PROZORI", path: "/categories/Category2" },
+      { src: "src/assets/images/vratagealan.webp", title: " Ulazna vrata", path: "/categories/Category3"},
+      { src: "src/assets/images/gvrata.png", title: "Garažna vrata", path: "/categories/Category4" },
+      { src: "src/assets/images/zos.png", title: "Zaštita od sunca", path: "/categories/Category5" },
+      { src: "src/assets/images/stijenka.png", title: "klizne i fix Stijenke", path: "/categories/Category6" },
+      { src: "src/assets/images/alubond.webp", title: "ALUBOND fasade", path: "/categories/Category7" },
+      { src: "src/assets/images/velux.webp", title: "KROVNI PROZORI", path: "/categories/Category8" },
     ];
   
     return (
@@ -15,44 +21,24 @@ export default function Gallery() {
         <div className="max-w-6xl mx-auto px-4">
           
           {/* === OVAJ DIO JE HEADER === */} 
-          <div className="text-center mb-12"> 
-            <div className="flex items-center justify-center gap-4 mb-4"> 
-                <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
-                {/* Ikonica u sredini */}
-                 <div className="text-red-500"> 
-                    <Tags size={42}/> 
-                    </div> 
-                    <div className="flex-1 border-t-2 border-red-500 max-w-[300px]" /> 
-                    </div>
-                     <h2 className="text-[45px] font-bold mb-2">Proizvodi</h2>
-                      <p className="text-gray-600 max-w-2xl mx-auto text-[18px]"> Napredni aluminijski sistemi za moderne građevinske projekte, koji nude dugotrajnost, estetiku i energetsku učinkovitost.
-                         </p> 
-                         </div>
+          <SectionHeader
+            icon={Tags}
+            title={t('gallery.title')}
+            description={t('gallery.description')}
+          />
   
           {/* Kartice */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
-            {items.map((item, i) => (
-              <div
-                key={i}
-                className="bg-white border border-gray-400 overflow-hidden shadow hover:shadow-lg transition"
-              >
-                {/* Slika */}
-                <div className="overflow-hidden">
-                  <img
-                    src={item.src}
-                    alt={item.title}
-                    className="w-full h-32 p-3 object-cover transform hover:scale-105 transition duration-300"
-                  />
-                </div>
-  
-                {/* Naslov */}
-                <div className="p-4 text-center">
-                  <h3 className="text-sm font-bold text-gray-800 uppercase">
-                    {item.title}
-                  </h3>
-                </div>
-              </div>
-            ))}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-8 gap-3">
+          {items.map((item, i) => (
+  <GalleryCard
+    key={i}
+    src={item.src}
+    title={item.title}
+    alt={item.title}
+    path={item.path}
+  />
+))}
+
           </div>
         </div>
       </div>
