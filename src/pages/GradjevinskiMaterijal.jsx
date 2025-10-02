@@ -1,7 +1,8 @@
 import React from 'react';
 import CategoryContent from '../components/CategoryContent';
 
-export default function Category1() {
+export default function GradjevinskiMaterijal() 
+{
   return (
     <main className="bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}

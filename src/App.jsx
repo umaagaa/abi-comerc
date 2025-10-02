@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Building from "./pages/Building";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
-import Category1 from "./pages/Category1";
+import GradjevinskiMaterijal from "./pages/GradjevinskiMaterijal";
 import Category2 from "./pages/Category2";
 import Category3 from "./pages/Category3";
 import Category4 from "./pages/Category4";
@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/About" element={<About />} />
         
         {/* Category Routes */}
-        <Route path="/categories/category1" element={<Category1 />} />
+        <Route path="/categories/gradjevinskimaterijal" element={<GradjevinskiMaterijal />} />
         <Route path="/categories/category2" element={<Category2 />} />
         <Route path="/categories/category3" element={<Category3 />} />
         <Route path="/categories/category4" element={<Category4 />} />
