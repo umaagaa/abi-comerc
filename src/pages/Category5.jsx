@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
+import gvrataImg from "../assets/images/gvrata.png";
 
 export default function Category5() {
+  const { t } = useTranslation();
   return (
     <main className="bg-gradient-to-br from-purple-50 via-white to-pink-50 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}
@@ -17,19 +20,20 @@ export default function Category5() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-              Category5
+            {t('category5.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Premium rješenja za luksuzne projekte s najkvalitetnijim materijalima
+            {t('category5.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc="src/assets/images/stolarija.jpg"
-            imageAlt="Category5 proizvodi"
-            title="Premium kvalitet"
-            description="Category5 kategorija predstavlja našu premium liniju proizvoda. Svaki proizvod je pažljivo dizajniran i izrađen korištenjem najkvalitetnijih materijala i najnaprednijih tehnologija, pružajući vam luksuzne graditeljske rješenja."
+            imageSrc={gvrataImg}
+            imageAlt={t('category5.imageAlt')}
+            title={t('category5.content.title')}
+            description={t('category5.content.description')}
+            reverse={true}
           />
         </div>
       </div>

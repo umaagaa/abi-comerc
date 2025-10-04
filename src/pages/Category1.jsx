@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
+import blokImg from '../assets/images/blok.jpg';
 
-export default function GradjevinskiMaterijal() 
+export default function Category1() 
 {
+  const { t } = useTranslation();
   return (
     <main className="bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}
@@ -18,19 +21,20 @@ export default function GradjevinskiMaterijal()
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-              Građevinski materijal
+            {t('category1.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Detaljni pregled naše prve kategorije proizvoda koja predstavlja vrhunac graditeljskih rješenja
+            {t('category1.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc="src/assets/images/gealan.png"
-            imageAlt="Category1 proizvodi"
-            title="Kvalitet i inovacija"
-            description="Naša Category1 kategorija predstavlja vrhunac graditeljskih rješenja. Kombinujemo tradicionalne tehnike sa najnovijim tehnologijama kako bismo vam pružili proizvode koji odgovaraju najvišim standardima kvaliteta i estetike."
+            imageSrc={blokImg}
+            imageAlt={t('category1.imageAlt')}
+            title={t('category1.content.title')}
+            description={t('category1.content.description')}
+            reverse={true}
           />
         </div>
       </div>

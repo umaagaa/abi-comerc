@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
-
+import stijenkaImg from "../assets/images/stijenka.png";
 export default function Category6() {
+  const { t } = useTranslation();
   return (
     <main className="bg-gradient-to-br from-teal-50 via-white to-emerald-50 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}
@@ -17,19 +19,19 @@ export default function Category6() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-              Category6
+            {t('category6.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Održiva rješenja za budućnost koja minimiziraju uticaj na okoliš
+            {t('category6.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc="src/assets/images/stolarija.jpg"
-            imageAlt="Category6 proizvodi"
-            title="Održiva rješenja"
-            description="Category6 kategorija fokusira se na ekološki održive graditeljske rješenja. Naši proizvodi su dizajnirani da minimiziraju uticaj na okoliš dok pružaju vrhunsku funkcionalnost i estetsku privlačnost za buduće generacije."
+            imageSrc={stijenkaImg}
+            imageAlt={t('category6.imageAlt')}
+            title={t('category6.content.title')}
+            description={t('category6.content.description')}
             reverse={true}
           />
         </div>

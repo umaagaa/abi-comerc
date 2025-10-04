@@ -1,7 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
+import gealanImg from '../assets/images/gealan.png';
 
 export default function Category2() {
+  const { t } = useTranslation();
+
   return (
     <main className="bg-gradient-to-br from-red-50 via-white to-green-50 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}
@@ -17,19 +21,19 @@ export default function Category2() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-              Category2
+              {t('category2.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Napredna rješenja za moderne potrebe koja kombiniraju funkcionalnost sa estetskim izgledom
+              {t('category2.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc="src/assets/images/GEALAN.webp"
-            imageAlt="Category2 proizvodi"
-            title="Moderna rješenja"
-            description="Category2 kategorija donosi inovativne pristupe graditeljstvu. Naši proizvodi kombinuju funkcionalnost sa estetskim izgledom, pružajući vam rješenja koja odgovaraju vašim specifičnim potrebama i viziji."
+            imageSrc={gealanImg}
+            imageAlt={t('category2.imageAlt')}
+            title={t('category2.content.title')}
+            description={t('category2.content.description')}
             reverse={true}
           />
         </div>
