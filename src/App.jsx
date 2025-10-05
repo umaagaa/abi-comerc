@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Building from "./pages/Building";
 import NotFound from "./pages/NotFound";
 import UnderConstruction from "./pages/UnderConstruction";
@@ -11,7 +12,9 @@ import Category4 from "./pages/Category4";
 import Category5 from "./pages/Category5";
 import Category6 from "./pages/Category6";
 import Category7 from "./pages/Category7";
+import Category8 from "./pages/Category8";
 import NavBar from "./components/NavBar";
+import Products from "./pages/Products";
 
 export default function App() {
   return (
@@ -20,7 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
-        <Route path="/building" element={<Building />} />
+        
         {/* Category Routes */}
         <Route path="/categories/category1" element={<Category1 />} />
         <Route path="/categories/category2" element={<Category2 />} />
@@ -29,10 +32,12 @@ export default function App() {
         <Route path="/categories/category5" element={<Category5 />} />
         <Route path="/categories/category6" element={<Category6 />} />
         <Route path="/categories/category7" element={<Category7 />} />
+        <Route path="/categories/category8" element={<Category8 />} />
         {/* Under Construction Routes */}
-        <Route path="/products" element={<UnderConstruction />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/gallery" element={<UnderConstruction />} />
-        <Route path="/contact" element={<UnderConstruction />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/building" element={<UnderConstruction />} />
         {/* 404 Route */}
         <Route path="*" element={<NotFound />} />
       </Routes>

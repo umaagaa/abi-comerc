@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
-import alubondImg from "../assets/images/alubond.webp";
+import veluxImg from "../assets/images/velux.webp";
 
 export default function Category7() {
   const { t } = useTranslation();
@@ -20,19 +20,19 @@ export default function Category7() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-            {t('category7.title')}
+            {t('category8.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            {t('category7.subtitle')}
+            {t('category8.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc={alubondImg}
-            imageAlt={t('category7.imageAlt')}
-            title={t('category7.content.title')}
-            description={t('category7.content.description')}
+            imageSrc={veluxImg}
+            imageAlt={t('category8.imageAlt')}
+            title={t('category8.content.title')}
+            description={t('category8.content.description')}
             reverse={true}
           />
         </div>

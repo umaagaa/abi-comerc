@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
+import vrataImg from "../assets/images/vratagealan.webp";
 
 export default function Category3() {
+  const { t } = useTranslation();
   return (
     <main className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 text-gray-900 min-h-screen relative overflow-hidden">
       {/* Background decorative elements */}
@@ -17,19 +20,20 @@ export default function Category3() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl lg:text-4xl font-bold text-green-700 hover:text-red-600 transition-colors duration-300 mb-4 leading-tight">
-              Category3
+            {t('category3.title')}
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Specijalizovana rješenja za profesionalce koji traže najviše standarde kvaliteta
+            {t('category3.subtitle')}
             </p>
           </div>
           
           <CategoryContent
-            imageSrc="src/assets/images/stolarija.jpg"
-            imageAlt="Category3 proizvodi"
-            title="Profesionalni pristup"
-            description="Category3 kategorija je dizajnirana za profesionalce koji traže najviše standarde. Naši proizvodi pružaju dugotrajnu izdržljivost, superiornu funkcionalnost i estetsku privlačnost koja će zadovoljiti i najzahtevnije klijente."
+            imageSrc={vrataImg}
+            imageAlt={t('category3.imageAlt')}
+            title={t('category3.content.title')}
+            description={t('category3.content.description')}
+            reverse={true}
           />
         </div>
       </div>

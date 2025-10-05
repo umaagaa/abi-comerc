@@ -16,7 +16,7 @@ export default function UnderConstruction() {
             {/* Construction Image */}
             <div className="mb-6">
               <img
-                src="src/assets/images/stolarija.jpg"
+                src="src/assets/images/ABI-PNG.png"
                 alt="Under Construction"
                 className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-orange-500"
               />

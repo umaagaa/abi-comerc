@@ -7,7 +7,7 @@ export default function Hero() {
     
     
     <div className="relative h-[90vh] w-full bg-cover bg-center" 
-      style={{ backgroundImage: 'url("src/assets/images/blackwindow.avif")' }}
+      style={{ backgroundImage: 'url("src/assets/images/firma.jpg")' }}
     >
       <div className="flex flex-col items-start justify-center h-full ml-12">
         <div className="bg-gray-900/70 text-white rounded-lg p-8 max-w-xl ">

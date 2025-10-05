@@ -8,7 +8,7 @@ import "flag-icons/css/flag-icons.min.css";
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [openAbout, setOpenAbout] = useState(false); // 👈 za mobilni dropdown
+  const [openAbout, setOpenAbout] = useState(false); // za mobilni dropdown
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const navLinks = [
     { path: "/about", label: t("nav.about") },
-    { path: "/about", label: t("nav.products") },
+    { path: "/products", label: t("nav.products") },
     { path: "/products", label: t("nav.gallery") },
     { path: "/contact", label: t("nav.contact") },
   ];

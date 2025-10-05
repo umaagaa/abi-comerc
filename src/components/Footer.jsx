@@ -3,15 +3,13 @@ import { Instagram, Facebook, Tags } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 // Footer component styled with Tailwind CSS
-// Edit the `branches` array below to change podružnice (title + lines/emails)
 export default function Footer() {
   const { t } = useTranslation();
   const branches = [
     {
-      title: 'Bužim',
+      title: 'ABI Proizvodnja i skladište',
       lines: [
-        'ABI Proizvodnja i skladište ',
-        'ul. Zaradostovo bb',
+        'ul. Zaradostovo BB',
         '77245 Bužim',
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
@@ -20,10 +18,9 @@ export default function Footer() {
       ],
     },
     {
-      title: 'Bužim',
+      title: 'ABI INVEST d.o.o',
       lines: [
-        'ABI INVEST d.o.o',
-        'ul. Generala Izeta Nanića bb',
+        'ul. Generala Izeta Nanića BB',
         '77245 Bužim',
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
@@ -86,9 +83,9 @@ export default function Footer() {
           </div>
 
           {/* RIGHT: podružnice */}
-          <div className="md:col-span-8">
+          <div className="md:col-span-8 flex flex-col items-center">
             {/* Dekoracija: linije + Tags ikona */}
-            <div className="flex items-center justify-center mb-4">
+            <div className="flex items-center justify-center mb-4 w-full">
               <div className="border-t border-red-500 flex-1 max-w-[220px]" />
               <div className="mx-4 text-red-500">
                 <Tags size={28} />
@@ -124,14 +121,19 @@ export default function Footer() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
+          
+      </div>
+    </div>
+</div>
+
+
+          
+        
 
         {/* copyright */}
         <div className="border-t border-gray-800 mt-10 pt-6">
           <p className="text-center text-sm text-gray-400">&copy; {new Date().getFullYear()} ABI COMERC. {t('footer.copyright')}</p>
         </div>
-      </div>
     </footer>
   );
 }

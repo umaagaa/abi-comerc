@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -56,13 +57,13 @@ export default function StatsSection() {
       {/* Pozadinska slika */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/images/status.jpg')" }}
+        style={{ backgroundImage: "url('/src/assets/images/otoka.jpg')" }}
       />
       {/* Sadržaj */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
+      <div className="relative z-10 max-w-6xl ml-45 flex flex-col md:flex-row items-start gap-12">
         
         
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 ">
           <h2 className="text-sm uppercase tracking-wider text-gray-200">
             {t('stats.subtitle')}
           </h2>
@@ -119,10 +120,14 @@ export default function StatsSection() {
 
       {/* Button */}
       <div className="relative z-10 mt-12 text-center">
-        <button className="px-6 py-3 bg-black text-white  font-semibold rounded border-1 border-white hover:bg-red-700   hover:border-red-700  transition">
-          {t('stats.button')}
-        </button>
-      </div>
+  <Link
+    to="/about"
+    className="px-6 py-3 bg-black text-white font-semibold rounded border-1 border-white hover:bg-red-700 hover:border-red-700 transition inline-block"
+  >
+    {t('stats.button')}
+  </Link>
+</div>
+
     </section>
   );
 }
