@@ -59,7 +59,7 @@ export default function Products() {
 
                   <button
                     onClick={() => toggleExpand(cat.id)}
-                    className="px-6 py-2 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors"
+                    className=" mt-6 px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white rounded-xl shadow hover:opacity-90 transition"
                   >
                     {expandedCard === cat.id
                       ? t("products.close")
