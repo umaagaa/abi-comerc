@@ -133,7 +133,7 @@ export default function Projects() {
                 <div className="mt-8">
                   <button 
                     onClick={() => setSelectedProject(project)}
-                    className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg"
+                    className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg cursor-pointer"
                   >
                     {t("projects.learnMore")}
                   </button>
@@ -233,7 +233,7 @@ export default function Projects() {
                   <div className="mt-8 pt-6 border-t border-gray-200">
                     <Link
                       to="/contact"
-                      className="block bg-blue-600 hover:bg-blue-700 text-white px-8 py-5 rounded-xl font-bold transition-colors duration-300 text-center text-xl"
+                      className="block bg-blue-600 hover:bg-blue-700 text-white px-8 py-5 rounded-xl font-bold transition-colors duration-300 text-center text-xl cursor-pointer"
                     >
                       {t("projects.cta.contact")}
                     </Link>
