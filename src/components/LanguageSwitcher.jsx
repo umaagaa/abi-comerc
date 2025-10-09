@@ -38,12 +38,12 @@ const LanguageSwitcher = ({ className = "" }) => {
             alt={currentLang?.code}
             className="w-5 h-4 object-cover rounded-sm border border-gray-300"
           />
-          <span>{currentLang?.name} ({currentLang?.code.toUpperCase()})</span>
+          <span>{currentLang?.name} </span>
         </span>
       </button>
 
       {/* Dropdown */}
-      <div className="absolute right-0 mt-2 w-36 bg-white rounded-md shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+      <div className="absolute right-0 mt-2 w-full bg-white rounded-md shadow-lg border border-gray-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
         {languages.map((lang) => (
           <button
             key={lang.code}
@@ -57,7 +57,7 @@ const LanguageSwitcher = ({ className = "" }) => {
               alt={lang.code}
               className="w-5 h-4 object-cover rounded-sm border border-gray-300"
             />
-            <span>{lang.name} ({lang.code.toUpperCase()})</span>
+            <span>{lang.name} </span>
           </button>
         ))}
       </div>
