@@ -2,6 +2,7 @@
 import React from "react";
 import { Building2, Home, Factory, Wrench, Hammer, Tags } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 export default function Projects() {
@@ -149,9 +150,12 @@ export default function Projects() {
             {t("projects.cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300">
+            <Link 
+              to="/contact" 
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300 text-center"
+            >
               {t("projects.cta.contact")}
-            </button>
+            </Link>
             <button className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 rounded-xl font-semibold transition-all duration-300">
               {t("projects.cta.portfolio")}
             </button>
