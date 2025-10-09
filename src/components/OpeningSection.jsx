@@ -18,7 +18,7 @@ export default function OpeningSection() {
         >
           <Link
             to="/building"
-            className="inline-block bg-green-700 text-white px-8 py-3 rounded-md font-semibold hover:bg-green-600 hover:text-black transition mt-4"
+            className="inline-block bg-gradient-to-r from-green-500 to-red-500 text-white px-8 py-3 rounded-md font-semibold hover:opacity-90 hover:text-black transition mt-4"
           >
             {t('opening.cta')}
           </Link>

@@ -27,7 +27,8 @@ export default function About() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contact"
-                className="inline-block border border-gray-300 text-gray-800 px-6 py-3  hover:bg-gray-100 transition"
+                className="inline-block rounded-xl px-6 py-3 font-semibold text-white border border-gray-300 bg-gradient-to-r from-green-500 to-red-500 shadow-md hover:opacity-90 hover:text-black transition"
+
               >
                 {t('about.contactUs')}
               </a>
@@ -86,7 +87,7 @@ export default function About() {
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="lg:w-1/2">
               <img
-                src="src/assets/images/about-project-preview.jpg"
+                src="src/assets/images/zgrada.jpg"
                 alt={t('altTexts.projectPreview')}
                 className="w-full rounded-xl shadow-lg object-cover"
               />
@@ -102,7 +103,8 @@ export default function About() {
 
               <Link
                 to="/building"
-                className="inline-block bg-red-600 text-white px-6 py-3  font-semibold hover:bg-red-700 transition"
+                className="inline-block px-6 py-3 font-semibold text-white rounded-xl bg-gradient-to-r from-green-500 to-red-500 shadow-md hover:opacity-90 hover:text-black transition"
+
               >
                 {t('about.projects.cta')}
               </Link>
