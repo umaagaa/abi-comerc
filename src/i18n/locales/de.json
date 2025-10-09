@@ -2,7 +2,7 @@
   "nav": {
     "about": "Über uns",
     "products": "Produkte",
-    "gallery": "Galerie",
+    "projects": "Projekte",
     "contact": "Kontakt"
   },
   "hero": {
@@ -146,5 +146,187 @@
     "en": "EN",
     "fr": "FR",
     "de": "DE"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "jib": "JIB",
+    "baucentar": {
+      "name": "ABI Comerc d.o.o. Baucentar",
+      "address1": "ul. Generala Izeta Nanića BB",
+      "address2": "77245 Bužim",
+      "address3": "Bosnien und Herzegowina",
+      "phone": "Tel: +387 37 411 004",
+      "jib": "4263577130006",
+      "email": "info@abicomerc.ba"
+    },
+    "proizvodnja": {
+      "name": "ABI Produktion und Lager",
+      "address1": "ul. Zaradostovo BB",
+      "address2": "77245 Bužim",
+      "address3": "Bosnien und Herzegowina",
+      "phone": "Tel: +387 37 411 004",
+      "email": "proizvodnja@abicomerc.ba"
+    },
+    "abinvest": {
+      "name": "ABI Invest",
+      "address1": "ul. Generala Izeta Nanića BB",
+      "address2": "77245 Bužim",
+      "address3": "Bosnien und Herzegowina",
+      "phone": "Tel: +387 37 411 004",
+      "jib": "4263959840003",
+      "email": "info@abiinvest.ba"
+    }
+  },
+  "products": {
+    "title": "Produkte",
+    "categories": {
+      "windows": {
+        "id": "windows",
+        "title": "PVC und ALU Fenster",
+        "description": "Wir verwenden verschiedene Systeme, die an die Bedürfnisse des Gebäudes angepasst sind: Harmo und US Nill für besondere Anforderungen, während für Fenster und Türen die höchste Qualität PVC und Aluminiumprofile verwendet werden - Gealan S9000, S8000 IQ, HST, Smoovio, und Aluminiumsysteme Feal Termo 65 und Termo 85. Diese Systeme gewährleisten ausgezeichnete Wärme- und Schalldämmung, Langlebigkeit und modernes Design.",
+        "imageSrc": "src/assets/images/gealan.png",
+        "imageAlt": "Fenster",
+        "extra": {
+          "description": "Unsere Fenster und Türen sind in verschiedenen Formen und Farben erhältlich, mit der Möglichkeit zusätzlicher Isolierung und Sicherheitssysteme.",
+          "images": [
+            "/images/windows-detail1.jpg",
+            "/images/windows-detail2.jpg"
+          ]
+        }
+      },
+      "doors": {
+        "id": "doors",
+        "title": "Eingangstüren",
+        "description": "Für besondere Anforderungen verwenden wir Harmo und US Nill Systeme, während für Eingangs-, Balkon- und Schiebetüren zuverlässige PVC und Aluminiumprofile angewendet werden - Gealan S9000, S8000 IQ, HST, Smoovio, und Aluminiumsysteme Feal Termo 65 und Termo 85. Diese Systeme garantieren Sicherheit, Stabilität und Funktionalität, mit modernem Aussehen und ausgezeichneter Isolierung.",
+        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageAlt": "Fassaden",
+        "extra": {
+          "description": "Fassaden, die ausgezeichnete Ästhetik und Energieeffizienz bieten.",
+          "images": [
+            "src/assets/images/otoka.jpg",
+            "/images/facade-detail2.jpg"
+          ]
+        }
+      },
+      "garageDoors": {
+        "id": "garageDoors",
+        "title": "Garagentore",
+        "description": "Unser Unternehmen fertigt maßgeschneiderte Garagentore in drei Varianten: • Sektionaltore - die häufigste Wahl für Häuser und Wohngebäude, bieten ausgezeichnete Isolierung und praktisches Öffnen nach oben. • Industrietore - für Hallen und größere Gebäude konzipiert, extrem langlebig und für häufige Nutzung angepasst. • Rolltore - kompakte Lösung, die sich in eine Box über der Öffnung aufrollt, ideal wenn der Platz begrenzt ist. Alle Modelle sind aus hochwertigen Materialien gefertigt, bieten Sicherheit, Langlebigkeit und die Möglichkeit, das Design an Ihre Bedürfnisse anzupassen.",
+        "imageSrc": "src/assets/images/gvrata.png",
+        "imageAlt": "Sonnenschutz",
+        "extra": {
+          "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
+          "images": [
+            "/images/sun-detail1.jpg",
+            "/images/sun-detail2.jpg"
+          ]
+        }
+      },
+      "sunProtection": {
+        "id": "sunProtection",
+        "title": "Sonnenschutz",
+        "description": "Unser Unternehmen produziert verschiedene Sonnenschutzlösungen: • Fliegengitter - zuverlässiger Schutz vor Insekten, angepasst an alle Fenstertypen. • Rollläden - funktionaler Schutz vor Sonne und Hitze, in verschiedenen Farben und Materialien erhältlich. • Außenjalousien (Raf Store) - modernes System, das Lichtkontrolle, Privatsphäre und zusätzliche Isolierung bietet. Alle Produkte sind aus hochwertigen Materialien gefertigt, langlebig und an die Bedürfnisse jedes Gebäudes anpassbar.",
+        "imageSrc": "src/assets/images/zos.png",
+        "imageAlt": "Sonnenschutz",
+        "extra": {
+          "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
+          "images": [
+            "/images/sun-detail1.jpg",
+            "/images/sun-detail2.jpg"
+          ]
+        }
+      },
+      "stijenke": {
+        "id": "stijenke",
+        "title": "Trennwände",
+        "description": "Unser Unternehmen produziert hochwertige Trennwände für Räume aller Zwecke. Sie sind ideal für Raumteilung, Privatsphäre und modernes Aussehen, aus langlebigen Materialien gefertigt und an Ihre Bedürfnisse anpassbar.",
+        "imageSrc": "src/assets/images/stijenka.png",
+        "imageAlt": "Trennwand",
+        "extra": {
+          "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
+          "images": [
+            "/images/sun-detail1.jpg",
+            "/images/sun-detail2.jpg"
+          ]
+        }
+      },
+      "alubond": {
+        "id": "alubond",
+        "title": "Alubond Fassaden",
+        "description": "Unser Unternehmen fertigt hochwertige Alubond Fassaden, die Gebäude modern, attraktiv und energieeffizient machen. Fassaden sind leicht, langlebig und in verschiedenen Farben und Dekoren erhältlich, angepasst für Wohn- und Geschäftsgebäude.",
+        "imageSrc": "src/assets/images/alubond.webp",
+        "imageAlt": "alubond",
+        "extra": {
+          "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
+          "images": [
+            "/images/sun-detail1.jpg",
+            "/images/sun-detail2.jpg"
+          ]
+        }
+      },
+      "velux": {
+        "id": "velux",
+        "title": "Dachfenster",
+        "description": "Unser Unternehmen installiert Velux Dachfenster, bekannt für Qualität und Langlebigkeit. Sie sind ideal für Dachböden und Dachräume, ermöglichen natürliches Licht, Belüftung und modernes Raumaussehen.",
+        "imageSrc": "src/assets/images/velux.webp",
+        "imageAlt": "alubond",
+        "extra": {
+          "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
+          "images": [
+            "/images/sun-detail1.jpg",
+            "/images/sun-detail2.jpg"
+          ]
+        }
+      }
+    },
+    "expand": "Erweitern",
+    "close": "Schließen",
+    "detail": "Detail"
+  },
+  "projects": {
+    "residential": {
+      "title": "Wohnprojekte",
+      "description": "Moderne Wohngebäude und Häuser mit hochwertigen PVC- und ALU-Systemen, die Komfort, Energieeffizienz und Langlebigkeit garantieren.",
+      "features": {
+        "quality": "Hochwertige Materialqualität",
+        "efficiency": "Energieeffizienz",
+        "design": "Modernes Design"
+      }
+    },
+    "commercial": {
+      "title": "Gewerbeprojekte",
+      "description": "Geschäftseinrichtungen und Gewerberäume mit fortschrittlichen Systemen ausgestattet, die Funktionalität mit Ästhetik verbinden.",
+      "features": {
+        "durability": "Außergewöhnliche Langlebigkeit",
+        "performance": "Hohe Leistung",
+        "innovation": "Innovative Lösungen"
+      }
+    },
+    "industrial": {
+      "title": "Industrieprojekte",
+      "description": "Spezialisierte Lösungen für Industrieanlagen, Hallen und Produktionsstätten mit Fokus auf Funktionalität und Sicherheit.",
+      "features": {
+        "strength": "Hohe Festigkeit",
+        "reliability": "Zuverlässigkeit",
+        "customization": "Anpassung an Bedürfnisse"
+      }
+    },
+    "renovation": {
+      "title": "Renovierungen und Rekonstruktionen",
+      "description": "Komplette Renovierungen bestehender Gebäude mit modernen PVC- und ALU-Systemen zur Verbesserung der Energieeffizienz.",
+      "features": {
+        "modernization": "Modernisierung",
+        "energy": "Energieeffizienz",
+        "aesthetics": "Verbesserte Ästhetik"
+      }
+    },
+    "keyFeatures": "Hauptmerkmale",
+    "learnMore": "Mehr Erfahren",
+    "cta": {
+      "title": "Bereit für Ihr nächstes Projekt?",
+      "description": "Kontaktieren Sie uns heute und besprechen Sie Ihre Bedürfnisse. Unser Expertenteam ist bereit, Ihnen bei der Umsetzung Ihrer Ideen zu helfen.",
+      "contact": "Kontaktieren Sie uns",
+      "portfolio": "Portfolio ansehen"
+    }
   }
 }

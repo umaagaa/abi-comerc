@@ -2,7 +2,7 @@
   "nav": {
     "about": "O nama",
     "products": "Proizvodi",
-    "gallery": "Galerija",
+    "projects": "Projekti",
     "contact": "Kontakt"
   },
   "hero": {
@@ -280,6 +280,62 @@
       }
     },
     "expand": "Proširi",
-    "close": "Zatvori"
+    "close": "Zatvori",
+    "detail": "detalj"
+  },
+  "projects": {
+    "residential": {
+      "title": "Stambeni Projekti",
+      "description": "Moderne stambene zgrade i kuće sa vrhunskim PVC i ALU sistemima koji garantuju komfor, energetsku efikasnost i dugotrajnost.",
+      "features": {
+        "quality": "Vrhunska kvaliteta materijala",
+        "efficiency": "Energetska efikasnost",
+        "design": "Moderan dizajn"
+      }
+    },
+    "commercial": {
+      "title": "Poslovni Projekti",
+      "description": "Poslovni objekti i komercijalni prostori opremljeni naprednim sistemima koji kombinuju funkcionalnost sa estetikom.",
+      "features": {
+        "durability": "Izuzetna izdržljivost",
+        "performance": "Visoke performanse",
+        "innovation": "Inovativna rješenja"
+      }
+    },
+    "industrial": {
+      "title": "Industrijski Projekti",
+      "description": "Specijalizovana rješenja za industrijske objekte, hale i proizvodne pogone sa fokusom na funkcionalnost i sigurnost.",
+      "features": {
+        "strength": "Visoka čvrstoća",
+        "reliability": "Pouzdanost",
+        "customization": "Prilagođavanje potrebama"
+      }
+    },
+    "renovation": {
+      "title": "Renovacije i Rekonstrukcije",
+      "description": "Kompletne renovacije postojećih objekata sa modernim PVC i ALU sistemima za poboljšanje energetske efikasnosti.",
+      "features": {
+        "modernization": "Modernizacija",
+        "energy": "Energetska efikasnost",
+        "aesthetics": "Poboljšana estetika"
+      }
+    },
+    "facade": {
+      "title": "Fasadni Projekti",
+      "description": "Specijalizovana rješenja za moderne fasade koje kombinuju estetiku sa funkcionalnošću i energetskom efikasnošću.",
+      "features": {
+        "durability": "Izuzetna izdržljivost",
+        "weather": "Otpornost na vremenske uslove",
+        "maintenance": "Niska potreba za održavanjem"
+      }
+    },
+    "keyFeatures": "Ključne karakteristike",
+    "learnMore": "Saznaj više",
+    "cta": {
+      "title": "Spremni za vaš sledeći projekat?",
+      "description": "Kontaktirajte nas danas i diskutujte o vašim potrebama. Naš tim stručnjaka je spreman da vam pomogne u realizaciji vaših ideja.",
+      "contact": "Kontaktirajte nas",
+      "portfolio": "Pogledajte portfolio"
+    }
   }
 }
