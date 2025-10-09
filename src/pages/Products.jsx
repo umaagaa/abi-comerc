@@ -1,8 +1,8 @@
 // src/pages/Products.jsx
 import React, { useState } from "react";
-import { Tags } from 'lucide-react';
-import Footer from "../components/Footer";
+import { Tags } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import Footer from "../components/Footer";
 
 export default function Products() {
   const { t } = useTranslation();
@@ -12,20 +12,17 @@ export default function Products() {
     setExpandedCard(expandedCard === id ? null : id);
   };
 
+  // Učitavanje kategorija iz prevoda
   const categories = t("products.categories", { returnObjects: true });
+
   return (
     <div className="space-y-20 p-8 mt-32">
-      <div className="flex items-center justify-center mb-4 w-full">
-              <div className="border-t border-red-500 flex-1 max-w-[220px]" />
-              <div className="mx-4 text-red-500">
-                <Tags size={28} />
-              </div>
-              <div className="border-t border-red-500 flex-1 max-w-[220px]" />
-            </div>
-      {Object.values(categories).map((cat, idx) => (
 
+      {/* Glavni sadržaj */}
+      {Object.values(categories).map((cat, idx) => (
         <div key={cat.id} className="relative">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 to-white rounded-3xl"></div>
+
           <div className="relative bg-white/95 backdrop-blur-sm rounded-3xl p-12 border border-gray-200/50 shadow-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               {/* Slika */}
@@ -43,7 +40,7 @@ export default function Products() {
               {/* Tekst */}
               <div className={`order-2 ${idx % 2 !== 0 ? "lg:order-1" : ""}`}>
                 <div className="space-y-6">
-                  {/* Decorative line */}
+                  {/* Dekorativne linije */}
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-1 bg-gradient-to-r from-green-500 to-red-500 rounded-full"></div>
                     <div className="w-6 h-1 bg-gray-300 rounded-full"></div>
@@ -59,7 +56,7 @@ export default function Products() {
 
                   <button
                     onClick={() => toggleExpand(cat.id)}
-                    className=" mt-6 px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white rounded-xl shadow hover:opacity-90 transition"
+                    className="mt-6 px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white rounded-xl shadow hover:opacity-90 transition"
                   >
                     {expandedCard === cat.id
                       ? t("products.close")
@@ -69,18 +66,29 @@ export default function Products() {
               </div>
             </div>
 
-            {/* Expanded content */}
+            {/* Prošireni dio (klikom na dugme) */}
             {expandedCard === cat.id && (
-              <div className="mt-8 space-y-4">
-                <p className="text-gray-700">{cat.extra.description}</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="mt-10 space-y-10">
+                <p className="text-gray-700 text-lg leading-relaxed text-center">
+                  {cat.extra.description}
+                </p>
+
+                {/* 3 slike s opisima ispod */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {cat.extra.images.map((img, i) => (
-                    <img
+                    <div
                       key={i}
-                      src={img}
-                      alt={`${cat.title} detalj ${i + 1}`}
-                      className="rounded-xl shadow-lg object-cover w-full h-[250px]"
-                    />
+                      className="flex flex-col items-center text-center space-y-3"
+                    >
+                      <img
+                        src={img.src}
+                        alt={`${cat.title} detalj ${i + 1}`}
+                        className="rounded-xl shadow-lg object-cover w-full h-[450px] hover:scale-[1.03] transition-transform duration-500"
+                      />
+                      <p className="text-gray-600 text-sm max-w-[90%]">
+                        {img.description}
+                      </p>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -88,10 +96,8 @@ export default function Products() {
           </div>
         </div>
       ))}
-    </div>
 
-    
- 
-    
+      <Footer />
+    </div>
   );
 }
