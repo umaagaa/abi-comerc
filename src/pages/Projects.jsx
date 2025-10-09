@@ -214,7 +214,7 @@ export default function Projects() {
       {/* Modal */}
       {selectedProject && (
         <div className="fixed inset-0 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl max-w-7xl w-full h-[95vh] overflow-hidden shadow-2xl border border-gray-200">
+          <div className="bg-white rounded-2xl max-w-7xl w-full max-h-[95vh] overflow-hidden shadow-2xl border border-gray-200">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-6 border-b border-gray-200">
               <div className="flex items-center gap-3">
@@ -234,12 +234,12 @@ export default function Projects() {
             </div>
 
             {/* Modal Content */}
-            <div className="p-8 h-[calc(95vh-140px)] flex flex-col">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 flex-1">
+            <div className="p-6 flex flex-col">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 {/* Image Carousel - Takes 2 columns */}
-                <div className="lg:col-span-2 flex flex-col space-y-4">
+                <div className="lg:col-span-2 flex flex-col space-y-3">
                   {/* Main Image */}
-                  <div className="flex-1 relative">
+                  <div className="relative h-80">
                     <img
                       src={selectedProject.images[selectedImageIndex]}
                       alt={selectedProject.title}
@@ -248,12 +248,12 @@ export default function Projects() {
                   </div>
                   
                   {/* Thumbnail Carousel */}
-                  <div className="flex gap-3 overflow-x-auto pb-2 flex-shrink-0">
+                  <div className="flex justify-center gap-2 flex-shrink-0">
                     {selectedProject.images.map((image, index) => (
                       <button
                         key={index}
                         onClick={() => setSelectedImageIndex(index)}
-                        className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all duration-300 ${
+                        className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all duration-300 ${
                           selectedImageIndex === index
                             ? 'border-blue-500 shadow-lg scale-105'
                             : 'border-gray-200 hover:border-gray-300'
@@ -270,27 +270,27 @@ export default function Projects() {
                 </div>
 
                 {/* Content - Takes 1 column */}
-                <div className="lg:col-span-1 flex flex-col justify-between h-full">
+                <div className="lg:col-span-1 flex flex-col justify-between">
                   {/* Text Content */}
-                  <div className="space-y-6">
+                  <div className="space-y-4">
                     <div>
-                      <h4 className="text-xl font-bold text-gray-800 mb-4">
+                      <h4 className="text-lg font-bold text-gray-800 mb-3">
                         {t("projects.description")}
                       </h4>
-                      <p className="text-gray-600 leading-relaxed text-lg">
+                      <p className="text-gray-600 leading-relaxed">
                         {selectedProject.description}
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-xl font-bold text-gray-800 mb-4">
+                      <h4 className="text-lg font-bold text-gray-800 mb-3">
                         {t("projects.keyFeatures")}
                       </h4>
-                      <ul className="space-y-3">
+                      <ul className="space-y-2">
                         {selectedProject.features.map((feature, index) => (
-                          <li key={index} className="flex items-start text-gray-600 text-lg">
-                            <div className="w-3 h-3 bg-blue-500 rounded-full mr-3 flex-shrink-0 mt-1"></div>
-                            <span className="leading-relaxed">{feature}</span>
+                          <li key={index} className="flex items-start text-gray-600">
+                            <div className="w-2 h-2 bg-blue-500 rounded-full mr-2 flex-shrink-0 mt-2"></div>
+                            <span className="leading-relaxed text-sm">{feature}</span>
                           </li>
                         ))}
                       </ul>
@@ -301,7 +301,7 @@ export default function Projects() {
                   <div className="mt-6 pt-4 border-t border-gray-200">
                     <Link
                       to="/contact"
-                      className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 rounded-xl font-bold transition-colors duration-300 text-center text-lg cursor-pointer"
+                      className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-xl font-bold transition-colors duration-300 text-center cursor-pointer"
                     >
                       {t("projects.cta.contact")}
                     </Link>
