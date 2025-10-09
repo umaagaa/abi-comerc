@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 export default function Projects() {
   const { t } = useTranslation();
   const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   const projects = [
     {
@@ -15,6 +16,14 @@ export default function Projects() {
       title: t("projects.residential.title"),
       description: t("projects.residential.description"),
       image: "src/assets/images/kuca.jpg",
+      images: [
+        "src/assets/images/kuca.jpg",
+        "src/assets/images/firma.jpg",
+        "src/assets/images/status.jpg",
+        "src/assets/images/stolarija.jpg",
+        "src/assets/images/alubond.webp",
+        "src/assets/images/gealan.png"
+      ],
       icon: Home,
       features: [
         t("projects.residential.features.quality"),
@@ -27,6 +36,14 @@ export default function Projects() {
       title: t("projects.commercial.title"),
       description: t("projects.commercial.description"),
       image: "src/assets/images/firma.jpg",
+      images: [
+        "src/assets/images/firma.jpg",
+        "src/assets/images/kuca.jpg",
+        "src/assets/images/status.jpg",
+        "src/assets/images/stolarija.jpg",
+        "src/assets/images/alubond.webp",
+        "src/assets/images/gealan.png"
+      ],
       icon: Building2,
       features: [
         t("projects.commercial.features.durability"),
@@ -39,6 +56,14 @@ export default function Projects() {
       title: t("projects.industrial.title"),
       description: t("projects.industrial.description"),
       image: "src/assets/images/status.jpg",
+      images: [
+        "src/assets/images/status.jpg",
+        "src/assets/images/firma.jpg",
+        "src/assets/images/kuca.jpg",
+        "src/assets/images/stolarija.jpg",
+        "src/assets/images/alubond.webp",
+        "src/assets/images/gealan.png"
+      ],
       icon: Factory,
       features: [
         t("projects.industrial.features.strength"),
@@ -51,6 +76,14 @@ export default function Projects() {
       title: t("projects.renovation.title"),
       description: t("projects.renovation.description"),
       image: "src/assets/images/stolarija.jpg",
+      images: [
+        "src/assets/images/stolarija.jpg",
+        "src/assets/images/firma.jpg",
+        "src/assets/images/status.jpg",
+        "src/assets/images/kuca.jpg",
+        "src/assets/images/alubond.webp",
+        "src/assets/images/gealan.png"
+      ],
       icon: Wrench,
       features: [
         t("projects.renovation.features.modernization"),
@@ -63,6 +96,14 @@ export default function Projects() {
       title: t("projects.facade.title"),
       description: t("projects.facade.description"),
       image: "src/assets/images/alubond.webp",
+      images: [
+        "src/assets/images/alubond.webp",
+        "src/assets/images/firma.jpg",
+        "src/assets/images/status.jpg",
+        "src/assets/images/stolarija.jpg",
+        "src/assets/images/kuca.jpg",
+        "src/assets/images/gealan.png"
+      ],
       icon: Hammer,
       features: [
         t("projects.facade.features.durability"),
@@ -132,7 +173,10 @@ export default function Projects() {
                 {/* CTA Button - Always at bottom */}
                 <div className="mt-8">
                   <button 
-                    onClick={() => setSelectedProject(project)}
+                    onClick={() => {
+                      setSelectedProject(project);
+                      setSelectedImageIndex(0);
+                    }}
                     className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg cursor-pointer"
                   >
                     {t("projects.learnMore")}
@@ -169,8 +213,8 @@ export default function Projects() {
 
       {/* Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 p-2">
-          <div className="bg-white rounded-2xl max-w-7xl w-full max-h-[98vh] overflow-hidden shadow-2xl border border-gray-200">
+        <div className="fixed inset-0 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl max-w-7xl w-full h-[95vh] overflow-hidden shadow-2xl border border-gray-200">
             {/* Modal Header */}
             <div className="flex items-center justify-between p-6 border-b border-gray-200">
               <div className="flex items-center gap-3">
@@ -190,38 +234,62 @@ export default function Projects() {
             </div>
 
             {/* Modal Content */}
-            <div className="p-10 overflow-y-auto max-h-[calc(98vh-160px)]">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-                {/* Image - Takes 2 columns */}
-                <div className="lg:col-span-2 space-y-6">
-                  <img
-                    src={selectedProject.image}
-                    alt={selectedProject.title}
-                    className="w-full h-[700px] object-cover rounded-xl shadow-lg"
-                  />
+            <div className="p-8 h-[calc(95vh-140px)] flex flex-col">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 flex-1">
+                {/* Image Carousel - Takes 2 columns */}
+                <div className="lg:col-span-2 flex flex-col space-y-4">
+                  {/* Main Image */}
+                  <div className="flex-1 relative">
+                    <img
+                      src={selectedProject.images[selectedImageIndex]}
+                      alt={selectedProject.title}
+                      className="w-full h-full object-cover rounded-xl shadow-lg"
+                    />
+                  </div>
+                  
+                  {/* Thumbnail Carousel */}
+                  <div className="flex gap-3 overflow-x-auto pb-2 flex-shrink-0">
+                    {selectedProject.images.map((image, index) => (
+                      <button
+                        key={index}
+                        onClick={() => setSelectedImageIndex(index)}
+                        className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all duration-300 ${
+                          selectedImageIndex === index
+                            ? 'border-blue-500 shadow-lg scale-105'
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <img
+                          src={image}
+                          alt={`${selectedProject.title} ${index + 1}`}
+                          className="w-full h-full object-cover"
+                        />
+                      </button>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Content - Takes 1 column */}
                 <div className="lg:col-span-1 flex flex-col justify-between h-full">
                   {/* Text Content */}
-                  <div className="space-y-8">
+                  <div className="space-y-6">
                     <div>
-                      <h4 className="text-2xl font-bold text-gray-800 mb-6">
+                      <h4 className="text-xl font-bold text-gray-800 mb-4">
                         {t("projects.description")}
                       </h4>
-                      <p className="text-gray-600 leading-relaxed text-xl">
+                      <p className="text-gray-600 leading-relaxed text-lg">
                         {selectedProject.description}
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-2xl font-bold text-gray-800 mb-6">
+                      <h4 className="text-xl font-bold text-gray-800 mb-4">
                         {t("projects.keyFeatures")}
                       </h4>
-                      <ul className="space-y-4">
+                      <ul className="space-y-3">
                         {selectedProject.features.map((feature, index) => (
-                          <li key={index} className="flex items-start text-gray-600 text-xl">
-                            <div className="w-4 h-4 bg-blue-500 rounded-full mr-4 flex-shrink-0 mt-1"></div>
+                          <li key={index} className="flex items-start text-gray-600 text-lg">
+                            <div className="w-3 h-3 bg-blue-500 rounded-full mr-3 flex-shrink-0 mt-1"></div>
                             <span className="leading-relaxed">{feature}</span>
                           </li>
                         ))}
@@ -230,10 +298,10 @@ export default function Projects() {
                   </div>
 
                   {/* Action Button - Fixed at bottom */}
-                  <div className="mt-8 pt-6 border-t border-gray-200">
+                  <div className="mt-6 pt-4 border-t border-gray-200">
                     <Link
                       to="/contact"
-                      className="block bg-blue-600 hover:bg-blue-700 text-white px-8 py-5 rounded-xl font-bold transition-colors duration-300 text-center text-xl cursor-pointer"
+                      className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 rounded-xl font-bold transition-colors duration-300 text-center text-lg cursor-pointer"
                     >
                       {t("projects.cta.contact")}
                     </Link>
