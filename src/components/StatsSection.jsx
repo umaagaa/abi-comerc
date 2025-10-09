@@ -122,7 +122,7 @@ export default function StatsSection() {
       <div className="relative z-10 mt-12 text-center">
   <Link
     to="/about"
-    className="px-6 py-3 bg-black text-white font-semibold rounded border-1 border-white hover:bg-red-700 hover:border-red-700 transition inline-block"
+    className="px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white font-semibold rounded border border-white hover:opacity-90 hover:border-red-700 hover:text-black transition inline-block"
   >
     {t('stats.button')}
   </Link>

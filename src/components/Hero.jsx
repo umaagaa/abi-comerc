@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -20,9 +21,12 @@ export default function Hero() {
           <p className="mb-6 text-sm leading-relaxed">
             {t('hero.description')}
           </p>
-          <button className="bg-green-700 font-bold text-white px-8 py-3 rounded-xs hover:bg-green-600 hover:text-black">
-            {t('hero.cta')}
-          </button>
+          <Link
+  to="/products"
+  className="inline-block px-8 py-3 font-bold text-white rounded-xl bg-gradient-to-r from-green-500 to-red-500 shadow-md hover:opacity-90 hover:text-black transition"
+>
+  {t('hero.cta')}
+</Link>
 
         </div>
       </div>

@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/categories/category8" element={<Category8 />} />
         {/* Under Construction Routes */}
         <Route path="/products" element={<Products />} />
-        <Route path="/gallery" element={<UnderConstruction />} />
+        <Route path="/building" element={<UnderConstruction />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/building" element={<UnderConstruction />} />
         {/* 404 Route */}
