@@ -269,12 +269,68 @@
         "title": "Dachfenster",
         "description": "Unser Unternehmen installiert Velux Dachfenster, bekannt für Qualität und Langlebigkeit. Sie sind ideal für Dachböden und Dachräume, ermöglichen natürliches Licht, Belüftung und modernes Raumaussehen.",
         "imageSrc": "src/assets/images/velux.webp",
-        "imageAlt": "alubond",
+        "imageAlt": "Dachfenster",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/velux.webp",
+            "src/assets/images/velux.webp"
+          ]
+        }
+      },
+      "garageDoors": {
+        "id": "garageDoors",
+        "title": "Garagentore",
+        "description": "Wir bieten hochwertige Garagentore mit verschiedenen Öffnungs- und Sicherheitssystemen, angepasst an moderne Bedürfnisse.",
+        "imageSrc": "src/assets/images/gvrata.png",
+        "imageAlt": "Garagentore",
+        "extra": {
+          "description": "Moderne Lösungen für Garagentore mit Sicherheit und Ästhetik.",
+          "images": [
+            "src/assets/images/gvrata.png",
+            "src/assets/images/gvrata.png"
+          ]
+        }
+      },
+      "sunProtection": {
+        "id": "sunProtection",
+        "title": "Sonnenschutz",
+        "description": "Moderne Sonnenschutzsysteme einschließlich Markisen, Rollläden und anderen Lösungen zur Verbesserung des Komforts.",
+        "imageSrc": "src/assets/images/zos.png",
+        "imageAlt": "Sonnenschutz",
+        "extra": {
+          "description": "Sonnenschutzlösungen für alle Gebäudetypen.",
+          "images": [
+            "src/assets/images/zos.png",
+            "src/assets/images/zos.png"
+          ]
+        }
+      },
+      "slidingWalls": {
+        "id": "slidingWalls",
+        "title": "Schiebewände",
+        "description": "Schiebe- und feste Wandsysteme zur Schaffung flexibler und moderner Räume.",
+        "imageSrc": "src/assets/images/stijenka.png",
+        "imageAlt": "Schiebewände",
+        "extra": {
+          "description": "Flexible Lösungen für moderne Räume.",
+          "images": [
+            "src/assets/images/stijenka.png",
+            "src/assets/images/stijenka.png"
+          ]
+        }
+      },
+      "alubond": {
+        "id": "alubond",
+        "title": "ALUBOND Fassaden",
+        "description": "ALUBOND Fassadensysteme für moderne Ästhetik und außergewöhnliche Langlebigkeit.",
+        "imageSrc": "src/assets/images/alubond.webp",
+        "imageAlt": "ALUBOND Fassaden",
+        "extra": {
+          "description": "Moderne Fassaden mit ALUBOND für alle Gebäudetypen.",
+          "images": [
+            "src/assets/images/alubond.webp",
+            "src/assets/images/alubond.webp"
           ]
         }
       }
@@ -318,6 +374,15 @@
         "modernization": "Modernisierung",
         "energy": "Energieeffizienz",
         "aesthetics": "Verbesserte Ästhetik"
+      }
+    },
+    "facade": {
+      "title": "Fassadenprojekte",
+      "description": "Spezialisierte Lösungen für moderne Fassaden, die Ästhetik mit Funktionalität und Energieeffizienz verbinden.",
+      "features": {
+        "durability": "Außergewöhnliche Langlebigkeit",
+        "weather": "Wetterbeständigkeit",
+        "maintenance": "Geringer Wartungsaufwand"
       }
     },
     "keyFeatures": "Hauptmerkmale",

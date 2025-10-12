@@ -269,12 +269,68 @@
         "title": "Fenêtres de toit",
         "description": "Notre entreprise installe des fenêtres de toit Velux, connues pour leur qualité et durabilité. Elles sont idéales pour les combles et espaces de toit, permettant lumière naturelle, ventilation et apparence moderne de l'espace.",
         "imageSrc": "src/assets/images/velux.webp",
-        "imageAlt": "alubond",
+        "imageAlt": "Fenêtres de toit",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/velux.webp",
+            "src/assets/images/velux.webp"
+          ]
+        }
+      },
+      "garageDoors": {
+        "id": "garageDoors",
+        "title": "Portes de garage",
+        "description": "Nous proposons des portes de garage de haute qualité avec différents systèmes d'ouverture et de sécurité, adaptés aux besoins modernes.",
+        "imageSrc": "src/assets/images/gvrata.png",
+        "imageAlt": "Portes de garage",
+        "extra": {
+          "description": "Solutions modernes pour portes de garage avec sécurité et esthétique.",
+          "images": [
+            "src/assets/images/gvrata.png",
+            "src/assets/images/gvrata.png"
+          ]
+        }
+      },
+      "sunProtection": {
+        "id": "sunProtection",
+        "title": "Protection solaire",
+        "description": "Systèmes de protection solaire modernes incluant stores, volets et autres solutions pour améliorer le confort.",
+        "imageSrc": "src/assets/images/zos.png",
+        "imageAlt": "Protection solaire",
+        "extra": {
+          "description": "Solutions de protection solaire pour tous types de bâtiments.",
+          "images": [
+            "src/assets/images/zos.png",
+            "src/assets/images/zos.png"
+          ]
+        }
+      },
+      "slidingWalls": {
+        "id": "slidingWalls",
+        "title": "Murs coulissants",
+        "description": "Systèmes de murs coulissants et fixes pour créer des espaces flexibles et modernes.",
+        "imageSrc": "src/assets/images/stijenka.png",
+        "imageAlt": "Murs coulissants",
+        "extra": {
+          "description": "Solutions flexibles pour espaces modernes.",
+          "images": [
+            "src/assets/images/stijenka.png",
+            "src/assets/images/stijenka.png"
+          ]
+        }
+      },
+      "alubond": {
+        "id": "alubond",
+        "title": "Façades ALUBOND",
+        "description": "Systèmes de façades ALUBOND pour une esthétique moderne et une durabilité exceptionnelle.",
+        "imageSrc": "src/assets/images/alubond.webp",
+        "imageAlt": "Façades ALUBOND",
+        "extra": {
+          "description": "Façades modernes avec ALUBOND pour tous types de bâtiments.",
+          "images": [
+            "src/assets/images/alubond.webp",
+            "src/assets/images/alubond.webp"
           ]
         }
       }
@@ -318,6 +374,15 @@
         "modernization": "Modernisation",
         "energy": "Efficacité énergétique",
         "aesthetics": "Esthétique améliorée"
+      }
+    },
+    "facade": {
+      "title": "Projets de Façades",
+      "description": "Solutions spécialisées pour façades modernes qui combinent esthétique avec fonctionnalité et efficacité énergétique.",
+      "features": {
+        "durability": "Durabilité exceptionnelle",
+        "weather": "Résistance aux intempéries",
+        "maintenance": "Faibles besoins d'entretien"
       }
     },
     "facade": {
