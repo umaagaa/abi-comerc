@@ -5,9 +5,9 @@ export default function FeaturesInline() {
   const { t } = useTranslation();
   
   const features = [
+    { title: t('features.construction.title'), subtitle: t('features.construction.subtitle'), icon: <BrickWall size={46} /> },
     { title: t('features.pvc.title'), subtitle: t('features.pvc.subtitle'), icon: <PanelBottom size={46} /> },
     { title: t('features.alu.title'), subtitle: t('features.alu.subtitle'), icon: <DoorClosed size={46} /> },
-    { title: t('features.construction.title'), subtitle: t('features.construction.subtitle'), icon: <BrickWall size={46} /> },
     { title: t('features.other.title'), subtitle: t('features.other.subtitle'), icon: <Package size={46} /> },
   ];
 

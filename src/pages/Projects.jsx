@@ -171,16 +171,17 @@ export default function Projects() {
                 </div>
 
                 {/* CTA Button - Always at bottom */}
-                <div className="mt-8">
-                  <button 
-                    onClick={() => {
-                      setSelectedProject(project);
+              <div className="mt-8">
+                      <button 
+                        onClick={() => {
+                  setSelectedProject(project);
                       setSelectedImageIndex(0);
-                    }}
-                    className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-lg cursor-pointer"
-                  >
+                          }}
+                          className="w-full bg-gradient-to-r from-green-500 to-red-500 text-white py-3 px-6 rounded-xl font-semibold shadow hover:opacity-90 transition-all duration-300 cursor-pointer"
+                    >
                     {t("projects.learnMore")}
-                  </button>
+                           </button>
+
                 </div>
               </div>
             </div>

@@ -19,6 +19,20 @@ const locations = (t) => [
     mapLink: "https://maps.app.goo.gl/rpdZydMSVsoMrB9SA",
   },
   {
+    name: t("contact.proizvodnja.name"),
+    address: [
+      t("contact.proizvodnja.address1"),
+      t("contact.proizvodnja.address2"),
+      t("contact.proizvodnja.address3"),
+    ],
+    phone: t("contact.proizvodnja.phone"),
+    email: t("contact.proizvodnja.email"),
+    fb: "https://www.facebook.com/abiproizvodnja",
+    ig: "https://www.instagram.com/abiproizvodnja",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7145973962256!2d16.030970876751237!3d45.071300359567076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47613546b7713c51%3A0xf73660270decb8b9!2sABI%20Comerc%20proizvodnja!5e0!3m2!1sen!2sba!4v1759666616672!5m2!1sen!2sba",
+    mapLink: "https://maps.app.goo.gl/tvojSkladisteLink",
+  },
+  {
     name: t("contact.abinvest.name"),
     address: [
       t("contact.abinvest.address1"),
@@ -33,20 +47,7 @@ const locations = (t) => [
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!...tvoj_abinvest_embed_link...",
     mapLink: "https://maps.app.goo.gl/tvojAbinvestLink",
   },
-  {
-    name: t("contact.proizvodnja.name"),
-    address: [
-      t("contact.proizvodnja.address1"),
-      t("contact.proizvodnja.address2"),
-      t("contact.proizvodnja.address3"),
-    ],
-    phone: t("contact.proizvodnja.phone"),
-    email: t("contact.proizvodnja.email"),
-    fb: "https://www.facebook.com/abiproizvodnja",
-    ig: "https://www.instagram.com/abiproizvodnja",
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7145973962256!2d16.030970876751237!3d45.071300359567076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47613546b7713c51%3A0xf73660270decb8b9!2sABI%20Comerc%20proizvodnja!5e0!3m2!1sen!2sba!4v1759666616672!5m2!1sen!2sba",
-    mapLink: "https://maps.app.goo.gl/tvojSkladisteLink",
-  },
+  
 ];
 
 export default function Contact() {

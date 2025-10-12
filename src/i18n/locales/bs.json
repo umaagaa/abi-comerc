@@ -181,33 +181,92 @@
     "title": "Proizvodi",
     "categories": {
       "windows": {
-        "id": "windows",
-        "title": "PVC i ALU Prozori",
-        "description": "Koristimo različite sisteme prilagođene potrebama objekta: Harmo i US Nill za posebne zahtjeve,dok se za prozore i vrata koriste najkvalitetniji PVC i aluminijski profili – Gealan S9000, S8000 IQ, HST, Smoovio, te aluminijski sistemi Feal Termo 65 i Termo 85. Ovi sistemi osiguravaju vrhunsku toplotnu i zvučnu izolaciju, dugotrajnost i moderan dizajn.",
-        "imageSrc": "src/assets/images/gealan.png",
-        "imageAlt": "Prozori",
-        "extra": {
-          "description": "Naši prozori i vrata dostupni su u različitim oblicima i bojama, s mogućnošću dodatne izolacije i sigurnosnih sistema.",
-          "images": [
-            "/images/windows-detail1.jpg",
-            "/images/windows-detail2.jpg"
-          ]
-        }
+  "id": "windows",
+  "title": "PVC i ALU Prozori",
+  "description": "Koristimo različite sisteme prilagođene potrebama objekta: vrhunski PVC profili Gealan S9000, S8000 IQ, klizni sistemi HST i Smoovio, te aluminijski sistemi Feal Termo 65, Termo 85, 45 Mill, i Feal klizne varijante. Ovi sistemi osiguravaju vrhunsku toplotnu i zvučnu izolaciju, dugotrajnost i moderan dizajn.",
+  "imageSrc": "src/assets/images/gealan.png",
+  "imageAlt": "Prozori",
+  "extra": {
+    "description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
+    "images": [
+      {
+        "src": "src/assets/images/s9000.jpg",
+        "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn.",
+        "gallery": [
+          "src/assets/images/zjo.jpg"
+        ]
       },
+      {
+        "src": "src/assets/images/Termo-85.png",
+        "description": "ALU profil Feal Termo 85 – otpornost, trajnost i elegantan izgled.",
+        "gallery": [
+          "src/assets/images/alu.jpg"
+        ]
+      },
+      {
+        "src": "src/assets/images/profil.jpg",
+        "description": "Klizni sistem HST – savršeno rješenje za velike otvore i svjetlosne prostore.",
+        "gallery": [
+          "src/assets/images/hstklizna.jpg"
+        ]
+      }
+    ]
+  }
+},
       "doors": {
         "id": "doors",
         "title": "Ulazna vrata",
-        "description": "Za posebne zahtjeve koristimo Harmo i US Nill sisteme, dok se za ulazna, balkonska i klizna vrata primjenjuju pouzdani PVC i aluminijski profili – Gealan S9000, S8000 IQ, HST, Smoovio, te aluminijski sistemi Feal Termo 65 i Termo 85. Ovi sistemi garantuju sigurnost, stabilnost i funkcionalnost, uz moderan izgled i vrhunsku izolaciju.",
+        "description": "Za posebne zahtjeve koristimo Harmo i 45 Mill sisteme, dok se za ulazna, balkonska i klizna vrata primjenjuju pouzdani PVC i aluminijski profili – Gealan S9000, S8000 IQ, HST, Smoovio, te aluminijski sistemi Feal Termo 65 i Termo 85. Ovi sistemi garantuju sigurnost, stabilnost i funkcionalnost, uz moderan izgled i vrhunsku izolaciju.",
         "imageSrc": "src/assets/images/vratagealan.webp",
         "imageAlt": "Fasade",
         "extra": {
-          "description": "Fasade koje nude vrhunsku estetiku i energetsku efikasnost.",
-          "images": [
-            "src/assets/images/otoka.jpg",
-            "/images/facade-detail2.jpg"
-          ]
-        }
+    "description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
+    "images": [
+      {
+        "src": "src/assets/images/gallery/categories/klasicno.jpg",
+        "description": "Klasično krilo",
+        "gallery": [
+          "src/assets/images/gallery/categories/klasicno.jpg",
+          "src/assets/images/gallery/categories/klasicno2.jpg",
+          "src/assets/images/gallery/categories/klasicno3.jpg",
+          "src/assets/images/gallery/categories/klasicno4.jpg",
+          "src/assets/images/gallery/categories/klasicno5.jpg"
+        ]
       },
+      {
+        "src": "src/assets/images/gallery/categories/skriveno.jpg",
+        "description": "Skriveno - elegantno krilo",
+        "gallery": [
+          "src/assets/images/gallery/categories/skriveno.jpg",
+          "src/assets/images/gallery/categories/skriveno2.jpg",
+          "src/assets/images/gallery/categories/skriveno3.jpg",
+          "src/assets/images/gallery/categories/skriveno4.jpg",
+          "src/assets/images/gallery/categories/skriveno5.jpg"
+        ]
+      }
+    ]
+  }
+},
+"specialdoors": {
+  "id": "specialdoors",
+  "title": "Vrata posebne namjene",
+  "description": "U našoj ponudi nudimo protuprovalna vrata izrađena po najvišim sigurnosnim standardima, dok za senzorska vrata sarađujemo s pouzdanim partnerskim proizvođačima, što nam omogućava potpunu fleksibilnost u ponudi.",
+  "imageSrc": "src/assets/images/vratagealan.webp",
+  "imageAlt": "Fasade",
+  "extra": {
+"description": "",
+"images": [
+{
+  "src": "src/assets/images/protuprovalna.jpg",
+  "description": "Protuprovalna vrata"
+},
+{
+  "src": "src/assets/images/klizna.webp",
+  "description": "Senzorska vrata"
+}
+]
+}
+},
       "garageDoors": {
         "id": "garageDoors",
         "title": "Garažna vrata",
@@ -215,27 +274,90 @@
         "imageSrc": "src/assets/images/gvrata.png",
         "imageAlt": "Zaštita od sunca",
         "extra": {
-          "description": "Rješenja koja štite od sunca i poboljšavaju udobnost prostora.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
-        }
-      },
+"description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
+"images": [
+{
+  "src": "src/assets/images/sekciona.jpg",
+  "description": "Klasicna - sekciona garažna vrata",
+  "gallery": [
+    "src/assets/images/gallery/categories/sekciona1.jpg",
+    "src/assets/images/gallery/categories/sekciona2.jpg",
+    "src/assets/images/gallery/categories/sekciona3.jpg"
+  ]
+},
+{
+  "src": "src/assets/images/industrijska.jpg",
+  "description": "Industrijska garažna vrata",
+  "gallery": [
+    "src/assets/images/gallery/categories/industrijska1.jpg",
+    "src/assets/images/gallery/categories/industrijska2.jpg",
+    "src/assets/images/gallery/categories/industrijska3.jpg"
+  ]
+},
+{
+  "src": "src/assets/images/rolo.jpg",
+  "description": "Rolo garažna vrata",
+  "gallery": [
+    "src/assets/images/gallery/categories/rolo3.jpg",
+    "src/assets/images/gallery/categories/rolo2.jpg",
+    "src/assets/images/gallery/categories/rolo.jpg"
+  ]
+}
+]
+}
+},
       "sunProtection": {
         "id": "sunProtection",
         "title": "Zaštita od sunca",
-        "description": "Naša firma proizvodi različita rješenja za zaštitu od sunca:• Komarnici – pouzdana zaštita od insekata, prilagođena svim vrstama prozora.• Roletne – funkcionalna zaštita od sunca i topline, dostupne u različitim bojama i materijalima.• Vanjske žaluzine (Raf Store) – moderan sistem koji pruža kontrolu svjetlosti, privatnost i dodatnu izolaciju.Svi proizvodi su izrađeni od kvalitetnih materijala, dugotrajni i prilagodljivi potrebama svakog objekta.",
+        "description": "Naša firma proizvodi različita rješenja za zaštitu od sunca:• Komarnici – pouzdana zaštita od insekata, prilagođena svim vrstama prozora.• Vanjske žaluzine (Raf Store) – moderan sistem koji pruža kontrolu svjetlosti, privatnost i dodatnu izolaciju.Svi proizvodi su izrađeni od kvalitetnih materijala, dugotrajni i prilagodljivi potrebama svakog objekta.",
         "imageSrc": "src/assets/images/zos.png",
         "imageAlt": "Zaštita od sunca",
-        "extra": {
+       "extra": {
           "description": "Rješenja koja štite od sunca i poboljšavaju udobnost prostora.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            {
+            "src": "src/assets/images/komarnik.jpg",
+            "description": "Komarnici"
+          },
+          {
+            "src": "src/assets/images/raf.jpg",
+            "description": "Vanjske žaluzine - Raf Store"
+          }
           ]
         }
       },
+      "roletne": {
+        "id": "roletne",
+        "title": "Roletne",
+        "description": "Naše roletne izrađene su od vrhunskih Deceuninck i Inoutic sistema, koji osiguravaju dugotrajnost, stabilnost i odličnu toplotnu izolaciju. U ponudi su klasične i podfasadne roletne, prilagođene savremenim arhitektonskim rješenjima i estetskim zahtjevima objekta",
+        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageAlt": "Zaštita od sunca",
+        "extra": {
+"description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
+"images": [
+{
+  "src": "src/assets/images/crna.jpg",
+  "description": "Standardne roletne",
+  "gallery": [
+    "src/assets/images/crna.jpg",
+    "src/assets/images/crnaa.jpg",
+    "src/assets/images/roletne.jpg"
+  ]
+},
+{
+  "src": "src/assets/images/aaaaa.jpg",
+  "description": "Podfasadne roletne",
+  "gallery": [
+    "src/assets/images/gallery/categories/podfasadna.jpg",
+    "src/assets/images/gallery/categories/podfasadna2.jpg",
+    "src/assets/images/gallery/categories/podfasadna3.jpg",
+    "src/assets/images/gallery/categories/podfasadna4.jpg",
+    "src/assets/images/gallery/categories/podfasadna5.jpg"
+  ]
+}
+]
+}
+},
       "stijenke": {
         "id": "stijenke",
         "title": "Stijenke",
@@ -245,8 +367,9 @@
         "extra": {
           "description": "Rješenja koja štite od sunca i poboljšavaju udobnost prostora.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/stijenka1.jpg",
+            "src/assets/images/stijenka2.jpg",
+            "src/assets/images/stijenka3.jpg"
           ]
         }
       },
@@ -273,8 +396,9 @@
         "extra": {
           "description": "Rješenja koja štite od sunca i poboljšavaju udobnost prostora.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/velux.jpg",
+            "src/assets/images/velux2.jpg",
+            "src/assets/images/velux3.jpg"
           ]
         }
       }
