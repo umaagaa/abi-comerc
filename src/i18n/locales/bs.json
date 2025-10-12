@@ -92,7 +92,7 @@
     "phone": "Tel: +387 37 411 004",
     "fax": "Fax: +387 37 411 004",
     "email": "abicomerc2010@gmail.com",
-    "branches": "PODRUŽNICE",
+    "branches": "Poslovne jedinice",
     "copyright": "Sva prava zadržana."
   },
   "404": {
@@ -407,6 +407,85 @@
     "close": "Zatvori",
     "detail": "detalj"
   },
+  "category1": {
+  "title": "Građevinski materijal",
+  "subtitle": "Kvalitetni materijali za svaku fazu gradnje – od temelja do krova.",
+  "imageAlt": "Građevinski blokovi - ilustracija",
+  "content": {
+    "title": "Pouzdanost i kvalitet na prvom mjestu",
+    "description": "Naš odjel za građevinski materijal nudi sve što je potrebno za savremenu i čvrstu gradnju – od betonskih blokova, željeza i armature, do drvene građe. Surađujemo s vrhunskim domaćim i međunarodnim proizvođačima građevinskih materijala, čime osiguravamo vrhunsku kvalitetu, pouzdanost i dugotrajnost svakog proizvoda. Bilo da gradite kuću, poslovni prostor ili veći objekat, kod nas ćete pronaći sve što vam je potrebno na jednom mjestu."
+  }
+},
+  "category2": {
+  "title": "PVC i ALU Prozori",
+  "subtitle": "Savršena kombinacija estetike, izolacije i funkcionalnosti.",
+  "imageAlt": "PVC i ALU prozori - ilustracija",
+  "content": {
+    "title": "Vrhunska kvaliteta i dugotrajnost",
+    "description": "Naši PVC i ALU prozori izrađeni su od visokokvalitetnih Gealan i Feal profila, koji osiguravaju vrhunsku toplotnu i zvučnu izolaciju. Svaki sistem je dizajniran da pruži dugotrajnost, čvrstoću i moderan izgled uz minimalno održavanje. Proizvodimo po mjeri, uz mogućnost izbora boja, stakala i dodatne opreme."
+  }
+},
+
+"category3": {
+  "title": "Ulazna vrata",
+  "subtitle": "Prvi utisak koji spaja sigurnost i eleganciju.",
+  "imageAlt": "Ulazna vrata - ilustracija",
+  "content": {
+    "title": "Sigurnost i estetika",
+    "description": "Ulazna vrata izrađujemo od PVC i aluminijskih profila Gealan i Feal, s fokusom na sigurnost, toplotnu izolaciju i moderan dizajn. Dostupna su različita rješenja — od klasičnih do skrivenih krila i modernih stakala, a nudimo i mogućnost izrade vrata po mjeri i dizajnu kupca."
+  }
+},
+
+"category4": {
+  "title": "Garažna vrata",
+  "subtitle": "Praktična, sigurna i estetski prilagođena vašem objektu.",
+  "imageAlt": "Garažna vrata - ilustracija",
+  "content": {
+    "title": "Izrada po mjeri i potrebi",
+    "description": "Izrađujemo sekciona, rolo i industrijska garažna vrata visokog kvaliteta. Naši modeli nude pouzdan rad, odličnu izolaciju i mogućnost automatskog upravljanja. Svaka vrata prilagođavamo vašem prostoru, uz širok izbor boja i površinskih obrada."
+  }
+},
+
+"category5": {
+  "title": "Zaštita od sunca",
+  "subtitle": "Funkcionalna i moderna rješenja za udoban prostor.",
+  "imageAlt": "Zaštita od sunca - ilustracija",
+  "content": {
+    "title": "Komarnici, roletne i žaluzine",
+    "description": "Nudimo kompletna rješenja zaštite od sunca i insekata — komarnike, roletne i vanjske žaluzine (Raf Store). Svi proizvodi su izrađeni od kvalitetnih materijala Deceuninck i Inoutic, otporni na vremenske uslove i dugotrajni, uz mogućnost podfasadnog ugradnog sistema."
+  }
+},
+
+"category6": {
+  "title": "Klizne i Fix Stijenke",
+  "subtitle": "Prostor ispunjen svjetlom i elegancijom.",
+  "imageAlt": "Klizne i fiksne stijenke - ilustracija",
+  "content": {
+    "title": "Savršena povezanost interijera i eksterijera",
+    "description": "Naše klizne i fiksne stijenke izrađene su od visokokvalitetnih aluminijskih i PVC sistema, koji omogućavaju maksimalnu količinu prirodnog svjetla i elegantan izgled prostora. Idealne su za moderne objekte, terase i poslovne prostore, s mogućnošću izrade po mjeri."
+  }
+},
+
+"category7": {
+  "title": "Alubond Fasade",
+  "subtitle": "Moderan izgled i energetska efikasnost u jednom.",
+  "imageAlt": "Alubond fasade - ilustracija",
+  "content": {
+    "title": "Lagan, izdržljiv i moderan materijal",
+    "description": "Proizvodimo i montiramo Alubond fasade koje pružaju savremen izgled, odličnu toplotnu izolaciju i dugotrajnost. Zahvaljujući raznolikosti boja i dekora, Alubond je idealan za stambene i poslovne objekte koji zahtijevaju estetsku i funkcionalnu nadogradnju."
+  }
+},
+
+"category8": {
+  "title": "Krovni Prozori",
+  "subtitle": "Prirodno svjetlo i svjež zrak za potkrovlja i tavane.",
+  "imageAlt": "Krovni prozori - ilustracija",
+  "content": {
+    "title": "Pouzdani Velux sistemi",
+    "description": "U saradnji s renomiranim proizvođačem Velux, nudimo ugradnju krovnih prozora vrhunske kvalitete. Prozori omogućavaju optimalno osvjetljenje, ventilaciju i energetsku efikasnost, te se savršeno uklapaju u moderne krovne prostore i potkrovlja."
+  }
+},
+
   "projects": {
     "residential": {
       "title": "Stambeni Projekti",

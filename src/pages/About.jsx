@@ -26,7 +26,7 @@ export default function About() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="/contact"
                 className="inline-block rounded-xl px-6 py-3 font-semibold text-white border border-gray-300 bg-gradient-to-r from-green-500 to-red-500 shadow-md hover:opacity-90 hover:text-black transition"
 
               >

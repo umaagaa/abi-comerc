@@ -17,12 +17,10 @@ export default function Projects() {
       description: t("projects.residential.description"),
       image: "src/assets/images/kuca.jpg",
       images: [
-        "src/assets/images/kuca.jpg",
-        "src/assets/images/firma.jpg",
-        "src/assets/images/status.jpg",
-        "src/assets/images/stolarija.jpg",
-        "src/assets/images/alubond.webp",
-        "src/assets/images/gealan.png"
+       "src/assets/images/gallery/recenzije/1.jpg",
+        "src/assets/images/gallery/recenzije/2.jpg",
+        "src/assets/images/gallery/recenzije/3.jpg",
+        "src/assets/images/gallery/recenzije/4.jpg"
       ],
       icon: Home,
       features: [
@@ -37,12 +35,10 @@ export default function Projects() {
       description: t("projects.commercial.description"),
       image: "src/assets/images/firma.jpg",
       images: [
-        "src/assets/images/firma.jpg",
-        "src/assets/images/kuca.jpg",
-        "src/assets/images/status.jpg",
-        "src/assets/images/stolarija.jpg",
-        "src/assets/images/alubond.webp",
-        "src/assets/images/gealan.png"
+        "src/assets/images/gallery/recenzije/11.jpg",
+        "src/assets/images/gallery/recenzije/22.jpg",
+        "src/assets/images/gallery/recenzije/33.jpg",
+        "src/assets/images/gallery/recenzije/44.jpg"
       ],
       icon: Building2,
       features: [
@@ -50,67 +46,7 @@ export default function Projects() {
         t("projects.commercial.features.performance"),
         t("projects.commercial.features.innovation")
       ]
-    },
-    {
-      id: 3,
-      title: t("projects.industrial.title"),
-      description: t("projects.industrial.description"),
-      image: "src/assets/images/status.jpg",
-      images: [
-        "src/assets/images/status.jpg",
-        "src/assets/images/firma.jpg",
-        "src/assets/images/kuca.jpg",
-        "src/assets/images/stolarija.jpg",
-        "src/assets/images/alubond.webp",
-        "src/assets/images/gealan.png"
-      ],
-      icon: Factory,
-      features: [
-        t("projects.industrial.features.strength"),
-        t("projects.industrial.features.reliability"),
-        t("projects.industrial.features.customization")
-      ]
-    },
-    {
-      id: 4,
-      title: t("projects.renovation.title"),
-      description: t("projects.renovation.description"),
-      image: "src/assets/images/stolarija.jpg",
-      images: [
-        "src/assets/images/stolarija.jpg",
-        "src/assets/images/firma.jpg",
-        "src/assets/images/status.jpg",
-        "src/assets/images/kuca.jpg",
-        "src/assets/images/alubond.webp",
-        "src/assets/images/gealan.png"
-      ],
-      icon: Wrench,
-      features: [
-        t("projects.renovation.features.modernization"),
-        t("projects.renovation.features.energy"),
-        t("projects.renovation.features.aesthetics")
-      ]
-    },
-    {
-      id: 5,
-      title: t("projects.facade.title"),
-      description: t("projects.facade.description"),
-      image: "src/assets/images/alubond.webp",
-      images: [
-        "src/assets/images/alubond.webp",
-        "src/assets/images/firma.jpg",
-        "src/assets/images/status.jpg",
-        "src/assets/images/stolarija.jpg",
-        "src/assets/images/kuca.jpg",
-        "src/assets/images/gealan.png"
-      ],
-      icon: Hammer,
-      features: [
-        t("projects.facade.features.durability"),
-        t("projects.facade.features.weather"),
-        t("projects.facade.features.maintenance")
-      ]
-    },
+    }
   ];
 
   return (
@@ -172,7 +108,7 @@ export default function Projects() {
 
                 {/* CTA Button - Always at bottom */}
               <div className="mt-8">
-                      <button 
+              <button 
                         onClick={() => {
                   setSelectedProject(project);
                       setSelectedImageIndex(0);
@@ -190,7 +126,7 @@ export default function Projects() {
       </div>
 
       {/* Call to Action Section */}
-      <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-16">
+      <div className="bg-gradient-to-r from-green-800 to-gray-900 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             {t("projects.cta.title")}
@@ -201,13 +137,11 @@ export default function Projects() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               to="/contact" 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300 text-center"
+              className="bg-gradient-to-r from-green-500 to-red-500 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300 text-center"
             >
               {t("projects.cta.contact")}
             </Link>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 rounded-xl font-semibold transition-all duration-300">
-              {t("projects.cta.portfolio")}
-            </button>
+            
           </div>
         </div>
       </div>
