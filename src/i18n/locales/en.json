@@ -8,12 +8,12 @@
   "hero": {
     "subtitle": "Innovative PVC and ALU solutions for the future of construction",
     "title": "PVC and ALU profiles and systems",
-    "description": "Abi uses the latest technology for the production and processing of aluminum profiles. Our products are tailored to your specific needs, from idea to realization, providing excellent solutions for modern architecture and industry worldwide.",
+    "description": "Abi uses the latest technology for the production and processing of aluminum profiles. Our products are customized to your specific needs, from idea to realization, providing top solutions for modern architecture and industry worldwide.",
     "cta": "EXPLORE SOLUTIONS"
   },
   "opening": {
     "title": "Opening of new residential-commercial building",
-    "description": "ABI COMERC proudly announces the opening of a modern residential-commercial building in the heart of the city. The project combines excellent design, functionality and quality, offering apartments of various structures and modern business spaces adapted to the needs of today's market. On a special page you can explore building details, view floor plans, 3D animations and available apartments.",
+    "description": "ABI COMERC proudly announces the opening of a modern residential-commercial building in the heart of the city. The project combines top design, functionality and quality, offering apartments of various structures and modern business spaces adapted to today's market needs. On a special page, you can explore building details, view floor plans, 3D animations and available apartments.",
     "cta": "Learn more"
   },
   "features": {
@@ -31,7 +31,7 @@
     },
     "other": {
       "title": "OTHER PRODUCTS",
-      "subtitle": "Mosquito nets, blinds, garage doors..."
+      "subtitle": "Mosquito nets, roller shutters, garage doors..."
     }
   },
   "gallery": {
@@ -40,15 +40,15 @@
   },
   "partners": {
     "title": "Our Partners",
-    "description": "We are proud of our long-term cooperation with numerous domestic and international partners. Together we build trust, quality and innovation, which allows us to realize projects at the highest level."
+    "description": "We are proud of our long-term cooperation with numerous domestic and international partners. Together we build trust, quality and innovation, enabling us to realize projects at the highest level."
   },
   "about": {
     "title": "About Us",
-    "description": "ABI COMERC d.o.o. Bužim is a family company specialized in the production and sale of PVC and ALU joinery. We provide complete solutions - from design and production to professional installation. With more than 15 years of experience, we build quality reputation and long-term relationships with clients and partners. Among other things, we also deal with the sale of construction materials.",
+    "description": "ABI COMERC d.o.o. Bužim is a family company specialized in the production and sale of PVC and ALU joinery. We provide complete solutions - from design and production to professional installation. With over 15 years of experience, we build a quality reputation and long-term relationships with clients and partners. Among other things, we are also engaged in the sale of construction materials.",
     "contactUs": "Contact Us",
     "mission": {
       "title": "Our Mission",
-      "description": "To provide advanced aluminum and PVC systems that guarantee durability, energy efficiency and aesthetic value. We focus on innovation, quality workmanship and fast and reliable service."
+      "description": "To provide advanced aluminum and PVC systems that guarantee durability, energy efficiency and aesthetic value. We focus on innovation, quality workmanship and fast, reliable service."
     },
     "whyChooseUs": {
       "title": "Why Choose Us?",
@@ -71,7 +71,7 @@
     },
     "projects": {
       "title": "New Projects and Investments",
-      "description": "We work on multiple projects simultaneously - from residential buildings to business facilities. The project page for the new building will contain detailed floor plans, 3D animations, gallery and list of available apartments.",
+      "description": "We work on multiple projects simultaneously - from residential buildings to business facilities. The project page for the new building will feature detailed floor plans, 3D animations, gallery and list of available apartments.",
       "cta": "Learn more about the building"
     },
     "cta": {
@@ -81,8 +81,8 @@
   },
   "building": {
     "title": "Our New Business Building",
-    "description": "Welcome to the page dedicated to the opening of our new building. This investment represents a step forward in the development of our company, enabling better working conditions and improving the production of PVC and ALU joinery.",
-    "details": "The new building is equipped with modern equipment and modern premises so that we can provide even better quality services to our partners and clients. More information about the grand opening coming soon!"
+    "description": "Welcome to the page dedicated to the opening of our new building. This investment represents a step forward in the development of our company, enabling better working conditions and improvement of PVC and ALU joinery production.",
+    "details": "The new building is equipped with modern equipment and facilities to provide even better services to our partners and clients. More information about the grand opening coming soon!"
   },
   "footer": {
     "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
@@ -92,7 +92,7 @@
     "phone": "Tel: +387 37 411 004",
     "fax": "Fax: +387 37 411 004",
     "email": "abicomerc2010@gmail.com",
-    "branches": "BRANCHES",
+    "branches": "Business Units",
     "copyright": "All rights reserved."
   },
   "404": {
@@ -101,16 +101,16 @@
     "homeButton": "HOME PAGE",
     "aboutButton": "ABOUT US",
     "exploreText": "Or you can explore our services:",
-    "building": "Building",
-    "about": "About Us"
+    "building": "Construction",
+    "about": "About us"
   },
   "stats": {
     "subtitle": "QUALITY IN NUMBERS",
-    "title": "Half a century of experience",
+    "title": "Half a century of experience already",
     "button": "LEARN MORE ABOUT US",
     "differentProfiles": "different profiles",
     "buildingSystems": "building systems",
-    "productionCapacity": "annual production capacity",
+    "productionCapacity": "production capacity annually",
     "cooperators": "cooperators",
     "employees": "employees",
     "presses": "presses"
@@ -133,12 +133,12 @@
   },
   "underConstruction": {
     "title": "Under Construction",
-    "description": "This page is currently under development. We're working to provide you with the best experience.",
+    "description": "This page is currently under development. We are working to provide you with the best experience.",
     "note": "The page will be available soon. Thank you for your patience!",
     "progress": "Progress",
-    "homeButton": "Home Page",
-    "backButton": "Go Back",
-    "contactTitle": "Need Help?",
+    "homeButton": "Home page",
+    "backButton": "Back",
+    "contactTitle": "Need help?",
     "contactDescription": "Contact us if you have questions or need additional information."
   },
   "languages": {
@@ -183,81 +183,204 @@
       "windows": {
         "id": "windows",
         "title": "PVC and ALU Windows",
-        "description": "We use different systems adapted to the needs of the building: Harmo and US Nill for special requirements, while for windows and doors we use the highest quality PVC and aluminum profiles - Gealan S9000, S8000 IQ, HST, Smoovio, and aluminum systems Feal Termo 65 and Termo 85. These systems ensure excellent thermal and sound insulation, durability and modern design.",
+        "description": "We use various systems adapted to the needs of the facility: top PVC profiles Gealan S9000, S8000 IQ, sliding systems HST and Smoovio, and aluminum systems Feal Termo 65, Termo 85, 45 Mill, and Feal sliding variants. These systems ensure top thermal and sound insulation, durability and modern design.",
         "imageSrc": "src/assets/images/gealan.png",
         "imageAlt": "Windows",
         "extra": {
-          "description": "Our windows and doors are available in different shapes and colors, with the possibility of additional insulation and security systems.",
+          "description": "Click on one of the product types to view the gallery.",
           "images": [
-            "/images/windows-detail1.jpg",
-            "/images/windows-detail2.jpg"
+            {
+              "src": "src/assets/images/s9000.jpg",
+              "description": "PVC system Gealan S9000 – top insulation and modern design.",
+              "gallery": [
+                "src/assets/images/zjo.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/Termo-85.png",
+              "description": "ALU profile Feal Termo 85 – resistance, durability and elegant appearance.",
+              "gallery": [
+                "src/assets/images/alu.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/profil.jpg",
+              "description": "Sliding system HST – perfect solution for large openings and light spaces.",
+              "gallery": [
+                "src/assets/images/hstklizna.jpg"
+              ]
+            }
           ]
         }
       },
       "doors": {
         "id": "doors",
         "title": "Entrance Doors",
-        "description": "For special requirements we use Harmo and US Nill systems, while for entrance, balcony and sliding doors we apply reliable PVC and aluminum profiles - Gealan S9000, S8000 IQ, HST, Smoovio, and aluminum systems Feal Termo 65 and Termo 85. These systems guarantee security, stability and functionality, with modern appearance and excellent insulation.",
+        "description": "For special requirements we use Harmo and 45 Mill systems, while for entrance, balcony and sliding doors we apply reliable PVC and aluminum profiles – Gealan S9000, S8000 IQ, HST, Smoovio, and aluminum systems Feal Termo 65 and Termo 85. These systems guarantee security, stability and functionality, with modern appearance and top insulation.",
         "imageSrc": "src/assets/images/vratagealan.webp",
         "imageAlt": "Facades",
         "extra": {
-          "description": "Facades that offer excellent aesthetics and energy efficiency.",
+          "description": "Click on one of the product types to view the gallery.",
           "images": [
-            "src/assets/images/otoka.jpg",
-            "/images/facade-detail2.jpg"
+            {
+              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "description": "Classic wing",
+              "gallery": [
+                "src/assets/images/gallery/categories/klasicno.jpg",
+                "src/assets/images/gallery/categories/klasicno2.jpg",
+                "src/assets/images/gallery/categories/klasicno3.jpg",
+                "src/assets/images/gallery/categories/klasicno4.jpg",
+                "src/assets/images/gallery/categories/klasicno5.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "description": "Hidden - elegant wing",
+              "gallery": [
+                "src/assets/images/gallery/categories/skriveno.jpg",
+                "src/assets/images/gallery/categories/skriveno2.jpg",
+                "src/assets/images/gallery/categories/skriveno3.jpg",
+                "src/assets/images/gallery/categories/skriveno4.jpg",
+                "src/assets/images/gallery/categories/skriveno5.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "specialdoors": {
+        "id": "specialdoors",
+        "title": "Special Purpose Doors",
+        "description": "In our offer we provide anti-burglary doors made according to the highest security standards, while for sensor doors we cooperate with reliable partner manufacturers, which gives us complete flexibility in our offer.",
+        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageAlt": "Facades",
+        "extra": {
+          "description": "",
+          "images": [
+            {
+              "src": "src/assets/images/protuprovalna.jpg",
+              "description": "Anti-burglary doors"
+            },
+            {
+              "src": "src/assets/images/klizna.webp",
+              "description": "Sensor doors"
+            }
           ]
         }
       },
       "garageDoors": {
         "id": "garageDoors",
         "title": "Garage Doors",
-        "description": "Our company manufactures custom garage doors in three variants: • Sectional doors - the most common choice for houses and residential buildings, providing excellent insulation and practical upward opening. • Industrial doors - designed for halls and larger buildings, extremely durable and adapted for frequent use. • Roller doors - compact solution that rolls up into a box above the opening, ideal when space is limited. All models are made of quality materials, providing security, durability and the possibility of adapting the design to your needs.",
+        "description": "Our company manufactures custom garage doors in three variants:• Sectional doors – most common choice for houses and residential buildings, providing excellent insulation and practical upward opening.\n• Industrial doors – intended for halls and larger facilities, extremely durable and adapted for frequent use.\n• Roller doors – compact solution that rolls up into a box above the opening, ideal when space is limited.\nAll models are made of quality materials, providing security, durability and possibility of design adaptation according to your needs.",
         "imageSrc": "src/assets/images/gvrata.png",
         "imageAlt": "Sun protection",
         "extra": {
-          "description": "Solutions that protect from the sun and improve space comfort.",
+          "description": "Click on one of the product types to view the gallery.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            {
+              "src": "src/assets/images/sekciona.jpg",
+              "description": "Classic - sectional garage doors",
+              "gallery": [
+                "src/assets/images/gallery/categories/sekciona1.jpg",
+                "src/assets/images/gallery/categories/sekciona2.jpg",
+                "src/assets/images/gallery/categories/sekciona3.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/industrijska.jpg",
+              "description": "Industrial garage doors",
+              "gallery": [
+                "src/assets/images/gallery/categories/industrijska1.jpg",
+                "src/assets/images/gallery/categories/industrijska2.jpg",
+                "src/assets/images/gallery/categories/industrijska3.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/rolo.jpg",
+              "description": "Roller garage doors",
+              "gallery": [
+                "src/assets/images/gallery/categories/rolo3.jpg",
+                "src/assets/images/gallery/categories/rolo2.jpg",
+                "src/assets/images/gallery/categories/rolo.jpg"
+              ]
+            }
           ]
         }
       },
       "sunProtection": {
         "id": "sunProtection",
         "title": "Sun Protection",
-        "description": "Our company produces various sun protection solutions: • Mosquito nets - reliable protection from insects, adapted to all types of windows. • Blinds - functional protection from sun and heat, available in different colors and materials. • External blinds (Raf Store) - modern system that provides light control, privacy and additional insulation. All products are made of quality materials, durable and adaptable to the needs of each building.",
+        "description": "Our company produces various sun protection solutions:• Mosquito nets – reliable protection against insects, adapted to all types of windows.• External blinds (Raf Store) – modern system providing light control, privacy and additional insulation.All products are made of quality materials, durable and adaptable to the needs of each facility.",
         "imageSrc": "src/assets/images/zos.png",
         "imageAlt": "Sun protection",
         "extra": {
-          "description": "Solutions that protect from the sun and improve space comfort.",
+          "description": "Solutions that protect from sun and improve space comfort.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            {
+              "src": "src/assets/images/komarnik.jpg",
+              "description": "Mosquito nets"
+            },
+            {
+              "src": "src/assets/images/raf.jpg",
+              "description": "External blinds - Raf Store"
+            }
+          ]
+        }
+      },
+      "roletne": {
+        "id": "roletne",
+        "title": "Roller Shutters",
+        "description": "Our roller shutters are made of top Deceuninck and Inoutic systems, ensuring durability, stability and excellent thermal insulation. We offer classic and sub-facade roller shutters, adapted to modern architectural solutions and aesthetic requirements of the facility.",
+        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageAlt": "Sun protection",
+        "extra": {
+          "description": "Click on one of the product types to view the gallery.",
+          "images": [
+            {
+              "src": "src/assets/images/crna.jpg",
+              "description": "Standard roller shutters",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/aaaaa.jpg",
+              "description": "Sub-facade roller shutters",
+              "gallery": [
+                "src/assets/images/gallery/categories/podfasadna.jpg",
+                "src/assets/images/gallery/categories/podfasadna2.jpg",
+                "src/assets/images/gallery/categories/podfasadna3.jpg",
+                "src/assets/images/gallery/categories/podfasadna4.jpg",
+                "src/assets/images/gallery/categories/podfasadna5.jpg"
+              ]
+            }
           ]
         }
       },
       "stijenke": {
         "id": "stijenke",
         "title": "Partitions",
-        "description": "Our company produces quality partitions for spaces of all purposes. They are ideal for space division, privacy and modern appearance, made of durable materials and adaptable to your needs.",
+        "description": "Our company produces quality partitions for spaces of all purposes. Ideal for space division, privacy and modern appearance, made of durable materials and adaptable to your needs.",
         "imageSrc": "src/assets/images/stijenka.png",
         "imageAlt": "Partition",
         "extra": {
-          "description": "Solutions that protect from the sun and improve space comfort.",
+          "description": "Solutions that protect from sun and improve space comfort.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/stijenka1.jpg",
+            "src/assets/images/stijenka2.jpg",
+            "src/assets/images/stijenka3.jpg"
           ]
         }
       },
       "alubond": {
         "id": "alubond",
         "title": "Alubond Facades",
-        "description": "Our company manufactures high-quality Alubond facades that make buildings modern, attractive and energy efficient. Facades are lightweight, durable and available in different colors and decorations, adapted for both residential and commercial buildings.",
+        "description": "Our company produces high-quality Alubond facades, making facilities modern, attractive and energy efficient. Facades are lightweight, durable and available in various colors and decors, adapted to both residential and business facilities.",
         "imageSrc": "src/assets/images/alubond.webp",
         "imageAlt": "alubond",
         "extra": {
-          "description": "Solutions that protect from the sun and improve space comfort.",
+          "description": "Solutions that protect from sun and improve space comfort.",
           "images": [
             "/images/sun-detail1.jpg",
             "/images/sun-detail2.jpg"
@@ -267,14 +390,15 @@
       "velux": {
         "id": "velux",
         "title": "Roof Windows",
-        "description": "Our company installs Velux roof windows, known for quality and durability. They are ideal for attics and roof spaces, allowing natural light, ventilation and modern space appearance.",
+        "description": "Our company installs Velux roof windows, known for quality and durability. Ideal for attics and roof spaces, they enable natural light, ventilation and modern appearance of the space.",
         "imageSrc": "src/assets/images/velux.webp",
         "imageAlt": "alubond",
         "extra": {
-          "description": "Solutions that protect from the sun and improve space comfort.",
+          "description": "Solutions that protect from sun and improve space comfort.",
           "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
+            "src/assets/images/velux.jpg",
+            "src/assets/images/velux2.jpg",
+            "src/assets/images/velux3.jpg"
           ]
         }
       }
@@ -283,19 +407,91 @@
     "close": "Close",
     "detail": "detail"
   },
+  "category1": {
+    "title": "Construction Material",
+    "subtitle": "Quality materials for every phase of construction – from foundation to roof.",
+    "imageAlt": "Construction blocks - illustration",
+    "content": {
+      "title": "Reliability and quality first",
+      "description": "Our construction materials department offers everything needed for modern and solid construction – from concrete blocks, iron and reinforcement, to timber. We cooperate with top domestic and international construction material manufacturers, ensuring top quality, reliability and durability of each product. Whether you're building a house, business space or larger facility, you'll find everything you need in one place."
+    }
+  },
+  "category2": {
+    "title": "PVC and ALU Windows",
+    "subtitle": "Perfect combination of aesthetics, insulation and functionality.",
+    "imageAlt": "PVC and ALU windows - illustration",
+    "content": {
+      "title": "Top quality and durability",
+      "description": "Our PVC and ALU windows are made of high-quality Gealan and Feal profiles, ensuring top thermal and sound insulation. Each system is designed to provide durability, strength and modern appearance with minimal maintenance. We produce custom-made, with possibility of color, glass and additional equipment selection."
+    }
+  },
+  "category3": {
+    "title": "Entrance Doors",
+    "subtitle": "First impression combining security and elegance.",
+    "imageAlt": "Entrance doors - illustration",
+    "content": {
+      "title": "Security and aesthetics",
+      "description": "We manufacture entrance doors from PVC and aluminum profiles Gealan and Feal, focusing on security, thermal insulation and modern design. Various solutions available – from classic to hidden wings and modern glasses, and we also offer possibility of custom-made doors according to customer design."
+    }
+  },
+  "category4": {
+    "title": "Garage Doors",
+    "subtitle": "Practical, secure and aesthetically adapted to your facility.",
+    "imageAlt": "Garage doors - illustration",
+    "content": {
+      "title": "Custom manufacturing according to needs",
+      "description": "We manufacture sectional, roller and industrial garage doors of high quality. Our models offer reliable operation, excellent insulation and possibility of automatic control. Each door is adapted to your space, with wide selection of colors and surface treatments."
+    }
+  },
+  "category5": {
+    "title": "Sun Protection",
+    "subtitle": "Functional and modern solutions for comfortable space.",
+    "imageAlt": "Sun protection - illustration",
+    "content": {
+      "title": "Mosquito nets, roller shutters and blinds",
+      "description": "We offer complete sun and insect protection solutions – mosquito nets, roller shutters and external blinds (Raf Store). All products are made of quality Deceuninck and Inoutic materials, resistant to weather conditions and durable, with possibility of sub-facade installation system."
+    }
+  },
+  "category6": {
+    "title": "Sliding and Fixed Partitions",
+    "subtitle": "Space filled with light and elegance.",
+    "imageAlt": "Sliding and fixed partitions - illustration",
+    "content": {
+      "title": "Perfect connection of interior and exterior",
+      "description": "Our sliding and fixed partitions are made of high-quality aluminum and PVC systems, enabling maximum amount of natural light and elegant appearance of the space. Ideal for modern facilities, terraces and business spaces, with possibility of custom manufacturing."
+    }
+  },
+  "category7": {
+    "title": "Alubond Facades",
+    "subtitle": "Modern appearance and energy efficiency in one.",
+    "imageAlt": "Alubond facades - illustration",
+    "content": {
+      "title": "Light, durable and modern material",
+      "description": "We produce and install Alubond facades that provide contemporary appearance, excellent thermal insulation and durability. Thanks to variety of colors and decors, Alubond is ideal for residential and business facilities requiring aesthetic and functional upgrade."
+    }
+  },
+  "category8": {
+    "title": "Roof Windows",
+    "subtitle": "Natural light and fresh air for attics and lofts.",
+    "imageAlt": "Roof windows - illustration",
+    "content": {
+      "title": "Reliable Velux systems",
+      "description": "In cooperation with renowned manufacturer Velux, we offer installation of top-quality roof windows. Windows enable optimal lighting, ventilation and energy efficiency, and perfectly fit into modern roof spaces and attics."
+    }
+  },
   "projects": {
     "residential": {
       "title": "Residential Projects",
-      "description": "Modern residential buildings and houses with premium PVC and ALU systems that guarantee comfort, energy efficiency and durability.",
+      "description": "Modern residential buildings and houses with top PVC and ALU systems guaranteeing comfort, energy efficiency and durability.",
       "features": {
-        "quality": "Premium material quality",
+        "quality": "Top quality materials",
         "efficiency": "Energy efficiency",
         "design": "Modern design"
       }
     },
     "commercial": {
       "title": "Commercial Projects",
-      "description": "Business facilities and commercial spaces equipped with advanced systems that combine functionality with aesthetics.",
+      "description": "Business facilities and commercial spaces equipped with advanced systems combining functionality with aesthetics.",
       "features": {
         "durability": "Exceptional durability",
         "performance": "High performance",
@@ -304,7 +500,7 @@
     },
     "industrial": {
       "title": "Industrial Projects",
-      "description": "Specialized solutions for industrial facilities, halls and production plants with focus on functionality and safety.",
+      "description": "Specialized solutions for industrial facilities, halls and production plants with focus on functionality and security.",
       "features": {
         "strength": "High strength",
         "reliability": "Reliability",
@@ -313,7 +509,7 @@
     },
     "renovation": {
       "title": "Renovations and Reconstructions",
-      "description": "Complete renovations of existing buildings with modern PVC and ALU systems for improved energy efficiency.",
+      "description": "Complete renovations of existing facilities with modern PVC and ALU systems for improved energy efficiency.",
       "features": {
         "modernization": "Modernization",
         "energy": "Energy efficiency",
@@ -322,7 +518,7 @@
     },
     "facade": {
       "title": "Facade Projects",
-      "description": "Specialized solutions for modern facades that combine aesthetics with functionality and energy efficiency.",
+      "description": "Specialized solutions for modern facades combining aesthetics with functionality and energy efficiency.",
       "features": {
         "durability": "Exceptional durability",
         "weather": "Weather resistance",
