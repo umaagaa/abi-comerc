@@ -86,25 +86,26 @@ export default function ProductCard({
 
             {/* 3 slike s opisima ispod */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {category.extra.images.slice(0, 3).map((img, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col items-center text-center space-y-3 cursor-pointer"
-                  onClick={() => openGallery(img.gallery || [])}
-                >
-                  <img
-                    src={img.src || img}
-                    alt={`${category.title} ${t("products.detail")} ${i + 1}`}
-                    className="rounded-xl shadow-lg object-cover w-full h-[350px] hover:scale-[1.03] transition-transform duration-500"
-                  />
-                  {img.description && (
-                    <p className="text-gray-600 text-sm max-w-[90%]">
-                      {img.description}
-                    </p>
-                  )}
-                </div>
-              ))}
-            </div>
+  {category.extra.images
+    .slice(0, category.extra.imagesToShow || category.extra.images.length)
+    .map((img, i) => (
+      <div
+        key={i}
+        className="flex flex-col items-center text-center space-y-3 cursor-pointer"
+        onClick={() => openGallery(img.gallery || [])}
+      >
+        <img
+          src={img.src || img}
+          alt={`${category.title} ${t("products.detail")} ${i + 1}`}
+          className="rounded-xl shadow-lg object-cover w-full h-[450px] hover:scale-[1.03] transition-transform duration-500"
+        />
+        {img.description && (
+          <p className="text-gray-600 text-sm max-w-[90%]">{img.description}</p>
+        )}
+      </div>
+    ))}
+</div>
+
           </div>
         )}
       </div>

@@ -183,31 +183,45 @@
       "windows": {
   "id": "windows",
   "title": "PVC i ALU Prozori",
-  "description": "Koristimo različite sisteme prilagođene potrebama objekta: vrhunski PVC profili Gealan S9000, S8000 IQ, klizni sistemi HST i Smoovio, te aluminijski sistemi Feal Termo 65, Termo 85, 45 Mill, i Feal klizne varijante. Ovi sistemi osiguravaju vrhunsku toplotnu i zvučnu izolaciju, dugotrajnost i moderan dizajn.",
+  "description": "Njemački PVC profili Gealan S 9000 i Gealan S 8000 IQ - sa elgantnim dizajnom i izuzetnim svojstvima garantuju kvalitet i udobnost življenja. Aluminijski sistemi Feal Termo 85, Feal Termo 65 i Feal 45 Mill - sigurnost, stabilnost i funkcionalnost, uz moderan izgled i dugotrajnost.",
   "imageSrc": "src/assets/images/gealan.png",
   "imageAlt": "Prozori",
   "extra": {
     "description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
     "images": [
       {
-        "src": "src/assets/images/s9000.jpg",
+        "src": "src/assets/images/s9000gelan.jpg",
         "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn.",
         "gallery": [
           "src/assets/images/zjo.jpg"
         ]
       },
       {
-        "src": "src/assets/images/Termo-85.png",
-        "description": "ALU profil Feal Termo 85 – otpornost, trajnost i elegantan izgled.",
+        "src": "src/assets/images/s8000iq.jpg",
+        "description": "S8000IQ – otpornost, trajnost i elegantan izgled.",
         "gallery": [
           "src/assets/images/alu.jpg"
         ]
       },
       {
-        "src": "src/assets/images/profil.jpg",
-        "description": "Klizni sistem HST – savršeno rješenje za velike otvore i svjetlosne prostore.",
+        "src": "src/assets/images/feal85.png",
+        "description": "ALU profil Feal Termo 85 - pruža izvrsnu toplinsku izolaciju, energetsku učinkovitost i dugotrajnu otpornost na sve vremenske",
         "gallery": [
           "src/assets/images/hstklizna.jpg"
+        ]
+      },
+      {
+        "src": "src/assets/images/feal65.png",
+        "description": "ALU profil Feal Termo 65 – savršen spoj modernog dizajna i energetske učinkovitosti.",
+        "gallery": [
+          "src/assets/images/alu.jpg"
+        ]
+      },
+      {
+        "src": "src/assets/images/45mill.png",
+        "description": "ALU profil Feal 45 Mill – otpornost, trajnost i elegantan izgled.",
+        "gallery": [
+          "src/assets/images/alu.jpg"
         ]
       }
     ]
@@ -216,15 +230,16 @@
       "doors": {
         "id": "doors",
         "title": "Ulazna vrata",
-        "description": "Za posebne zahtjeve koristimo Harmo i 45 Mill sisteme, dok se za ulazna, balkonska i klizna vrata primjenjuju pouzdani PVC i aluminijski profili – Gealan S9000, S8000 IQ, HST, Smoovio, te aluminijski sistemi Feal Termo 65 i Termo 85. Ovi sistemi garantuju sigurnost, stabilnost i funkcionalnost, uz moderan izgled i vrhunsku izolaciju.",
+        "description": "Njemački PVC profili Gealan S 9000 i Gealan S 8000 IQ - sa elgantnim dizajnom i izuzetnim svojstvima garantuju kvalitet i udobnost življenja. Aluminijski sistemi Feal Termo 85, Feal Termo 65 i Feal 45 Mill - sigurnost, stabilnost i funkcionalnost, uz moderan izgled i dugotrajnost.",
         "imageSrc": "src/assets/images/vratagealan.webp",
         "imageAlt": "Fasade",
         "extra": {
     "description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
+    "imagesToShow": 5,
     "images": [
       {
-        "src": "src/assets/images/gallery/categories/klasicno.jpg",
-        "description": "Klasično krilo",
+        "src": "src/assets/images/s9000vrata.png",
+        "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn.",
         "gallery": [
           "src/assets/images/gallery/categories/klasicno.jpg",
           "src/assets/images/gallery/categories/klasicno2.jpg",
@@ -234,8 +249,8 @@
         ]
       },
       {
-        "src": "src/assets/images/gallery/categories/skriveno.jpg",
-        "description": "Skriveno - elegantno krilo",
+        "src": "src/assets/images/s8000vrata.jpg",
+        "description": "S8000 – otpornost, trajnost i elegantan izgled.",
         "gallery": [
           "src/assets/images/gallery/categories/skriveno.jpg",
           "src/assets/images/gallery/categories/skriveno2.jpg",
@@ -243,10 +258,44 @@
           "src/assets/images/gallery/categories/skriveno4.jpg",
           "src/assets/images/gallery/categories/skriveno5.jpg"
         ]
+      },
+      {
+        "src": "src/assets/images/feal85.png",
+        "description": "ALU profil Feal Termo 85 - pruža izvrsnu toplinsku izolaciju, energetsku učinkovitost i dugotrajnu otpornost na sve vremenske",
+        "gallery": [
+          "src/assets/images/gallery/categories/klasicno.jpg",
+          "src/assets/images/gallery/categories/klasicno2.jpg",
+          "src/assets/images/gallery/categories/klasicno3.jpg",
+          "src/assets/images/gallery/categories/klasicno4.jpg",
+          "src/assets/images/gallery/categories/klasicno5.jpg"
+        ]
+      },
+      {
+        "src": "src/assets/images/feal65.png",
+        "description": "ALU profil Feal Termo 65 – savršen spoj modernog dizajna i energetske učinkovitosti.",
+        "gallery": [
+          "src/assets/images/gallery/categories/klasicno.jpg",
+          "src/assets/images/gallery/categories/klasicno2.jpg",
+          "src/assets/images/gallery/categories/klasicno3.jpg",
+          "src/assets/images/gallery/categories/klasicno4.jpg",
+          "src/assets/images/gallery/categories/klasicno5.jpg"
+        ]
+      },
+      {
+        "src": "src/assets/images/45mill.png",
+        "description": "ALU profil Feal 45 Mill – otpornost, trajnost i elegantan izgled.",
+        "gallery": [
+          "src/assets/images/gallery/categories/klasicno.jpg",
+          "src/assets/images/gallery/categories/klasicno2.jpg",
+          "src/assets/images/gallery/categories/klasicno3.jpg",
+          "src/assets/images/gallery/categories/klasicno4.jpg",
+          "src/assets/images/gallery/categories/klasicno5.jpg"
+        ]
       }
     ]
   }
 },
+
 "specialdoors": {
   "id": "specialdoors",
   "title": "Vrata posebne namjene",
@@ -270,7 +319,7 @@
       "garageDoors": {
         "id": "garageDoors",
         "title": "Garažna vrata",
-        "description": "Naša firma izrađuje garažna vrata po mjeri u tri varijante:• Sekciona vrata – najčešći izbor za kuće i stambene objekte, pružaju odličnu izolaciju i praktično otvaranje prema gore.\n• Industrijska vrata – namijenjena halama i većim objektima, izuzetno izdržljiva i prilagođena čestom korištenju.\n• Rolo vrata – kompaktno rješenje koje se namotava u kutiju iznad otvora, idealno kada je prostor ograničen.\nSvi modeli su izrađeni od kvalitetnih materijala, pružaju sigurnost, dugotrajnost i mogućnost prilagođavanja dizajna prema vašim potrebama.",
+        "description": "Izrađujemo garažna vrata po mjeri u tri varijante: • Sekciona vrata – najčešći izbor za kuće i stambene objekte.\n            • Industrijska vrata – namijenjena halama i većim objektima.\n• Rolo vrata – kompaktno rješenje koje se namotava u kutiju iznad otvora, idealno kada je prostor ograničen..",
         "imageSrc": "src/assets/images/gvrata.png",
         "imageAlt": "Zaštita od sunca",
         "extra": {
@@ -309,7 +358,7 @@
       "sunProtection": {
         "id": "sunProtection",
         "title": "Zaštita od sunca",
-        "description": "Naša firma proizvodi različita rješenja za zaštitu od sunca:• Komarnici – pouzdana zaštita od insekata, prilagođena svim vrstama prozora.• Vanjske žaluzine (Raf Store) – moderan sistem koji pruža kontrolu svjetlosti, privatnost i dodatnu izolaciju.Svi proizvodi su izrađeni od kvalitetnih materijala, dugotrajni i prilagodljivi potrebama svakog objekta.",
+        "description": "Proizvodimo različita rješenja za zaštitu od sunca:• Komarnici – pouzdana zaštita od insekata, prilagođena svim vrstama prozora.• Vanjske žaluzine (Raf Store) – moderan sistem koji pruža kontrolu svjetlosti, privatnost i dodatnu izolaciju.Svi proizvodi su izrađeni od kvalitetnih materijala, dugotrajni i prilagodljivi potrebama svakog objekta.",
         "imageSrc": "src/assets/images/zos.png",
         "imageAlt": "Zaštita od sunca",
        "extra": {
@@ -329,15 +378,15 @@
       "roletne": {
         "id": "roletne",
         "title": "Roletne",
-        "description": "Naše roletne izrađene su od vrhunskih Deceuninck i Inoutic sistema, koji osiguravaju dugotrajnost, stabilnost i odličnu toplotnu izolaciju. U ponudi su klasične i podfasadne roletne, prilagođene savremenim arhitektonskim rješenjima i estetskim zahtjevima objekta",
+        "description": "Naše roletne izrađene su od vrhunskih Deceuninck, Inoutic i ALUPROF sistema, koji osiguravaju dugotrajnost, stabilnost i odličnu toplotnu izolaciju. U ponudi su klasične i podfasadne roletne, prilagođene savremenim arhitektonskim rješenjima i estetskim zahtjevima objekta",
         "imageSrc": "src/assets/images/roletne (2).png",
         "imageAlt": "Zaštita od sunca",
         "extra": {
 "description": "Kliknite na jednu od vrsta proizvoda da pogledate galeriju.",
 "images": [
 {
-  "src": "src/assets/images/crna.jpg",
-  "description": "Standardne roletne",
+  "src": "src/assets/images/vidna.png",
+  "description": "Roletna s vanjskom vidnom kutijom",
   "gallery": [
     "src/assets/images/crna.jpg",
     "src/assets/images/crnaa.jpg",
@@ -345,8 +394,8 @@
   ]
 },
 {
-  "src": "src/assets/images/aaaaa.jpg",
-  "description": "Podfasadne roletne",
+  "src": "src/assets/images/podfasadna.png",
+  "description": "Roletna s vanjskom podfasadnom kutijom",
   "gallery": [
     "src/assets/images/gallery/categories/podfasadna.jpg",
     "src/assets/images/gallery/categories/podfasadna2.jpg",
@@ -354,14 +403,23 @@
     "src/assets/images/gallery/categories/podfasadna4.jpg",
     "src/assets/images/gallery/categories/podfasadna5.jpg"
   ]
+},
+{
+  "src": "src/assets/images/nadprozorska.png",
+  "description": "Roletna s nadprozorskom kutijom",
+  "gallery": [
+    "src/assets/images/crna.jpg",
+    "src/assets/images/crnaa.jpg",
+    "src/assets/images/roletne.jpg"
+  ]
 }
 ]
 }
 },
       "stijenke": {
         "id": "stijenke",
-        "title": "Stijenke",
-        "description": "Naša firma proizvodi kvalitetne stijenke za prostore svih namjena. Idealne su za podjelu prostora, privatnost i moderan izgled, izrađene od izdržljivih materijala i prilagodljive vašim potrebama.",
+        "title": "Klizne stijene",
+        "description": "Praktična i elegantna rješenja za svaki prostor. Nudimo: Gealan HST za velike otvore, Gealan Smoovio za lako rukovanje, Gealan PSK za kompaktna rješenja i Feal Harmo za maksimalno otvaranje prostora.",
         "imageSrc": "src/assets/images/stijenka.png",
         "imageAlt": "Stijenka",
         "extra": {
@@ -376,7 +434,7 @@
       "alubond": {
         "id": "alubond",
         "title": "Alubond Fasade ",
-        "description": "Naša firma izrađuje Alubond fasade visokog kvaliteta, koje objekte čine modernim, atraktivnim i energetski efikasnim. Fasade su lagane, izdržljive i dostupne u različitim bojama i dekorima, prilagođene kako stambenim tako i poslovnim objektima.",
+        "description": "Izrađujemo Alubond fasade visokog kvaliteta, koje objekte čine modernim, atraktivnim i energetski efikasnim. Fasade su lagane, izdržljive i dostupne u različitim bojama i dekorima, prilagođene kako stambenim tako i poslovnim objektima.",
         "imageSrc": "src/assets/images/alubond.webp",
         "imageAlt": "alubond",
         "extra": {

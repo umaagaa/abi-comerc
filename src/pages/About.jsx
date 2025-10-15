@@ -82,7 +82,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* --- PROJEKTI --- */}
+        {/* --- Projects --- */}
         <section className="mb-20">
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="lg:w-1/2">
