@@ -219,10 +219,50 @@
         "imageSrc": "src/assets/images/vratagealan.webp",
         "imageAlt": "Façades",
         "extra": {
-          "description": "Façades qui offrent une excellente esthétique et efficacité énergétique.",
+          "description": "Cliquez sur l'un des types de produits pour voir la galerie.",
           "images": [
-            "src/assets/images/otoka.jpg",
-            "/images/facade-detail2.jpg"
+            {
+              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "description": "Aile classique",
+              "gallery": [
+                "src/assets/images/gallery/categories/klasicno.jpg",
+                "src/assets/images/gallery/categories/klasicno2.jpg",
+                "src/assets/images/gallery/categories/klasicno3.jpg",
+                "src/assets/images/gallery/categories/klasicno4.jpg",
+                "src/assets/images/gallery/categories/klasicno5.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "description": "Aile cachée - élégante",
+              "gallery": [
+                "src/assets/images/gallery/categories/skriveno.jpg",
+                "src/assets/images/gallery/categories/skriveno2.jpg",
+                "src/assets/images/gallery/categories/skriveno3.jpg",
+                "src/assets/images/gallery/categories/skriveno4.jpg",
+                "src/assets/images/gallery/categories/skriveno5.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "specialdoors": {
+        "id": "specialdoors",
+        "title": "Portes à usage spécial",
+        "description": "Dans notre offre, nous proposons des portes anti-effraction fabriquées selon les plus hauts standards de sécurité, tandis que pour les portes à capteur, nous collaborons avec des fabricants partenaires fiables, ce qui nous donne une flexibilité totale dans notre offre.",
+        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageAlt": "Façades",
+        "extra": {
+          "description": "",
+          "images": [
+            {
+              "src": "src/assets/images/protuprovalna.jpg",
+              "description": "Portes anti-effraction"
+            },
+            {
+              "src": "src/assets/images/klizna.webp",
+              "description": "Portes à capteur"
+            }
           ]
         }
       },
@@ -245,7 +285,57 @@
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
+          "images": [
+            {
+              "src": "src/assets/images/komarnik.jpg",
+              "description": "Moustiquaires"
+            },
+            {
+              "src": "src/assets/images/raf.jpg",
+              "description": "Stores extérieurs - Raf Store"
+            }
+          ]
+        }
+      },
+      "roletne": {
+        "id": "roletne",
+        "title": "Stores",
+        "description": "Nos stores sont fabriqués à partir des meilleurs systèmes Deceuninck, Inoutic et ALUPROF, qui assurent durabilité, stabilité et excellente isolation thermique. Nous proposons des stores classiques et sous-façade, adaptés aux solutions architecturales modernes et aux exigences esthétiques du bâtiment.",
+        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageAlt": "Protection solaire",
+        "extra": {
+          "description": "Cliquez sur l'un des types de produits pour voir la galerie.",
+          "images": [
+            {
+              "src": "src/assets/images/vidna.png",
+              "description": "Stores avec boîte de vue extérieure",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/podfasadna.png",
+              "description": "Stores avec boîte sous-façade extérieure",
+              "gallery": [
+                "src/assets/images/gallery/categories/podfasadna.jpg",
+                "src/assets/images/gallery/categories/podfasadna2.jpg",
+                "src/assets/images/gallery/categories/podfasadna3.jpg",
+                "src/assets/images/gallery/categories/podfasadna4.jpg",
+                "src/assets/images/gallery/categories/podfasadna5.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/nadprozorska.png",
+              "description": "Stores avec boîte au-dessus de la fenêtre",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            }
+          ]
         }
       },
       "stijenke": {

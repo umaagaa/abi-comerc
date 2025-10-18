@@ -219,10 +219,50 @@
         "imageSrc": "src/assets/images/vratagealan.webp",
         "imageAlt": "Fassaden",
         "extra": {
-          "description": "Fassaden, die ausgezeichnete Ästhetik und Energieeffizienz bieten.",
+          "description": "Klicken Sie auf eine der Produktarten, um die Galerie anzuzeigen.",
           "images": [
-            "src/assets/images/otoka.jpg",
-            "/images/facade-detail2.jpg"
+            {
+              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "description": "Klassischer Flügel",
+              "gallery": [
+                "src/assets/images/gallery/categories/klasicno.jpg",
+                "src/assets/images/gallery/categories/klasicno2.jpg",
+                "src/assets/images/gallery/categories/klasicno3.jpg",
+                "src/assets/images/gallery/categories/klasicno4.jpg",
+                "src/assets/images/gallery/categories/klasicno5.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "description": "Versteckter - eleganter Flügel",
+              "gallery": [
+                "src/assets/images/gallery/categories/skriveno.jpg",
+                "src/assets/images/gallery/categories/skriveno2.jpg",
+                "src/assets/images/gallery/categories/skriveno3.jpg",
+                "src/assets/images/gallery/categories/skriveno4.jpg",
+                "src/assets/images/gallery/categories/skriveno5.jpg"
+              ]
+            }
+          ]
+        }
+      },
+      "specialdoors": {
+        "id": "specialdoors",
+        "title": "Türen für besondere Zwecke",
+        "description": "In unserem Angebot bieten wir Einbruchschutztüren nach höchsten Sicherheitsstandards, während wir für Sensortüren mit zuverlässigen Partnerherstellern zusammenarbeiten, was uns vollständige Flexibilität in unserem Angebot ermöglicht.",
+        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageAlt": "Fassaden",
+        "extra": {
+          "description": "",
+          "images": [
+            {
+              "src": "src/assets/images/protuprovalna.jpg",
+              "description": "Einbruchschutztüren"
+            },
+            {
+              "src": "src/assets/images/klizna.webp",
+              "description": "Sensortüren"
+            }
           ]
         }
       },
@@ -245,7 +285,57 @@
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
+          "images": [
+            {
+              "src": "src/assets/images/komarnik.jpg",
+              "description": "Fliegengitter"
+            },
+            {
+              "src": "src/assets/images/raf.jpg",
+              "description": "Außenjalousien - Raf Store"
+            }
+          ]
+        }
+      },
+      "roletne": {
+        "id": "roletne",
+        "title": "Rollläden",
+        "description": "Unsere Rollläden sind aus hochwertigen Deceuninck, Inoutic und ALUPROF Systemen gefertigt, die Langlebigkeit, Stabilität und ausgezeichnete Wärmedämmung gewährleisten. Wir bieten klassische und unterfassade Rollläden, angepasst an moderne architektonische Lösungen und ästhetische Anforderungen des Gebäudes.",
+        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageAlt": "Sonnenschutz",
+        "extra": {
+          "description": "Klicken Sie auf eine der Produktarten, um die Galerie anzuzeigen.",
+          "images": [
+            {
+              "src": "src/assets/images/vidna.png",
+              "description": "Rollläden mit äußerer Sichtkiste",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/podfasadna.png",
+              "description": "Rollläden mit äußerer Unterfassade-Kiste",
+              "gallery": [
+                "src/assets/images/gallery/categories/podfasadna.jpg",
+                "src/assets/images/gallery/categories/podfasadna2.jpg",
+                "src/assets/images/gallery/categories/podfasadna3.jpg",
+                "src/assets/images/gallery/categories/podfasadna4.jpg",
+                "src/assets/images/gallery/categories/podfasadna5.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/nadprozorska.png",
+              "description": "Rollläden mit Überfenster-Kiste",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            }
+          ]
         }
       },
       "stijenke": {
