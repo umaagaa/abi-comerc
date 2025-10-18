@@ -425,9 +425,34 @@
         "extra": {
           "description": "Rješenja koja štite od sunca i poboljšavaju udobnost prostora.",
           "images": [
-            "src/assets/images/stijenka1.jpg",
-            "src/assets/images/stijenka2.jpg",
-            "src/assets/images/stijenka3.jpg"
+            {
+              "src": "src/assets/images/smoovio2.jpg",
+              "description": "Smoovio klizni sistem",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/hst.webp",
+              "description": "HST Klizni sistem",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            },
+            {
+              "src": "src/assets/images/harmo-teh-spec.png",
+              "description": "Harmo Klizni sistem",
+              "gallery": [
+                "src/assets/images/crna.jpg",
+                "src/assets/images/crnaa.jpg",
+                "src/assets/images/roletne.jpg"
+              ]
+            }
+            
           ]
         }
       },
