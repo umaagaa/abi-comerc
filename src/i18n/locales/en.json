@@ -147,6 +147,24 @@
     "fr": "FR",
     "de": "DE"
   },
+  "categoryContent": {
+    "quality": "Quality",
+    "innovation": "Innovation",
+    "durability": "Durability",
+    "aesthetics": "Aesthetics",
+    "hide": "Hide",
+    "expand": "Expand"
+  },
+  "galleryItems": {
+    "constructionMaterial": "Construction Material",
+    "pvcAluWindows": "PVC and ALU Windows",
+    "entranceDoors": "Entrance Doors",
+    "garageDoors": "Garage Doors",
+    "sunProtection": "Sun Protection",
+    "slidingWalls": "Sliding and Fixed Walls",
+    "alubondFacades": "Alubond Facades",
+    "roofWindows": "Roof Windows"
+  },
   "contact": {
     "title": "Contact Us",
     "jib": "JIB",
@@ -192,23 +210,17 @@
             {
               "src": "src/assets/images/s9000.jpg",
               "description": "PVC system Gealan S9000 – top insulation and modern design.",
-              "gallery": [
-                "src/assets/images/zjo.jpg"
-              ]
+              "gallery": ["src/assets/images/zjo.jpg"]
             },
             {
               "src": "src/assets/images/Termo-85.png",
               "description": "ALU profile Feal Termo 85 – resistance, durability and elegant appearance.",
-              "gallery": [
-                "src/assets/images/alu.jpg"
-              ]
+              "gallery": ["src/assets/images/alu.jpg"]
             },
             {
               "src": "src/assets/images/profil.jpg",
               "description": "Sliding system HST – perfect solution for large openings and light spaces.",
-              "gallery": [
-                "src/assets/images/hstklizna.jpg"
-              ]
+              "gallery": ["src/assets/images/hstklizna.jpg"]
             }
           ]
         }
@@ -381,10 +393,7 @@
         "imageAlt": "alubond",
         "extra": {
           "description": "Solutions that protect from sun and improve space comfort.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "velux": {

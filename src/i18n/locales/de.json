@@ -147,6 +147,24 @@
     "fr": "FR",
     "de": "DE"
   },
+  "categoryContent": {
+    "quality": "Qualität",
+    "innovation": "Innovation",
+    "durability": "Langlebigkeit",
+    "aesthetics": "Ästhetik",
+    "hide": "Verstecken",
+    "expand": "Erweitern"
+  },
+  "galleryItems": {
+    "constructionMaterial": "Baumaterial",
+    "pvcAluWindows": "PVC und ALU Fenster",
+    "entranceDoors": "Eingangstüren",
+    "garageDoors": "Garagentore",
+    "sunProtection": "Sonnenschutz",
+    "slidingWalls": "Schiebe- und feste Wände",
+    "alubondFacades": "Alubond Fassaden",
+    "roofWindows": "Dachfenster"
+  },
   "contact": {
     "title": "Kontaktieren Sie uns",
     "jib": "JIB",
@@ -216,10 +234,7 @@
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "sunProtection": {
@@ -230,10 +245,7 @@
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "stijenke": {
@@ -244,10 +256,7 @@
         "imageAlt": "Trennwand",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "alubond": {
@@ -258,10 +267,7 @@
         "imageAlt": "alubond",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "velux": {
@@ -300,10 +306,7 @@
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Sonnenschutzlösungen für alle Gebäudetypen.",
-          "images": [
-            "src/assets/images/zos.png",
-            "src/assets/images/zos.png"
-          ]
+          "images": ["src/assets/images/zos.png", "src/assets/images/zos.png"]
         }
       },
       "slidingWalls": {

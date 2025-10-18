@@ -147,6 +147,24 @@
     "fr": "FR",
     "de": "DE"
   },
+  "categoryContent": {
+    "quality": "Qualité",
+    "innovation": "Innovation",
+    "durability": "Durabilité",
+    "aesthetics": "Esthétique",
+    "hide": "Masquer",
+    "expand": "Développer"
+  },
+  "galleryItems": {
+    "constructionMaterial": "Matériau de Construction",
+    "pvcAluWindows": "Fenêtres PVC et ALU",
+    "entranceDoors": "Portes d'Entrée",
+    "garageDoors": "Portes de Garage",
+    "sunProtection": "Protection Solaire",
+    "slidingWalls": "Murs Coulissants et Fixes",
+    "alubondFacades": "Façades Alubond",
+    "roofWindows": "Fenêtres de Toit"
+  },
   "contact": {
     "title": "Contactez-nous",
     "jib": "JIB",
@@ -216,10 +234,7 @@
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "sunProtection": {
@@ -230,10 +245,7 @@
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "stijenke": {
@@ -244,10 +256,7 @@
         "imageAlt": "Cloison",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "alubond": {
@@ -258,10 +267,7 @@
         "imageAlt": "alubond",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": [
-            "/images/sun-detail1.jpg",
-            "/images/sun-detail2.jpg"
-          ]
+          "images": ["/images/sun-detail1.jpg", "/images/sun-detail2.jpg"]
         }
       },
       "velux": {
@@ -300,10 +306,7 @@
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions de protection solaire pour tous types de bâtiments.",
-          "images": [
-            "src/assets/images/zos.png",
-            "src/assets/images/zos.png"
-          ]
+          "images": ["src/assets/images/zos.png", "src/assets/images/zos.png"]
         }
       },
       "slidingWalls": {
