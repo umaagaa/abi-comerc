@@ -209,28 +209,23 @@
           "images": [
             {
               "src": "/s9000gelan.jpg",
-              "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn.",
-              "gallery": ["/zjo.jpg"]
+              "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn."
             },
             {
               "src": "/s8000iq.jpg",
-              "description": "S8000IQ – otpornost, trajnost i elegantan izgled.",
-              "gallery": ["/alu.jpg"]
+              "description": "S8000IQ – otpornost, trajnost i elegantan izgled."
             },
             {
               "src": "/feal85.png",
-              "description": "ALU profil Feal Termo 85 - pruža izvrsnu toplinsku izolaciju, energetsku učinkovitost i dugotrajnu otpornost na sve vremenske",
-              "gallery": ["/hstklizna.jpg"]
+              "description": "ALU profil Feal Termo 85 - pruža izvrsnu toplinsku izolaciju, energetsku učinkovitost i dugotrajnu otpornost na sve vremenske"
             },
             {
               "src": "/feal65.png",
-              "description": "ALU profil Feal Termo 65 – savršen spoj modernog dizajna i energetske učinkovitosti.",
-              "gallery": ["/alu.jpg"]
+              "description": "ALU profil Feal Termo 65 – savršen spoj modernog dizajna i energetske učinkovitosti."
             },
             {
               "src": "/45mill.png",
-              "description": "ALU profil Feal 45 Mill – otpornost, trajnost i elegantan izgled.",
-              "gallery": ["/alu.jpg"]
+              "description": "ALU profil Feal 45 Mill – otpornost, trajnost i elegantan izgled."
             }
           ]
         }
@@ -249,44 +244,33 @@
               "src": "/s9000vrata.png",
               "description": "PVC sistem Gealan S9000 – vrhunska izolacija i moderan dizajn.",
               "gallery": [
-                "/gallery/categories/klasicno.jpg",
-                "/gallery/categories/klasicno2.jpg",
-                "/gallery/categories/klasicno3.jpg",
-                "/gallery/categories/klasicno4.jpg",
-                "/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/s9000vrata.jpg",
+                "/gallery/categories/s9000vrataa.jpg"
               ]
             },
             {
               "src": "/s8000vrata.jpg",
               "description": "S8000 – otpornost, trajnost i elegantan izgled.",
               "gallery": [
-                "/gallery/categories/skriveno.jpg",
-                "/gallery/categories/skriveno2.jpg",
-                "/gallery/categories/skriveno3.jpg",
-                "/gallery/categories/skriveno4.jpg",
-                "/gallery/categories/skriveno5.jpg"
+                "/gallery/categories/s8000iqa.jpg",
+                "/gallery/categories/s8000iqaa.jpg"
               ]
             },
             {
               "src": "/feal85.png",
               "description": "ALU profil Feal Termo 85 - pruža izvrsnu toplinsku izolaciju, energetsku učinkovitost i dugotrajnu otpornost na sve vremenske",
               "gallery": [
-                "/gallery/categories/klasicno.jpg",
-                "/gallery/categories/klasicno2.jpg",
-                "/gallery/categories/klasicno3.jpg",
-                "/gallery/categories/klasicno4.jpg",
-                "/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/termo85.jpg",
+                "/gallery/categories/85i65.jpg",
+                "/gallery/categories/85cisto.jpg"
               ]
             },
             {
               "src": "/feal65.png",
               "description": "ALU profil Feal Termo 65 – savršen spoj modernog dizajna i energetske učinkovitosti.",
               "gallery": [
-                "/gallery/categories/klasicno.jpg",
-                "/gallery/categories/klasicno2.jpg",
-                "/gallery/categories/klasicno3.jpg",
-                "/gallery/categories/klasicno4.jpg",
-                "/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/65cisto.jpg",
+                "/gallery/categories/85i65.jpg"
               ]
             },
             {
@@ -314,7 +298,7 @@
           "description": "",
           "images": [
             {
-              "src": "/protuprovalna.jpg",
+              "src": "/gallery/categories/protuprovalna.jpg",
               "description": "Protuprovalna vrata"
             },
             {

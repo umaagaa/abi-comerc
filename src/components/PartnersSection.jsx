@@ -12,7 +12,7 @@ export default function PartnersSection() {
     '/logos/FEAL.svg',
     '/logos/velux.svg',
     '/logos/BMI.svg',
-    '/logos/wurth.svg',
+   
     '/logos/austrotherm.svg',
     '/logos/baumit-seeklogo.png',
     '/logos/civic_logo.png',

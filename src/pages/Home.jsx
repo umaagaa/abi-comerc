@@ -11,7 +11,7 @@ export default function Home() {
     <>  
       
       <Hero />
-      <OpeningSection />
+      
       <FeaturesInline />
       <Gallery />
       <StatsSection />
