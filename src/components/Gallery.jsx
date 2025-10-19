@@ -7,42 +7,42 @@ export default function Gallery() {
   const { t } = useTranslation();
   const items = [
     {
-      src: 'src/assets/images/blok.jpg',
+      src: '/blok.jpg',
       title: t('galleryItems.constructionMaterial'),
       path: '/categories/Category1',
     },
     {
-      src: 'src/assets/images/gealan.png',
+      src: '/gealan.png',
       title: t('galleryItems.pvcAluWindows'),
       path: '/categories/Category2',
     },
     {
-      src: 'src/assets/images/vratagealan.webp',
+      src: '/vratagealan.webp',
       title: t('galleryItems.entranceDoors'),
       path: '/categories/Category3',
     },
     {
-      src: 'src/assets/images/gvrata.png',
+      src: '/gvrata.png',
       title: t('galleryItems.garageDoors'),
       path: '/categories/Category4',
     },
     {
-      src: 'src/assets/images/zos.png',
+      src: '/zos.png',
       title: t('galleryItems.sunProtection'),
       path: '/categories/Category5',
     },
     {
-      src: 'src/assets/images/stijenka.png',
+      src: '/stijenka.png',
       title: t('galleryItems.slidingWalls'),
       path: '/categories/Category6',
     },
     {
-      src: 'src/assets/images/alubond.webp',
+      src: '/alubond.webp',
       title: t('galleryItems.alubondFacades'),
       path: '/categories/Category7',
     },
     {
-      src: 'src/assets/images/velux.webp',
+      src: '/velux.webp',
       title: t('galleryItems.roofWindows'),
       path: '/categories/Category8',
     },

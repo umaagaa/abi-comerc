@@ -202,25 +202,25 @@
         "id": "windows",
         "title": "PVC and ALU Windows",
         "description": "We use various systems adapted to the needs of the facility: top PVC profiles Gealan S9000, S8000 IQ, sliding systems HST and Smoovio, and aluminum systems Feal Termo 65, Termo 85, 45 Mill, and Feal sliding variants. These systems ensure top thermal and sound insulation, durability and modern design.",
-        "imageSrc": "src/assets/images/gealan.png",
+        "imageSrc": "/gealan.png",
         "imageAlt": "Windows",
         "extra": {
           "description": "Click on one of the product types to view the gallery.",
           "images": [
             {
-              "src": "src/assets/images/s9000.jpg",
+              "src": "/s9000.jpg",
               "description": "PVC system Gealan S9000 – top insulation and modern design.",
-              "gallery": ["src/assets/images/zjo.jpg"]
+              "gallery": ["/zjo.jpg"]
             },
             {
-              "src": "src/assets/images/Termo-85.png",
+              "src": "/Termo-85.png",
               "description": "ALU profile Feal Termo 85 – resistance, durability and elegant appearance.",
-              "gallery": ["src/assets/images/alu.jpg"]
+              "gallery": ["/alu.jpg"]
             },
             {
-              "src": "src/assets/images/profil.jpg",
+              "src": "/profil.jpg",
               "description": "Sliding system HST – perfect solution for large openings and light spaces.",
-              "gallery": ["src/assets/images/hstklizna.jpg"]
+              "gallery": ["/hstklizna.jpg"]
             }
           ]
         }
@@ -229,31 +229,31 @@
         "id": "doors",
         "title": "Entrance Doors",
         "description": "For special requirements we use Harmo and 45 Mill systems, while for entrance, balcony and sliding doors we apply reliable PVC and aluminum profiles – Gealan S9000, S8000 IQ, HST, Smoovio, and aluminum systems Feal Termo 65 and Termo 85. These systems guarantee security, stability and functionality, with modern appearance and top insulation.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Facades",
         "extra": {
           "description": "Click on one of the product types to view the gallery.",
           "images": [
             {
-              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "src": "/gallery/categories/klasicno.jpg",
               "description": "Classic wing",
               "gallery": [
-                "src/assets/images/gallery/categories/klasicno.jpg",
-                "src/assets/images/gallery/categories/klasicno2.jpg",
-                "src/assets/images/gallery/categories/klasicno3.jpg",
-                "src/assets/images/gallery/categories/klasicno4.jpg",
-                "src/assets/images/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/klasicno.jpg",
+                "/gallery/categories/klasicno2.jpg",
+                "/gallery/categories/klasicno3.jpg",
+                "/gallery/categories/klasicno4.jpg",
+                "/gallery/categories/klasicno5.jpg"
               ]
             },
             {
-              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "src": "/gallery/categories/skriveno.jpg",
               "description": "Hidden - elegant wing",
               "gallery": [
-                "src/assets/images/gallery/categories/skriveno.jpg",
-                "src/assets/images/gallery/categories/skriveno2.jpg",
-                "src/assets/images/gallery/categories/skriveno3.jpg",
-                "src/assets/images/gallery/categories/skriveno4.jpg",
-                "src/assets/images/gallery/categories/skriveno5.jpg"
+                "/gallery/categories/skriveno.jpg",
+                "/gallery/categories/skriveno2.jpg",
+                "/gallery/categories/skriveno3.jpg",
+                "/gallery/categories/skriveno4.jpg",
+                "/gallery/categories/skriveno5.jpg"
               ]
             }
           ]
@@ -263,17 +263,17 @@
         "id": "specialdoors",
         "title": "Special Purpose Doors",
         "description": "In our offer we provide anti-burglary doors made according to the highest security standards, while for sensor doors we cooperate with reliable partner manufacturers, which gives us complete flexibility in our offer.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Facades",
         "extra": {
           "description": "",
           "images": [
             {
-              "src": "src/assets/images/protuprovalna.jpg",
+              "src": "/protuprovalna.jpg",
               "description": "Anti-burglary doors"
             },
             {
-              "src": "src/assets/images/klizna.webp",
+              "src": "/klizna.webp",
               "description": "Sensor doors"
             }
           ]
@@ -283,36 +283,36 @@
         "id": "garageDoors",
         "title": "Garage Doors",
         "description": "Our company manufactures custom garage doors in three variants:• Sectional doors – most common choice for houses and residential buildings, providing excellent insulation and practical upward opening.\n• Industrial doors – intended for halls and larger facilities, extremely durable and adapted for frequent use.\n• Roller doors – compact solution that rolls up into a box above the opening, ideal when space is limited.\nAll models are made of quality materials, providing security, durability and possibility of design adaptation according to your needs.",
-        "imageSrc": "src/assets/images/gvrata.png",
+        "imageSrc": "/gvrata.png",
         "imageAlt": "Sun protection",
         "extra": {
           "description": "Click on one of the product types to view the gallery.",
           "images": [
             {
-              "src": "src/assets/images/sekciona.jpg",
+              "src": "/sekciona.jpg",
               "description": "Classic - sectional garage doors",
               "gallery": [
-                "src/assets/images/gallery/categories/sekciona1.jpg",
-                "src/assets/images/gallery/categories/sekciona2.jpg",
-                "src/assets/images/gallery/categories/sekciona3.jpg"
+                "/gallery/categories/sekciona1.jpg",
+                "/gallery/categories/sekciona2.jpg",
+                "/gallery/categories/sekciona3.jpg"
               ]
             },
             {
-              "src": "src/assets/images/industrijska.jpg",
+              "src": "/industrijska.jpg",
               "description": "Industrial garage doors",
               "gallery": [
-                "src/assets/images/gallery/categories/industrijska1.jpg",
-                "src/assets/images/gallery/categories/industrijska2.jpg",
-                "src/assets/images/gallery/categories/industrijska3.jpg"
+                "/gallery/categories/industrijska1.jpg",
+                "/gallery/categories/industrijska2.jpg",
+                "/gallery/categories/industrijska3.jpg"
               ]
             },
             {
-              "src": "src/assets/images/rolo.jpg",
+              "src": "/rolo.jpg",
               "description": "Roller garage doors",
               "gallery": [
-                "src/assets/images/gallery/categories/rolo3.jpg",
-                "src/assets/images/gallery/categories/rolo2.jpg",
-                "src/assets/images/gallery/categories/rolo.jpg"
+                "/gallery/categories/rolo3.jpg",
+                "/gallery/categories/rolo2.jpg",
+                "/gallery/categories/rolo.jpg"
               ]
             }
           ]
@@ -322,17 +322,17 @@
         "id": "sunProtection",
         "title": "Sun Protection",
         "description": "Our company produces various sun protection solutions:• Mosquito nets – reliable protection against insects, adapted to all types of windows.• External blinds (Raf Store) – modern system providing light control, privacy and additional insulation.All products are made of quality materials, durable and adaptable to the needs of each facility.",
-        "imageSrc": "src/assets/images/zos.png",
+        "imageSrc": "/zos.png",
         "imageAlt": "Sun protection",
         "extra": {
           "description": "Solutions that protect from sun and improve space comfort.",
           "images": [
             {
-              "src": "src/assets/images/komarnik.jpg",
+              "src": "/komarnik.jpg",
               "description": "Mosquito nets"
             },
             {
-              "src": "src/assets/images/raf.jpg",
+              "src": "/raf.jpg",
               "description": "External blinds - Raf Store"
             }
           ]
@@ -342,29 +342,25 @@
         "id": "roletne",
         "title": "Roller Shutters",
         "description": "Our roller shutters are made of top Deceuninck and Inoutic systems, ensuring durability, stability and excellent thermal insulation. We offer classic and sub-facade roller shutters, adapted to modern architectural solutions and aesthetic requirements of the facility.",
-        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageSrc": "/roletne (2).png",
         "imageAlt": "Sun protection",
         "extra": {
           "description": "Click on one of the product types to view the gallery.",
           "images": [
             {
-              "src": "src/assets/images/crna.jpg",
+              "src": "/crna.jpg",
               "description": "Standard roller shutters",
-              "gallery": [
-                "src/assets/images/crna.jpg",
-                "src/assets/images/crnaa.jpg",
-                "src/assets/images/roletne.jpg"
-              ]
+              "gallery": ["/crna.jpg", "/crnaa.jpg", "/roletne.jpg"]
             },
             {
-              "src": "src/assets/images/aaaaa.jpg",
+              "src": "/aaaaa.jpg",
               "description": "Sub-facade roller shutters",
               "gallery": [
-                "src/assets/images/gallery/categories/podfasadna.jpg",
-                "src/assets/images/gallery/categories/podfasadna2.jpg",
-                "src/assets/images/gallery/categories/podfasadna3.jpg",
-                "src/assets/images/gallery/categories/podfasadna4.jpg",
-                "src/assets/images/gallery/categories/podfasadna5.jpg"
+                "/gallery/categories/podfasadna.jpg",
+                "/gallery/categories/podfasadna2.jpg",
+                "/gallery/categories/podfasadna3.jpg",
+                "/gallery/categories/podfasadna4.jpg",
+                "/gallery/categories/podfasadna5.jpg"
               ]
             }
           ]
@@ -374,22 +370,18 @@
         "id": "stijenke",
         "title": "Partitions",
         "description": "Our company produces quality partitions for spaces of all purposes. Ideal for space division, privacy and modern appearance, made of durable materials and adaptable to your needs.",
-        "imageSrc": "src/assets/images/stijenka.png",
+        "imageSrc": "/stijenka.png",
         "imageAlt": "Partition",
         "extra": {
           "description": "Solutions that protect from sun and improve space comfort.",
-          "images": [
-            "src/assets/images/stijenka1.jpg",
-            "src/assets/images/stijenka2.jpg",
-            "src/assets/images/stijenka3.jpg"
-          ]
+          "images": ["/stijenka1.jpg", "/stijenka2.jpg", "/stijenka3.jpg"]
         }
       },
       "alubond": {
         "id": "alubond",
         "title": "Alubond Facades",
         "description": "Our company produces high-quality Alubond facades, making facilities modern, attractive and energy efficient. Facades are lightweight, durable and available in various colors and decors, adapted to both residential and business facilities.",
-        "imageSrc": "src/assets/images/alubond.webp",
+        "imageSrc": "/alubond.webp",
         "imageAlt": "alubond",
         "extra": {
           "description": "Solutions that protect from sun and improve space comfort.",
@@ -400,15 +392,11 @@
         "id": "velux",
         "title": "Roof Windows",
         "description": "Our company installs Velux roof windows, known for quality and durability. Ideal for attics and roof spaces, they enable natural light, ventilation and modern appearance of the space.",
-        "imageSrc": "src/assets/images/velux.webp",
+        "imageSrc": "/velux.webp",
         "imageAlt": "alubond",
         "extra": {
           "description": "Solutions that protect from sun and improve space comfort.",
-          "images": [
-            "src/assets/images/velux.jpg",
-            "src/assets/images/velux2.jpg",
-            "src/assets/images/velux3.jpg"
-          ]
+          "images": ["/velux.jpg", "/velux2.jpg", "/velux3.jpg"]
         }
       }
     },

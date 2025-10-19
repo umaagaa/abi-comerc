@@ -23,12 +23,12 @@ export default function Projects() {
       id: 1,
       title: t('projects.residential.title'),
       description: t('projects.residential.description'),
-      image: 'src/assets/images/kuca.jpg',
+      image: '/kuca.jpg',
       images: [
-        'src/assets/images/gallery/recenzije/1.jpg',
-        'src/assets/images/gallery/recenzije/2.jpg',
-        'src/assets/images/gallery/recenzije/3.jpg',
-        'src/assets/images/gallery/recenzije/4.jpg',
+        '/gallery/recenzije/1.jpg',
+        '/gallery/recenzije/2.jpg',
+        '/gallery/recenzije/3.jpg',
+        '/gallery/recenzije/4.jpg',
       ],
       icon: Home,
       features: [
@@ -43,10 +43,10 @@ export default function Projects() {
       description: t('projects.commercial.description'),
       image: '/firma.jpg',
       images: [
-        'src/assets/images/gallery/recenzije/11.jpg',
-        'src/assets/images/gallery/recenzije/22.jpg',
-        'src/assets/images/gallery/recenzije/33.jpg',
-        'src/assets/images/gallery/recenzije/44.jpg',
+        '/gallery/recenzije/11.jpg',
+        '/gallery/recenzije/22.jpg',
+        '/gallery/recenzije/33.jpg',
+        '/gallery/recenzije/44.jpg',
       ],
       icon: Building2,
       features: [

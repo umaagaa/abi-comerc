@@ -31,7 +31,7 @@ const Navbar = () => {
           className='flex items-center text-2xl font-bold text-blue-600 dark:text-blue-400'
         >
           <img
-            src='src/assets/images/ABI-PNG.png'
+            src='/ABI-PNG.png'
             alt={t('altTexts.logo')}
             className='w-17 h-14 mr-4'
           />

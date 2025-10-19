@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { useState, useEffect, useRef } from "react";
-import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
-function Counter({ target, duration = 2000, suffix = "" }) {
+function Counter({ target, duration = 2000, suffix = '' }) {
   const [count, setCount] = useState(0);
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
@@ -48,86 +48,83 @@ function Counter({ target, duration = 2000, suffix = "" }) {
     </span>
   );
 }
-             
+
 export default function StatsSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full py-16 text-white">
+    <section className='relative w-full py-16 text-white'>
       {/* Pozadinska slika */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/images/otoka.jpg')" }}
+        className='absolute inset-0 bg-cover bg-center'
+        style={{ backgroundImage: "url('/otoka.jpg')" }}
       />
       {/* Sadržaj */}
-      <div className="relative z-10 max-w-6xl ml-45 flex flex-col md:flex-row items-start gap-12">
-        
-        
-        <div className="md:w-1/3 ">
-          <h2 className="text-sm uppercase tracking-wider text-gray-200">
+      <div className='relative z-10 max-w-6xl ml-45 flex flex-col md:flex-row items-start gap-12'>
+        <div className='md:w-1/3 '>
+          <h2 className='text-sm uppercase tracking-wider text-gray-200'>
             {t('stats.subtitle')}
           </h2>
-          <p className="mt-4 text-3xl md:text-4xl font-bold leading-snug">
+          <p className='mt-4 text-3xl md:text-4xl font-bold leading-snug'>
             {t('stats.title')}
           </p>
         </div>
 
         {/* Separator linija */}
-        <div className="hidden md:flex justify-center">
-          <div className="w-px h-full bg-white opacity-70"></div>
+        <div className='hidden md:flex justify-center'>
+          <div className='w-px h-full bg-white opacity-70'></div>
         </div>
 
         {/* Desna strana */}
-        <div className="md:w-2/3 grid grid-cols-2 md:grid-cols-3 gap-y-12 text-center">
+        <div className='md:w-2/3 grid grid-cols-2 md:grid-cols-3 gap-y-12 text-center'>
           <div>
-            <p className="text-3xl font-bold">
+            <p className='text-3xl font-bold'>
               <Counter target={1000} />
             </p>
-            <p className="text-sm">{t('stats.differentProfiles')}</p>
+            <p className='text-sm'>{t('stats.differentProfiles')}</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">
+            <p className='text-3xl font-bold'>
               <Counter target={45} />
             </p>
-            <p className="text-sm">{t('stats.buildingSystems')}</p>
+            <p className='text-sm'>{t('stats.buildingSystems')}</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">
-              <Counter target={8000} suffix=" t" />
+            <p className='text-3xl font-bold'>
+              <Counter target={8000} suffix=' t' />
             </p>
-            <p className="text-sm">{t('stats.productionCapacity')}</p>
+            <p className='text-sm'>{t('stats.productionCapacity')}</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">
-              <Counter target={100} suffix="+" />
+            <p className='text-3xl font-bold'>
+              <Counter target={100} suffix='+' />
             </p>
-            <p className="text-sm">{t('stats.cooperators')}</p>
+            <p className='text-sm'>{t('stats.cooperators')}</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">
+            <p className='text-3xl font-bold'>
               <Counter target={50} />
             </p>
-            <p className="text-sm">{t('stats.employees')}</p>
+            <p className='text-sm'>{t('stats.employees')}</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">
+            <p className='text-3xl font-bold'>
               <Counter target={7} />
             </p>
-            <p className="text-sm">{t('stats.presses')}</p>
+            <p className='text-sm'>{t('stats.presses')}</p>
           </div>
         </div>
       </div>
 
       {/* Button */}
-      <div className="relative z-10 mt-12 text-center">
-  <Link
-    to="/about"
-    className="px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white font-semibold rounded border border-white hover:opacity-90 hover:border-red-700 hover:text-black transition inline-block"
-  >
-    {t('stats.button')}
-  </Link>
-</div>
-
+      <div className='relative z-10 mt-12 text-center'>
+        <Link
+          to='/about'
+          className='px-6 py-3 bg-gradient-to-r from-green-500 to-red-500 text-white font-semibold rounded border border-white hover:opacity-90 hover:border-red-700 hover:text-black transition inline-block'
+        >
+          {t('stats.button')}
+        </Link>
+      </div>
     </section>
   );
 }

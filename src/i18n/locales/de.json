@@ -202,7 +202,7 @@
         "id": "windows",
         "title": "PVC und ALU Fenster",
         "description": "Wir verwenden verschiedene Systeme, die an die Bedürfnisse des Gebäudes angepasst sind: Harmo und US Nill für besondere Anforderungen, während für Fenster und Türen die höchste Qualität PVC und Aluminiumprofile verwendet werden - Gealan S9000, S8000 IQ, HST, Smoovio, und Aluminiumsysteme Feal Termo 65 und Termo 85. Diese Systeme gewährleisten ausgezeichnete Wärme- und Schalldämmung, Langlebigkeit und modernes Design.",
-        "imageSrc": "src/assets/images/gealan.png",
+        "imageSrc": "/gealan.png",
         "imageAlt": "Fenster",
         "extra": {
           "description": "Unsere Fenster und Türen sind in verschiedenen Formen und Farben erhältlich, mit der Möglichkeit zusätzlicher Isolierung und Sicherheitssysteme.",
@@ -216,31 +216,31 @@
         "id": "doors",
         "title": "Eingangstüren",
         "description": "Für besondere Anforderungen verwenden wir Harmo und US Nill Systeme, während für Eingangs-, Balkon- und Schiebetüren zuverlässige PVC und Aluminiumprofile angewendet werden - Gealan S9000, S8000 IQ, HST, Smoovio, und Aluminiumsysteme Feal Termo 65 und Termo 85. Diese Systeme garantieren Sicherheit, Stabilität und Funktionalität, mit modernem Aussehen und ausgezeichneter Isolierung.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Fassaden",
         "extra": {
           "description": "Klicken Sie auf eine der Produktarten, um die Galerie anzuzeigen.",
           "images": [
             {
-              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "src": "/gallery/categories/klasicno.jpg",
               "description": "Klassischer Flügel",
               "gallery": [
-                "src/assets/images/gallery/categories/klasicno.jpg",
-                "src/assets/images/gallery/categories/klasicno2.jpg",
-                "src/assets/images/gallery/categories/klasicno3.jpg",
-                "src/assets/images/gallery/categories/klasicno4.jpg",
-                "src/assets/images/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/klasicno.jpg",
+                "/gallery/categories/klasicno2.jpg",
+                "/gallery/categories/klasicno3.jpg",
+                "/gallery/categories/klasicno4.jpg",
+                "/gallery/categories/klasicno5.jpg"
               ]
             },
             {
-              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "src": "/gallery/categories/skriveno.jpg",
               "description": "Versteckter - eleganter Flügel",
               "gallery": [
-                "src/assets/images/gallery/categories/skriveno.jpg",
-                "src/assets/images/gallery/categories/skriveno2.jpg",
-                "src/assets/images/gallery/categories/skriveno3.jpg",
-                "src/assets/images/gallery/categories/skriveno4.jpg",
-                "src/assets/images/gallery/categories/skriveno5.jpg"
+                "/gallery/categories/skriveno.jpg",
+                "/gallery/categories/skriveno2.jpg",
+                "/gallery/categories/skriveno3.jpg",
+                "/gallery/categories/skriveno4.jpg",
+                "/gallery/categories/skriveno5.jpg"
               ]
             }
           ]
@@ -250,17 +250,17 @@
         "id": "specialdoors",
         "title": "Türen für besondere Zwecke",
         "description": "In unserem Angebot bieten wir Einbruchschutztüren nach höchsten Sicherheitsstandards, während wir für Sensortüren mit zuverlässigen Partnerherstellern zusammenarbeiten, was uns vollständige Flexibilität in unserem Angebot ermöglicht.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Fassaden",
         "extra": {
           "description": "",
           "images": [
             {
-              "src": "src/assets/images/protuprovalna.jpg",
+              "src": "/protuprovalna.jpg",
               "description": "Einbruchschutztüren"
             },
             {
-              "src": "src/assets/images/klizna.webp",
+              "src": "/klizna.webp",
               "description": "Sensortüren"
             }
           ]
@@ -270,7 +270,7 @@
         "id": "garageDoors",
         "title": "Garagentore",
         "description": "Unser Unternehmen fertigt maßgeschneiderte Garagentore in drei Varianten: • Sektionaltore - die häufigste Wahl für Häuser und Wohngebäude, bieten ausgezeichnete Isolierung und praktisches Öffnen nach oben. • Industrietore - für Hallen und größere Gebäude konzipiert, extrem langlebig und für häufige Nutzung angepasst. • Rolltore - kompakte Lösung, die sich in eine Box über der Öffnung aufrollt, ideal wenn der Platz begrenzt ist. Alle Modelle sind aus hochwertigen Materialien gefertigt, bieten Sicherheit, Langlebigkeit und die Möglichkeit, das Design an Ihre Bedürfnisse anzupassen.",
-        "imageSrc": "src/assets/images/gvrata.png",
+        "imageSrc": "/gvrata.png",
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
@@ -281,17 +281,17 @@
         "id": "sunProtection",
         "title": "Sonnenschutz",
         "description": "Unser Unternehmen produziert verschiedene Sonnenschutzlösungen: • Fliegengitter - zuverlässiger Schutz vor Insekten, angepasst an alle Fenstertypen. • Rollläden - funktionaler Schutz vor Sonne und Hitze, in verschiedenen Farben und Materialien erhältlich. • Außenjalousien (Raf Store) - modernes System, das Lichtkontrolle, Privatsphäre und zusätzliche Isolierung bietet. Alle Produkte sind aus hochwertigen Materialien gefertigt, langlebig und an die Bedürfnisse jedes Gebäudes anpassbar.",
-        "imageSrc": "src/assets/images/zos.png",
+        "imageSrc": "/zos.png",
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
           "images": [
             {
-              "src": "src/assets/images/komarnik.jpg",
+              "src": "/komarnik.jpg",
               "description": "Fliegengitter"
             },
             {
-              "src": "src/assets/images/raf.jpg",
+              "src": "/raf.jpg",
               "description": "Außenjalousien - Raf Store"
             }
           ]
@@ -301,39 +301,31 @@
         "id": "roletne",
         "title": "Rollläden",
         "description": "Unsere Rollläden sind aus hochwertigen Deceuninck, Inoutic und ALUPROF Systemen gefertigt, die Langlebigkeit, Stabilität und ausgezeichnete Wärmedämmung gewährleisten. Wir bieten klassische und unterfassade Rollläden, angepasst an moderne architektonische Lösungen und ästhetische Anforderungen des Gebäudes.",
-        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageSrc": "/roletne (2).png",
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Klicken Sie auf eine der Produktarten, um die Galerie anzuzeigen.",
           "images": [
             {
-              "src": "src/assets/images/vidna.png",
+              "src": "/vidna.png",
               "description": "Rollläden mit äußerer Sichtkiste",
-              "gallery": [
-                "src/assets/images/crna.jpg",
-                "src/assets/images/crnaa.jpg",
-                "src/assets/images/roletne.jpg"
-              ]
+              "gallery": ["/crna.jpg", "/crnaa.jpg", "/roletne.jpg"]
             },
             {
-              "src": "src/assets/images/podfasadna.png",
+              "src": "/podfasadna.png",
               "description": "Rollläden mit äußerer Unterfassade-Kiste",
               "gallery": [
-                "src/assets/images/gallery/categories/podfasadna.jpg",
-                "src/assets/images/gallery/categories/podfasadna2.jpg",
-                "src/assets/images/gallery/categories/podfasadna3.jpg",
-                "src/assets/images/gallery/categories/podfasadna4.jpg",
-                "src/assets/images/gallery/categories/podfasadna5.jpg"
+                "/gallery/categories/podfasadna.jpg",
+                "/gallery/categories/podfasadna2.jpg",
+                "/gallery/categories/podfasadna3.jpg",
+                "/gallery/categories/podfasadna4.jpg",
+                "/gallery/categories/podfasadna5.jpg"
               ]
             },
             {
-              "src": "src/assets/images/nadprozorska.png",
+              "src": "/nadprozorska.png",
               "description": "Rollläden mit Überfenster-Kiste",
-              "gallery": [
-                "src/assets/images/crna.jpg",
-                "src/assets/images/crnaa.jpg",
-                "src/assets/images/roletne.jpg"
-              ]
+              "gallery": ["/crna.jpg", "/crnaa.jpg", "/roletne.jpg"]
             }
           ]
         }
@@ -342,7 +334,7 @@
         "id": "stijenke",
         "title": "Trennwände",
         "description": "Unser Unternehmen produziert hochwertige Trennwände für Räume aller Zwecke. Sie sind ideal für Raumteilung, Privatsphäre und modernes Aussehen, aus langlebigen Materialien gefertigt und an Ihre Bedürfnisse anpassbar.",
-        "imageSrc": "src/assets/images/stijenka.png",
+        "imageSrc": "/stijenka.png",
         "imageAlt": "Trennwand",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
@@ -353,7 +345,7 @@
         "id": "alubond",
         "title": "Alubond Fassaden",
         "description": "Unser Unternehmen fertigt hochwertige Alubond Fassaden, die Gebäude modern, attraktiv und energieeffizient machen. Fassaden sind leicht, langlebig und in verschiedenen Farben und Dekoren erhältlich, angepasst für Wohn- und Geschäftsgebäude.",
-        "imageSrc": "src/assets/images/alubond.webp",
+        "imageSrc": "/alubond.webp",
         "imageAlt": "alubond",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
@@ -364,67 +356,55 @@
         "id": "velux",
         "title": "Dachfenster",
         "description": "Unser Unternehmen installiert Velux Dachfenster, bekannt für Qualität und Langlebigkeit. Sie sind ideal für Dachböden und Dachräume, ermöglichen natürliches Licht, Belüftung und modernes Raumaussehen.",
-        "imageSrc": "src/assets/images/velux.webp",
+        "imageSrc": "/velux.webp",
         "imageAlt": "Dachfenster",
         "extra": {
           "description": "Lösungen, die vor der Sonne schützen und den Raumkomfort verbessern.",
-          "images": [
-            "src/assets/images/velux.webp",
-            "src/assets/images/velux.webp"
-          ]
+          "images": ["/velux.webp", "/velux.webp"]
         }
       },
       "garageDoors": {
         "id": "garageDoors",
         "title": "Garagentore",
         "description": "Wir bieten hochwertige Garagentore mit verschiedenen Öffnungs- und Sicherheitssystemen, angepasst an moderne Bedürfnisse.",
-        "imageSrc": "src/assets/images/gvrata.png",
+        "imageSrc": "/gvrata.png",
         "imageAlt": "Garagentore",
         "extra": {
           "description": "Moderne Lösungen für Garagentore mit Sicherheit und Ästhetik.",
-          "images": [
-            "src/assets/images/gvrata.png",
-            "src/assets/images/gvrata.png"
-          ]
+          "images": ["/gvrata.png", "/gvrata.png"]
         }
       },
       "sunProtection": {
         "id": "sunProtection",
         "title": "Sonnenschutz",
         "description": "Moderne Sonnenschutzsysteme einschließlich Markisen, Rollläden und anderen Lösungen zur Verbesserung des Komforts.",
-        "imageSrc": "src/assets/images/zos.png",
+        "imageSrc": "/zos.png",
         "imageAlt": "Sonnenschutz",
         "extra": {
           "description": "Sonnenschutzlösungen für alle Gebäudetypen.",
-          "images": ["src/assets/images/zos.png", "src/assets/images/zos.png"]
+          "images": ["/zos.png", "/zos.png"]
         }
       },
       "slidingWalls": {
         "id": "slidingWalls",
         "title": "Schiebewände",
         "description": "Schiebe- und feste Wandsysteme zur Schaffung flexibler und moderner Räume.",
-        "imageSrc": "src/assets/images/stijenka.png",
+        "imageSrc": "/stijenka.png",
         "imageAlt": "Schiebewände",
         "extra": {
           "description": "Flexible Lösungen für moderne Räume.",
-          "images": [
-            "src/assets/images/stijenka.png",
-            "src/assets/images/stijenka.png"
-          ]
+          "images": ["/stijenka.png", "/stijenka.png"]
         }
       },
       "alubond": {
         "id": "alubond",
         "title": "ALUBOND Fassaden",
         "description": "ALUBOND Fassadensysteme für moderne Ästhetik und außergewöhnliche Langlebigkeit.",
-        "imageSrc": "src/assets/images/alubond.webp",
+        "imageSrc": "/alubond.webp",
         "imageAlt": "ALUBOND Fassaden",
         "extra": {
           "description": "Moderne Fassaden mit ALUBOND für alle Gebäudetypen.",
-          "images": [
-            "src/assets/images/alubond.webp",
-            "src/assets/images/alubond.webp"
-          ]
+          "images": ["/alubond.webp", "/alubond.webp"]
         }
       }
     },

@@ -202,7 +202,7 @@
         "id": "windows",
         "title": "Fenêtres PVC et ALU",
         "description": "Nous utilisons différents systèmes adaptés aux besoins du bâtiment : Harmo et US Nill pour les exigences spéciales, tandis que pour les fenêtres et portes nous utilisons les profils PVC et aluminium de la plus haute qualité - Gealan S9000, S8000 IQ, HST, Smoovio, et les systèmes aluminium Feal Termo 65 et Termo 85. Ces systèmes assurent une excellente isolation thermique et acoustique, durabilité et design moderne.",
-        "imageSrc": "src/assets/images/gealan.png",
+        "imageSrc": "/gealan.png",
         "imageAlt": "Fenêtres",
         "extra": {
           "description": "Nos fenêtres et portes sont disponibles en différentes formes et couleurs, avec la possibilité d'isolation supplémentaire et de systèmes de sécurité.",
@@ -216,31 +216,31 @@
         "id": "doors",
         "title": "Portes d'entrée",
         "description": "Pour les exigences spéciales nous utilisons les systèmes Harmo et US Nill, tandis que pour les portes d'entrée, balcon et coulissantes nous appliquons des profils PVC et aluminium fiables - Gealan S9000, S8000 IQ, HST, Smoovio, et les systèmes aluminium Feal Termo 65 et Termo 85. Ces systèmes garantissent sécurité, stabilité et fonctionnalité, avec une apparence moderne et une excellente isolation.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Façades",
         "extra": {
           "description": "Cliquez sur l'un des types de produits pour voir la galerie.",
           "images": [
             {
-              "src": "src/assets/images/gallery/categories/klasicno.jpg",
+              "src": "/gallery/categories/klasicno.jpg",
               "description": "Aile classique",
               "gallery": [
-                "src/assets/images/gallery/categories/klasicno.jpg",
-                "src/assets/images/gallery/categories/klasicno2.jpg",
-                "src/assets/images/gallery/categories/klasicno3.jpg",
-                "src/assets/images/gallery/categories/klasicno4.jpg",
-                "src/assets/images/gallery/categories/klasicno5.jpg"
+                "/gallery/categories/klasicno.jpg",
+                "/gallery/categories/klasicno2.jpg",
+                "/gallery/categories/klasicno3.jpg",
+                "/gallery/categories/klasicno4.jpg",
+                "/gallery/categories/klasicno5.jpg"
               ]
             },
             {
-              "src": "src/assets/images/gallery/categories/skriveno.jpg",
+              "src": "/gallery/categories/skriveno.jpg",
               "description": "Aile cachée - élégante",
               "gallery": [
-                "src/assets/images/gallery/categories/skriveno.jpg",
-                "src/assets/images/gallery/categories/skriveno2.jpg",
-                "src/assets/images/gallery/categories/skriveno3.jpg",
-                "src/assets/images/gallery/categories/skriveno4.jpg",
-                "src/assets/images/gallery/categories/skriveno5.jpg"
+                "/gallery/categories/skriveno.jpg",
+                "/gallery/categories/skriveno2.jpg",
+                "/gallery/categories/skriveno3.jpg",
+                "/gallery/categories/skriveno4.jpg",
+                "/gallery/categories/skriveno5.jpg"
               ]
             }
           ]
@@ -250,17 +250,17 @@
         "id": "specialdoors",
         "title": "Portes à usage spécial",
         "description": "Dans notre offre, nous proposons des portes anti-effraction fabriquées selon les plus hauts standards de sécurité, tandis que pour les portes à capteur, nous collaborons avec des fabricants partenaires fiables, ce qui nous donne une flexibilité totale dans notre offre.",
-        "imageSrc": "src/assets/images/vratagealan.webp",
+        "imageSrc": "/vratagealan.webp",
         "imageAlt": "Façades",
         "extra": {
           "description": "",
           "images": [
             {
-              "src": "src/assets/images/protuprovalna.jpg",
+              "src": "/protuprovalna.jpg",
               "description": "Portes anti-effraction"
             },
             {
-              "src": "src/assets/images/klizna.webp",
+              "src": "/klizna.webp",
               "description": "Portes à capteur"
             }
           ]
@@ -270,7 +270,7 @@
         "id": "garageDoors",
         "title": "Portes de garage",
         "description": "Notre entreprise fabrique des portes de garage sur mesure en trois variantes : • Portes sectionnelles - le choix le plus courant pour les maisons et bâtiments résidentiels, offrant une excellente isolation et ouverture pratique vers le haut. • Portes industrielles - conçues pour les halls et bâtiments plus grands, extrêmement durables et adaptées à un usage fréquent. • Portes à enroulement - solution compacte qui s'enroule dans une boîte au-dessus de l'ouverture, idéale quand l'espace est limité. Tous les modèles sont fabriqués en matériaux de qualité, offrant sécurité, durabilité et possibilité d'adaptation du design à vos besoins.",
-        "imageSrc": "src/assets/images/gvrata.png",
+        "imageSrc": "/gvrata.png",
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
@@ -281,17 +281,17 @@
         "id": "sunProtection",
         "title": "Protection solaire",
         "description": "Notre entreprise produit diverses solutions de protection solaire : • Moustiquaires - protection fiable contre les insectes, adaptée à tous types de fenêtres. • Stores - protection fonctionnelle contre le soleil et la chaleur, disponibles en différentes couleurs et matériaux. • Stores extérieurs (Raf Store) - système moderne qui offre contrôle de la lumière, intimité et isolation supplémentaire. Tous les produits sont fabriqués en matériaux de qualité, durables et adaptables aux besoins de chaque bâtiment.",
-        "imageSrc": "src/assets/images/zos.png",
+        "imageSrc": "/zos.png",
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
           "images": [
             {
-              "src": "src/assets/images/komarnik.jpg",
+              "src": "/komarnik.jpg",
               "description": "Moustiquaires"
             },
             {
-              "src": "src/assets/images/raf.jpg",
+              "src": "/raf.jpg",
               "description": "Stores extérieurs - Raf Store"
             }
           ]
@@ -301,39 +301,31 @@
         "id": "roletne",
         "title": "Stores",
         "description": "Nos stores sont fabriqués à partir des meilleurs systèmes Deceuninck, Inoutic et ALUPROF, qui assurent durabilité, stabilité et excellente isolation thermique. Nous proposons des stores classiques et sous-façade, adaptés aux solutions architecturales modernes et aux exigences esthétiques du bâtiment.",
-        "imageSrc": "src/assets/images/roletne (2).png",
+        "imageSrc": "/roletne (2).png",
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Cliquez sur l'un des types de produits pour voir la galerie.",
           "images": [
             {
-              "src": "src/assets/images/vidna.png",
+              "src": "/vidna.png",
               "description": "Stores avec boîte de vue extérieure",
-              "gallery": [
-                "src/assets/images/crna.jpg",
-                "src/assets/images/crnaa.jpg",
-                "src/assets/images/roletne.jpg"
-              ]
+              "gallery": ["/crna.jpg", "/crnaa.jpg", "/roletne.jpg"]
             },
             {
-              "src": "src/assets/images/podfasadna.png",
+              "src": "/podfasadna.png",
               "description": "Stores avec boîte sous-façade extérieure",
               "gallery": [
-                "src/assets/images/gallery/categories/podfasadna.jpg",
-                "src/assets/images/gallery/categories/podfasadna2.jpg",
-                "src/assets/images/gallery/categories/podfasadna3.jpg",
-                "src/assets/images/gallery/categories/podfasadna4.jpg",
-                "src/assets/images/gallery/categories/podfasadna5.jpg"
+                "/gallery/categories/podfasadna.jpg",
+                "/gallery/categories/podfasadna2.jpg",
+                "/gallery/categories/podfasadna3.jpg",
+                "/gallery/categories/podfasadna4.jpg",
+                "/gallery/categories/podfasadna5.jpg"
               ]
             },
             {
-              "src": "src/assets/images/nadprozorska.png",
+              "src": "/nadprozorska.png",
               "description": "Stores avec boîte au-dessus de la fenêtre",
-              "gallery": [
-                "src/assets/images/crna.jpg",
-                "src/assets/images/crnaa.jpg",
-                "src/assets/images/roletne.jpg"
-              ]
+              "gallery": ["/crna.jpg", "/crnaa.jpg", "/roletne.jpg"]
             }
           ]
         }
@@ -342,7 +334,7 @@
         "id": "stijenke",
         "title": "Cloisons",
         "description": "Notre entreprise produit des cloisons de qualité pour espaces de toutes destinations. Elles sont idéales pour la division d'espace, l'intimité et l'apparence moderne, fabriquées en matériaux durables et adaptables à vos besoins.",
-        "imageSrc": "src/assets/images/stijenka.png",
+        "imageSrc": "/stijenka.png",
         "imageAlt": "Cloison",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
@@ -353,7 +345,7 @@
         "id": "alubond",
         "title": "Façades Alubond",
         "description": "Notre entreprise fabrique des façades Alubond de haute qualité qui rendent les bâtiments modernes, attractifs et énergétiquement efficaces. Les façades sont légères, durables et disponibles en différentes couleurs et décors, adaptées aux bâtiments résidentiels et commerciaux.",
-        "imageSrc": "src/assets/images/alubond.webp",
+        "imageSrc": "/alubond.webp",
         "imageAlt": "alubond",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
@@ -364,67 +356,55 @@
         "id": "velux",
         "title": "Fenêtres de toit",
         "description": "Notre entreprise installe des fenêtres de toit Velux, connues pour leur qualité et durabilité. Elles sont idéales pour les combles et espaces de toit, permettant lumière naturelle, ventilation et apparence moderne de l'espace.",
-        "imageSrc": "src/assets/images/velux.webp",
+        "imageSrc": "/velux.webp",
         "imageAlt": "Fenêtres de toit",
         "extra": {
           "description": "Solutions qui protègent du soleil et améliorent le confort de l'espace.",
-          "images": [
-            "src/assets/images/velux.webp",
-            "src/assets/images/velux.webp"
-          ]
+          "images": ["/velux.webp", "/velux.webp"]
         }
       },
       "garageDoors": {
         "id": "garageDoors",
         "title": "Portes de garage",
         "description": "Nous proposons des portes de garage de haute qualité avec différents systèmes d'ouverture et de sécurité, adaptés aux besoins modernes.",
-        "imageSrc": "src/assets/images/gvrata.png",
+        "imageSrc": "/gvrata.png",
         "imageAlt": "Portes de garage",
         "extra": {
           "description": "Solutions modernes pour portes de garage avec sécurité et esthétique.",
-          "images": [
-            "src/assets/images/gvrata.png",
-            "src/assets/images/gvrata.png"
-          ]
+          "images": ["/gvrata.png", "/gvrata.png"]
         }
       },
       "sunProtection": {
         "id": "sunProtection",
         "title": "Protection solaire",
         "description": "Systèmes de protection solaire modernes incluant stores, volets et autres solutions pour améliorer le confort.",
-        "imageSrc": "src/assets/images/zos.png",
+        "imageSrc": "/zos.png",
         "imageAlt": "Protection solaire",
         "extra": {
           "description": "Solutions de protection solaire pour tous types de bâtiments.",
-          "images": ["src/assets/images/zos.png", "src/assets/images/zos.png"]
+          "images": ["/zos.png", "/zos.png"]
         }
       },
       "slidingWalls": {
         "id": "slidingWalls",
         "title": "Murs coulissants",
         "description": "Systèmes de murs coulissants et fixes pour créer des espaces flexibles et modernes.",
-        "imageSrc": "src/assets/images/stijenka.png",
+        "imageSrc": "/stijenka.png",
         "imageAlt": "Murs coulissants",
         "extra": {
           "description": "Solutions flexibles pour espaces modernes.",
-          "images": [
-            "src/assets/images/stijenka.png",
-            "src/assets/images/stijenka.png"
-          ]
+          "images": ["/stijenka.png", "/stijenka.png"]
         }
       },
       "alubond": {
         "id": "alubond",
         "title": "Façades ALUBOND",
         "description": "Systèmes de façades ALUBOND pour une esthétique moderne et une durabilité exceptionnelle.",
-        "imageSrc": "src/assets/images/alubond.webp",
+        "imageSrc": "/alubond.webp",
         "imageAlt": "Façades ALUBOND",
         "extra": {
           "description": "Façades modernes avec ALUBOND pour tous types de bâtiments.",
-          "images": [
-            "src/assets/images/alubond.webp",
-            "src/assets/images/alubond.webp"
-          ]
+          "images": ["/alubond.webp", "/alubond.webp"]
         }
       }
     },
