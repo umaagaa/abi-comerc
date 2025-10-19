@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import CategoryContent from '../components/CategoryContent';
-import veluxImg from '../assets/images/velux.webp';
+// import veluxImg from '../assets/images/velux.webp'; // Moved to public folder
 
 export default function Category8() {
   const { t } = useTranslation();
@@ -29,7 +29,7 @@ export default function Category8() {
           </div>
 
           <CategoryContent
-            imageSrc={veluxImg}
+            imageSrc='/velux.webp'
             imageAlt={t('category8.imageAlt')}
             title={t('category8.content.title')}
             description={t('category8.content.description')}
