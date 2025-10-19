@@ -1,9 +1,17 @@
 // src/pages/Projects.jsx
-import React, { useState } from "react";
-import { Building2, Home, Factory, Wrench, Hammer, Tags, X } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import React, { useState } from 'react';
+import {
+  Building2,
+  Home,
+  Factory,
+  Wrench,
+  Hammer,
+  Tags,
+  X,
+} from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -13,93 +21,96 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: t("projects.residential.title"),
-      description: t("projects.residential.description"),
-      image: "src/assets/images/kuca.jpg",
+      title: t('projects.residential.title'),
+      description: t('projects.residential.description'),
+      image: 'src/assets/images/kuca.jpg',
       images: [
-       "src/assets/images/gallery/recenzije/1.jpg",
-        "src/assets/images/gallery/recenzije/2.jpg",
-        "src/assets/images/gallery/recenzije/3.jpg",
-        "src/assets/images/gallery/recenzije/4.jpg"
+        'src/assets/images/gallery/recenzije/1.jpg',
+        'src/assets/images/gallery/recenzije/2.jpg',
+        'src/assets/images/gallery/recenzije/3.jpg',
+        'src/assets/images/gallery/recenzije/4.jpg',
       ],
       icon: Home,
       features: [
-        t("projects.residential.features.quality"),
-        t("projects.residential.features.efficiency"),
-        t("projects.residential.features.design")
-      ]
+        t('projects.residential.features.quality'),
+        t('projects.residential.features.efficiency'),
+        t('projects.residential.features.design'),
+      ],
     },
     {
       id: 2,
-      title: t("projects.commercial.title"),
-      description: t("projects.commercial.description"),
-      image: "src/assets/images/firma.jpg",
+      title: t('projects.commercial.title'),
+      description: t('projects.commercial.description'),
+      image: '/firma.jpg',
       images: [
-        "src/assets/images/gallery/recenzije/11.jpg",
-        "src/assets/images/gallery/recenzije/22.jpg",
-        "src/assets/images/gallery/recenzije/33.jpg",
-        "src/assets/images/gallery/recenzije/44.jpg"
+        'src/assets/images/gallery/recenzije/11.jpg',
+        'src/assets/images/gallery/recenzije/22.jpg',
+        'src/assets/images/gallery/recenzije/33.jpg',
+        'src/assets/images/gallery/recenzije/44.jpg',
       ],
       icon: Building2,
       features: [
-        t("projects.commercial.features.durability"),
-        t("projects.commercial.features.performance"),
-        t("projects.commercial.features.innovation")
-      ]
-    }
+        t('projects.commercial.features.durability'),
+        t('projects.commercial.features.performance'),
+        t('projects.commercial.features.innovation'),
+      ],
+    },
   ];
 
   return (
-    <div className="space-y-20 p-8 mt-32">
-      <div className="flex items-center justify-center mb-8 w-full">
-        <div className="border-t border-red-500 flex-1 max-w-[220px]" />
-        <div className="mx-4 text-red-500">
+    <div className='space-y-20 p-8 mt-32'>
+      <div className='flex items-center justify-center mb-8 w-full'>
+        <div className='border-t border-red-500 flex-1 max-w-[220px]' />
+        <div className='mx-4 text-red-500'>
           <Tags size={28} />
         </div>
-        <div className="border-t border-red-500 flex-1 max-w-[220px]" />
+        <div className='border-t border-red-500 flex-1 max-w-[220px]' />
       </div>
 
       {/* Projects Grid */}
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className='max-w-7xl mx-auto px-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="bg-white rounded-2xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex flex-col"
+              className='bg-white rounded-2xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex flex-col'
             >
               {/* Project Image */}
-              <div className="relative h-64 overflow-hidden">
+              <div className='relative h-64 overflow-hidden'>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                  className='w-full h-full object-cover transition-transform duration-300 hover:scale-110'
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                <div className="absolute top-4 right-4">
-                  <div className="bg-white/90 backdrop-blur-sm rounded-full p-3">
-                    <project.icon className="w-6 h-6 text-blue-600" />
+                <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent'></div>
+                <div className='absolute top-4 right-4'>
+                  <div className='bg-white/90 backdrop-blur-sm rounded-full p-3'>
+                    <project.icon className='w-6 h-6 text-blue-600' />
                   </div>
                 </div>
               </div>
 
               {/* Project Content */}
-              <div className="p-8 flex flex-col flex-grow">
-                <h3 className="text-2xl font-bold text-gray-800 mb-4">
+              <div className='p-8 flex flex-col flex-grow'>
+                <h3 className='text-2xl font-bold text-gray-800 mb-4'>
                   {project.title}
                 </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                <p className='text-gray-600 mb-6 leading-relaxed'>
                   {project.description}
                 </p>
 
                 {/* Features List */}
-                <div className="space-y-3 flex-grow">
-                  <h4 className="font-semibold text-gray-800 mb-3">
-                    {t("projects.keyFeatures")}:
+                <div className='space-y-3 flex-grow'>
+                  <h4 className='font-semibold text-gray-800 mb-3'>
+                    {t('projects.keyFeatures')}:
                   </h4>
-                  <ul className="space-y-2">
+                  <ul className='space-y-2'>
                     {project.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-gray-600">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 flex-shrink-0"></div>
+                      <li
+                        key={featureIndex}
+                        className='flex items-center text-gray-600'
+                      >
+                        <div className='w-2 h-2 bg-blue-500 rounded-full mr-3 flex-shrink-0'></div>
                         {feature}
                       </li>
                     ))}
@@ -107,17 +118,16 @@ export default function Projects() {
                 </div>
 
                 {/* CTA Button - Always at bottom */}
-              <div className="mt-8">
-              <button 
-                        onClick={() => {
-                  setSelectedProject(project);
+                <div className='mt-8'>
+                  <button
+                    onClick={() => {
+                      setSelectedProject(project);
                       setSelectedImageIndex(0);
-                          }}
-                          className="w-full bg-gradient-to-r from-green-500 to-red-500 text-white py-3 px-6 rounded-xl font-semibold shadow hover:opacity-90 transition-all duration-300 cursor-pointer"
-                    >
-                    {t("projects.learnMore")}
-                           </button>
-
+                    }}
+                    className='w-full bg-gradient-to-r from-green-500 to-red-500 text-white py-3 px-6 rounded-xl font-semibold shadow hover:opacity-90 transition-all duration-300 cursor-pointer'
+                  >
+                    {t('projects.learnMore')}
+                  </button>
                 </div>
               </div>
             </div>
@@ -126,64 +136,63 @@ export default function Projects() {
       </div>
 
       {/* Call to Action Section */}
-      <div className="bg-gradient-to-r from-green-800 to-gray-900 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            {t("projects.cta.title")}
+      <div className='bg-gradient-to-r from-green-800 to-gray-900 text-white py-16'>
+        <div className='max-w-4xl mx-auto px-4 text-center'>
+          <h2 className='text-3xl md:text-4xl font-bold mb-6'>
+            {t('projects.cta.title')}
           </h2>
-          <p className="text-xl text-gray-300 mb-8">
-            {t("projects.cta.description")}
+          <p className='text-xl text-gray-300 mb-8'>
+            {t('projects.cta.description')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              to="/contact" 
-              className="bg-gradient-to-r from-green-500 to-red-500 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300 text-center"
+          <div className='flex flex-col sm:flex-row gap-4 justify-center'>
+            <Link
+              to='/contact'
+              className='bg-gradient-to-r from-green-500 to-red-500 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-colors duration-300 text-center'
             >
-              {t("projects.cta.contact")}
+              {t('projects.cta.contact')}
             </Link>
-            
           </div>
         </div>
       </div>
 
       {/* Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl max-w-7xl w-full max-h-[95vh] overflow-hidden shadow-2xl border border-gray-200">
+        <div className='fixed inset-0 flex items-center justify-center z-50 p-4'>
+          <div className='bg-white rounded-2xl max-w-7xl w-full max-h-[95vh] overflow-hidden shadow-2xl border border-gray-200'>
             {/* Modal Header */}
-            <div className="flex items-center justify-between p-6 border-b border-gray-200">
-              <div className="flex items-center gap-3">
-                <div className="bg-blue-100 p-2 rounded-lg">
-                  <selectedProject.icon className="w-6 h-6 text-blue-600" />
+            <div className='flex items-center justify-between p-6 border-b border-gray-200'>
+              <div className='flex items-center gap-3'>
+                <div className='bg-blue-100 p-2 rounded-lg'>
+                  <selectedProject.icon className='w-6 h-6 text-blue-600' />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800">
+                <h3 className='text-2xl font-bold text-gray-800'>
                   {selectedProject.title}
                 </h3>
               </div>
               <button
                 onClick={() => setSelectedProject(null)}
-                className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                className='p-2 hover:bg-gray-100 rounded-lg transition-colors'
               >
-                <X className="w-6 h-6 text-gray-500" />
+                <X className='w-6 h-6 text-gray-500' />
               </button>
             </div>
 
             {/* Modal Content */}
-            <div className="p-6 flex flex-col">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className='p-6 flex flex-col'>
+              <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
                 {/* Image Carousel - Takes 2 columns */}
-                <div className="lg:col-span-2 flex flex-col space-y-3">
+                <div className='lg:col-span-2 flex flex-col space-y-3'>
                   {/* Main Image */}
-                  <div className="relative h-80">
+                  <div className='relative h-80'>
                     <img
                       src={selectedProject.images[selectedImageIndex]}
                       alt={selectedProject.title}
-                      className="w-full h-full object-cover rounded-xl shadow-lg"
+                      className='w-full h-full object-cover rounded-xl shadow-lg'
                     />
                   </div>
-                  
+
                   {/* Thumbnail Carousel */}
-                  <div className="flex justify-center gap-2 flex-shrink-0">
+                  <div className='flex justify-center gap-2 flex-shrink-0'>
                     {selectedProject.images.map((image, index) => (
                       <button
                         key={index}
@@ -197,7 +206,7 @@ export default function Projects() {
                         <img
                           src={image}
                           alt={`${selectedProject.title} ${index + 1}`}
-                          className="w-full h-full object-cover"
+                          className='w-full h-full object-cover'
                         />
                       </button>
                     ))}
@@ -205,27 +214,32 @@ export default function Projects() {
                 </div>
 
                 {/* Content - Takes 1 column */}
-                <div className="lg:col-span-1 flex flex-col justify-between">
+                <div className='lg:col-span-1 flex flex-col justify-between'>
                   {/* Text Content */}
-                  <div className="space-y-4">
+                  <div className='space-y-4'>
                     <div>
-                      <h4 className="text-lg font-bold text-gray-800 mb-3">
-                        {t("projects.description")}
+                      <h4 className='text-lg font-bold text-gray-800 mb-3'>
+                        {t('projects.description')}
                       </h4>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className='text-gray-600 leading-relaxed'>
                         {selectedProject.description}
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-lg font-bold text-gray-800 mb-3">
-                        {t("projects.keyFeatures")}
+                      <h4 className='text-lg font-bold text-gray-800 mb-3'>
+                        {t('projects.keyFeatures')}
                       </h4>
-                      <ul className="space-y-2">
+                      <ul className='space-y-2'>
                         {selectedProject.features.map((feature, index) => (
-                          <li key={index} className="flex items-start text-gray-600">
-                            <div className="w-2 h-2 bg-blue-500 rounded-full mr-2 flex-shrink-0 mt-2"></div>
-                            <span className="leading-relaxed text-sm">{feature}</span>
+                          <li
+                            key={index}
+                            className='flex items-start text-gray-600'
+                          >
+                            <div className='w-2 h-2 bg-blue-500 rounded-full mr-2 flex-shrink-0 mt-2'></div>
+                            <span className='leading-relaxed text-sm'>
+                              {feature}
+                            </span>
                           </li>
                         ))}
                       </ul>
@@ -233,12 +247,12 @@ export default function Projects() {
                   </div>
 
                   {/* Action Button - Fixed at bottom */}
-                  <div className="mt-6 pt-4 border-t border-gray-200">
+                  <div className='mt-6 pt-4 border-t border-gray-200'>
                     <Link
-                      to="/contact"
-                      className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-xl font-bold transition-colors duration-300 text-center cursor-pointer"
+                      to='/contact'
+                      className='block bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-xl font-bold transition-colors duration-300 text-center cursor-pointer'
                     >
-                      {t("projects.cta.contact")}
+                      {t('projects.cta.contact')}
                     </Link>
                   </div>
                 </div>
