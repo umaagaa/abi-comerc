@@ -91,7 +91,7 @@
     "country": "Bosna i Hercegovina",
     "phone": "Tel: +387 37 411 004",
     "fax": "Fax: +387 37 411 004",
-    "email": "abicomerc2010@gmail.com",
+    "email": "baucentar@abicomerc.ba",
     "branches": "Poslovne jedinice",
     "copyright": "Sva prava zadržana."
   },
@@ -106,14 +106,13 @@
   },
   "stats": {
     "subtitle": "KVALITETA U BROJKAMA",
-    "title": "Već pola stoljeća iskustva",
+    "title": "Dugogodišnje iskustvo u industriji",
     "button": "SAZNAJTE VIŠE O NAMA",
     "differentProfiles": "različitih profila",
     "buildingSystems": "građevinskih sistema",
     "productionCapacity": "proizvodnog kapaciteta godišnje",
     "cooperators": "kooperanata",
-    "employees": "zaposlenika",
-    "presses": "preša"
+    "employees": "zaposlenika"
   },
   "galleryProducts": {
     "windowSystems": "SISTEMI PROZORA I VRATA",
@@ -175,7 +174,8 @@
       "address3": "Bosna i Hercegovina",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263577130006",
-      "email": "info@abicomerc.ba"
+      "email": "baucentar@abicomerc.ba",
+      "email2": "info@abicomerc.ba"
     },
     "proizvodnja": {
       "name": "ABI Proizvodnja i Skladište",
@@ -192,7 +192,7 @@
       "address3": "Bosna i Hercegovina",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263959840003",
-      "email": "info@abiinvest.ba"
+      "email": "abiinvest@abicomerc.ba"
     }
   },
   "products": {

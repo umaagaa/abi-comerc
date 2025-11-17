@@ -91,7 +91,7 @@
     "country": "Bosnien und Herzegowina",
     "phone": "Tel: +387 37 411 004",
     "fax": "Fax: +387 37 411 004",
-    "email": "abicomerc2010@gmail.com",
+    "email": "baucentar@abicomerc.ba",
     "branches": "NIEDERLASSUNGEN",
     "copyright": "Alle Rechte vorbehalten."
   },
@@ -175,7 +175,8 @@
       "address3": "Bosnien und Herzegowina",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263577130006",
-      "email": "info@abicomerc.ba"
+      "email": "baucentar@abicomerc.ba",
+      "email2": "info@abicomerc.ba"
     },
     "proizvodnja": {
       "name": "ABI Produktion und Lager",
@@ -192,7 +193,7 @@
       "address3": "Bosnien und Herzegowina",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263959840003",
-      "email": "info@abiinvest.ba"
+      "email": "abiinvest@abicomerc.ba"
     }
   },
   "products": {

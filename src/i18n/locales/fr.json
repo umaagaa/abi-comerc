@@ -91,7 +91,7 @@
     "country": "Bosnie-Herzégovine",
     "phone": "Tel: +387 37 411 004",
     "fax": "Fax: +387 37 411 004",
-    "email": "abicomerc2010@gmail.com",
+    "email": "baucentar@abicomerc.ba",
     "branches": "SUCCURSALES",
     "copyright": "Tous droits réservés."
   },
@@ -175,7 +175,8 @@
       "address3": "Bosnie-Herzégovine",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263577130006",
-      "email": "info@abicomerc.ba"
+      "email": "baucentaro@abicomerc.ba",
+      "email2": "info@abicomerc.ba"
     },
     "proizvodnja": {
       "name": "ABI Production et Entrepôt",
@@ -192,7 +193,7 @@
       "address3": "Bosnie-Herzégovine",
       "phone": "Tel: +387 37 411 004",
       "jib": "4263959840003",
-      "email": "info@abiinvest.ba"
+      "email": "abiinvest@abicomerc.ba"
     }
   },
   "products": {

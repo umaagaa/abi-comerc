@@ -137,11 +137,18 @@ export default function About() {
                 <p>Tel: +387 37 411 004</p>
                 <p>Fax: +387 37 411 004</p>
                 <p>
+                <a
+                  href='mailto:baucentar@abicomerc.ba'
+                  className='text-red-500 hover:underline'
+                >
+                  baucentar@abicomerc.ba
+                </a>
+                <br />
                   <a
-                    href='mailto:abicomerc2010@gmail.com'
+                    href='mailto:info@abicomerc.ba'
                     className='text-red-500 hover:underline'
                   >
-                    abicomerc2010@gmail.com
+                    info@abicomerc.ba
                   </a>
                 </p>
 

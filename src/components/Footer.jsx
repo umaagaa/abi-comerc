@@ -25,7 +25,7 @@ export default function Footer() {
         'Bosna i Hercegovina',
         'Tel: +387 37 411 004',
         'JIB: 4263959840003',
-        'info@abicomerc.ba',
+        'abiinvest@abicomerc.ba',
       ],
     },
   ];
@@ -54,11 +54,18 @@ export default function Footer() {
               <p>{t('footer.phone')}</p>
               <p>{t('footer.fax')}</p>
               <p>
-                <a
-                  href='mailto:abicomerc2010@gmail.com'
+              <a
+                  href='mailto:baucentar@abicomerc.ba'
                   className='text-red-500 hover:underline'
                 >
-                  abicomerc2010@gmail.com
+                  baucentar@abicomerc.ba
+                </a>
+                <br />
+                <a
+                  href='mailto:info@abicomerc.ba'
+                  className='text-red-500 hover:underline'
+                >
+                  info@abicomerc.ba
                 </a>
               </p>
 

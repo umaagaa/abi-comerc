@@ -13,8 +13,9 @@ const locations = (t) => [
     phone: t("contact.baucentar.phone"),
     jib: t("contact.baucentar.jib"),
     email: t("contact.baucentar.email"),
-    fb: "https://www.facebook.com/abicomerc",
-    ig: "https://www.instagram.com/abicomerc",
+    email2: t("contact.baucentar.email2"),
+    fb: "https://www.facebook.com/abicomercdoo.mulalic",
+    ig: "https://www.instagram.com/abi_comerc_d.o.o",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.856829994049!2d16.0248718!3d45.0684153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47614aae65d631d5%3A0x643371627b74f248!2sAbi%20comerc%20Bu%C5%BEim!5e0!3m2!1sen!2sba!4v1759666543633!5m2!1sen!2sba",
     mapLink: "https://maps.app.goo.gl/rpdZydMSVsoMrB9SA",
   },
@@ -27,8 +28,8 @@ const locations = (t) => [
     ],
     phone: t("contact.proizvodnja.phone"),
     email: t("contact.proizvodnja.email"),
-    fb: "https://www.facebook.com/abiproizvodnja",
-    ig: "https://www.instagram.com/abiproizvodnja",
+    fb: "https://www.facebook.com/abicomercdoo.mulalic",
+    ig: "https://www.instagram.com/abi_comerc_d.o.o",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.7145973962256!2d16.030970876751237!3d45.071300359567076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47613546b7713c51%3A0xf73660270decb8b9!2sABI%20Comerc%20proizvodnja!5e0!3m2!1sen!2sba!4v1759666616672!5m2!1sen!2sba",
     mapLink: "https://maps.app.goo.gl/tvojSkladisteLink",
   },
@@ -44,8 +45,8 @@ const locations = (t) => [
     email: t("contact.abinvest.email"),
     fb: "https://www.facebook.com/abiinvest",
     ig: "https://www.instagram.com/abiinvest",
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!...tvoj_abinvest_embed_link...",
-    mapLink: "https://maps.app.goo.gl/tvojAbinvestLink",
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.856829994049!2d16.0248718!3d45.0684153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47614aae65d631d5%3A0x643371627b74f248!2sAbi%20comerc%20Bu%C5%BEim!5e0!3m2!1sen!2sba!4v1759666543633!5m2!1sen!2sba",
+    mapLink: "https://maps.app.goo.gl/rpdZydMSVsoMrB9SA",
   },
   
 ];
@@ -83,6 +84,7 @@ export default function Contact() {
                   </p>
                 )}
                 <p className="text-green-600 font-medium">{loc.email}</p>
+                <p className="text-green-600 font-medium">{loc.email2}</p>
               </div>
 
               {/* Mapa - clickable */}

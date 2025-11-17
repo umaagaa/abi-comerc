@@ -107,12 +107,6 @@ export default function StatsSection() {
             </p>
             <p className='text-sm'>{t('stats.employees')}</p>
           </div>
-          <div>
-            <p className='text-3xl font-bold'>
-              <Counter target={7} />
-            </p>
-            <p className='text-sm'>{t('stats.presses')}</p>
-          </div>
         </div>
       </div>
 
