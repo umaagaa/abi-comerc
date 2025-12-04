@@ -3,6 +3,7 @@
     "about": "À propos",
     "products": "Produits",
     "projects": "Projets",
+    "building": "Bâtiment",
     "contact": "Contact"
   },
   "hero": {
@@ -80,9 +81,20 @@
     }
   },
   "building": {
-    "title": "Notre nouveau bâtiment commercial",
-    "description": "Bienvenue sur la page dédiée à l'ouverture de notre nouveau bâtiment. Cet investissement représente un pas en avant dans le développement de notre entreprise, permettant de meilleures conditions de travail et d'améliorer la production de menuiserie PVC et ALU.",
-    "details": "Le nouveau bâtiment est équipé d'équipements modernes et d'espaces modernes afin que nous puissions fournir des services de qualité encore meilleure à nos partenaires et clients. Plus d'informations sur l'inauguration bientôt !"
+    "title": "Vente d'Appartements",
+    "description": "Bienvenue sur la page de vente d'appartements de notre nouveau bâtiment. Explorez les appartements disponibles par étage.",
+    "selectFloor": "Sélectionner l'étage",
+    "floor": "Étage",
+    "groundFloor": "Rez-de-chaussée",
+    "apartments": "Appartements",
+    "available": "Disponible",
+    "occupied": "Occupé",
+    "apartment": "Appartement",
+    "businessSpace": "Espace Commercial",
+    "area": "Superficie",
+    "squareMeters": "m²",
+    "noFloorSelected": "Veuillez sélectionner un étage pour voir les appartements.",
+    "presentation": "Présentation Vidéo du Bâtiment"
   },
   "footer": {
     "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
@@ -364,28 +376,6 @@
           "images": ["/velux.webp", "/velux.webp"]
         }
       },
-      "garageDoors": {
-        "id": "garageDoors",
-        "title": "Portes de garage",
-        "description": "Nous proposons des portes de garage de haute qualité avec différents systèmes d'ouverture et de sécurité, adaptés aux besoins modernes.",
-        "imageSrc": "/gvrata.png",
-        "imageAlt": "Portes de garage",
-        "extra": {
-          "description": "Solutions modernes pour portes de garage avec sécurité et esthétique.",
-          "images": ["/gvrata.png", "/gvrata.png"]
-        }
-      },
-      "sunProtection": {
-        "id": "sunProtection",
-        "title": "Protection solaire",
-        "description": "Systèmes de protection solaire modernes incluant stores, volets et autres solutions pour améliorer le confort.",
-        "imageSrc": "/zos.png",
-        "imageAlt": "Protection solaire",
-        "extra": {
-          "description": "Solutions de protection solaire pour tous types de bâtiments.",
-          "images": ["/zos.png", "/zos.png"]
-        }
-      },
       "slidingWalls": {
         "id": "slidingWalls",
         "title": "Murs coulissants",
@@ -395,17 +385,6 @@
         "extra": {
           "description": "Solutions flexibles pour espaces modernes.",
           "images": ["/stijenka.png", "/stijenka.png"]
-        }
-      },
-      "alubond": {
-        "id": "alubond",
-        "title": "Façades ALUBOND",
-        "description": "Systèmes de façades ALUBOND pour une esthétique moderne et une durabilité exceptionnelle.",
-        "imageSrc": "/alubond.webp",
-        "imageAlt": "Façades ALUBOND",
-        "extra": {
-          "description": "Façades modernes avec ALUBOND pour tous types de bâtiments.",
-          "images": ["/alubond.webp", "/alubond.webp"]
         }
       }
     },
@@ -448,15 +427,6 @@
         "modernization": "Modernisation",
         "energy": "Efficacité énergétique",
         "aesthetics": "Esthétique améliorée"
-      }
-    },
-    "facade": {
-      "title": "Projets de Façades",
-      "description": "Solutions spécialisées pour façades modernes qui combinent esthétique avec fonctionnalité et efficacité énergétique.",
-      "features": {
-        "durability": "Durabilité exceptionnelle",
-        "weather": "Résistance aux intempéries",
-        "maintenance": "Faibles besoins d'entretien"
       }
     },
     "facade": {

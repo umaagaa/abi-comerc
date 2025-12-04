@@ -16,6 +16,7 @@ import Category8 from "./pages/Category8";
 import NavBar from "./components/NavBar";
 import Products from "./pages/Products";
 import Projects from "./pages/Projects";
+import Building from "./pages/Building";
 
 export default function App() {
   return (
@@ -38,8 +39,8 @@ export default function App() {
         {/* Main Routes */}
         <Route path="/products" element={<Products />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/building" element={<Building />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/building" element={<UnderConstruction />} />
         {/* 404 Route */}
         <Route path="*" element={<NotFound />} />
       </Routes>

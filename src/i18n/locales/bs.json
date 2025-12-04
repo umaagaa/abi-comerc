@@ -3,6 +3,7 @@
     "about": "O nama",
     "products": "Proizvodi",
     "projects": "Projekti",
+    "building": "Zgrada",
     "contact": "Kontakt"
   },
   "hero": {
@@ -80,9 +81,20 @@
     }
   },
   "building": {
-    "title": "Naša nova poslovna zgrada",
-    "description": "Dobrodošli na stranicu posvećenu otvaranju naše nove zgrade. Ova investicija predstavlja korak naprijed u razvoju naše firme, omogućava bolje uvjete za rad i unapređenje proizvodnje PVC i ALU stolarije.",
-    "details": "Nova zgrada je opremljena savremenom opremom i modernim prostorijama kako bismo pružili još kvalitetnije usluge našim partnerima i klijentima. Uskoro više informacija o svečanom otvaranju!"
+    "title": "Prodaja Stanova",
+    "description": "Dobrodošli na stranicu za prodaju stanova u našoj novoj zgradi. Istražite dostupne stanove po spratovima.",
+    "selectFloor": "Odaberite sprat",
+    "floor": "Sprat",
+    "groundFloor": "Prizemlje",
+    "apartments": "Stanovi",
+    "available": "Slobodan",
+    "occupied": "Zauzet",
+    "apartment": "Stan",
+    "businessSpace": "Poslovni prostor",
+    "area": "Kvadratura",
+    "squareMeters": "m²",
+    "noFloorSelected": "Molimo odaberite sprat za prikaz stanova.",
+    "presentation": "Video Prezentacija Zgrade"
   },
   "footer": {
     "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",

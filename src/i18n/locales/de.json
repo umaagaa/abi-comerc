@@ -3,6 +3,7 @@
     "about": "Über uns",
     "products": "Produkte",
     "projects": "Projekte",
+    "building": "Gebäude",
     "contact": "Kontakt"
   },
   "hero": {
@@ -80,9 +81,20 @@
     }
   },
   "building": {
-    "title": "Unser neues Geschäftsgebäude",
-    "description": "Willkommen auf der Seite, die der Eröffnung unseres neuen Gebäudes gewidmet ist. Diese Investition stellt einen Schritt nach vorn in der Entwicklung unseres Unternehmens dar und ermöglicht bessere Arbeitsbedingungen und die Verbesserung der Produktion von PVC- und ALU-Tischlerei.",
-    "details": "Das neue Gebäude ist mit moderner Ausrüstung und modernen Räumen ausgestattet, damit wir unseren Partnern und Kunden noch bessere Qualitätsdienstleistungen bieten können. Bald mehr Informationen über die feierliche Eröffnung!"
+    "title": "Wohnungsverkauf",
+    "description": "Willkommen auf der Seite für den Wohnungsverkauf in unserem neuen Gebäude. Erkunden Sie verfügbare Wohnungen nach Etagen.",
+    "selectFloor": "Etage auswählen",
+    "floor": "Etage",
+    "groundFloor": "Erdgeschoss",
+    "apartments": "Wohnungen",
+    "available": "Verfügbar",
+    "occupied": "Belegt",
+    "apartment": "Wohnung",
+    "businessSpace": "Geschäftsraum",
+    "area": "Fläche",
+    "squareMeters": "m²",
+    "noFloorSelected": "Bitte wählen Sie eine Etage aus, um die Wohnungen anzuzeigen.",
+    "presentation": "Gebäude-Videopräsentation"
   },
   "footer": {
     "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",

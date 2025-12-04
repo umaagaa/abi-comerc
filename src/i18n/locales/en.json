@@ -3,6 +3,7 @@
     "about": "About Us",
     "products": "Products",
     "projects": "Projects",
+    "building": "Building",
     "contact": "Contact"
   },
   "hero": {
@@ -80,9 +81,20 @@
     }
   },
   "building": {
-    "title": "Our New Business Building",
-    "description": "Welcome to the page dedicated to the opening of our new building. This investment represents a step forward in the development of our company, enabling better working conditions and improvement of PVC and ALU joinery production.",
-    "details": "The new building is equipped with modern equipment and facilities to provide even better services to our partners and clients. More information about the grand opening coming soon!"
+    "title": "Apartment Sales",
+    "description": "Welcome to the apartment sales page for our new building. Explore available apartments by floor.",
+    "selectFloor": "Select Floor",
+    "floor": "Floor",
+    "groundFloor": "Ground Floor",
+    "apartments": "Apartments",
+    "available": "Available",
+    "occupied": "Occupied",
+    "apartment": "Apartment",
+    "businessSpace": "Business Space",
+    "area": "Area",
+    "squareMeters": "m²",
+    "noFloorSelected": "Please select a floor to view apartments.",
+    "presentation": "Building Video Presentation"
   },
   "footer": {
     "companyName": "BAUCENTAR Abi Comerc d.o.o Bužim",
