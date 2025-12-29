@@ -103,7 +103,7 @@ export default function About() {
               </p>
 
               <Link
-                to='/building'
+                to='/underconstruction'
                 className='inline-block px-6 py-3 font-semibold text-white rounded-xl bg-gradient-to-r from-green-500 to-red-500 shadow-md hover:opacity-90 hover:text-black transition'
               >
                 {t('about.projects.cta')}

@@ -65,10 +65,10 @@ export default function UnderConstruction() {
             <p>{t('underConstruction.contactDescription')}</p>
             <div className='flex flex-wrap justify-center gap-4 mt-4'>
               <a
-                href='mailto:abicomerc2010@gmail.com'
+                href='mailto:info@abicomerc.ba'
                 className='text-green-400 hover:text-green-300 underline'
               >
-                abicomerc2010@gmail.com
+                info@abicomerc.ba
               </a>
               <span className='text-gray-500'>•</span>
               <a

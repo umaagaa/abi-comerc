@@ -35,14 +35,7 @@ export default function NotFound() {
           </div>
 
           <div className='mt-12 text-sm text-gray-400'>
-            <p>{t('404.exploreText')}</p>
-            <div className='flex flex-wrap justify-center gap-4 mt-4'>
-              <Link
-                to='/building'
-                className='text-green-400 hover:text-green-300 underline'
-              >
-                {t('404.building')}
-              </Link>
+            
               <span className='text-gray-500'>•</span>
               <Link
                 to='/About'
@@ -53,7 +46,7 @@ export default function NotFound() {
             </div>
           </div>
         </div>
-      </div>
+      
       <Footer />
     </>
   );
