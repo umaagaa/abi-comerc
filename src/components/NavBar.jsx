@@ -8,7 +8,7 @@ import 'flag-icons/css/flag-icons.min.css';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
-  const [openAbout, setOpenAbout] = useState(false); // za mobilni dropdown
+  const [openAbout, setOpenAbout] = useState(false); // for mobile dropdown
 
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);

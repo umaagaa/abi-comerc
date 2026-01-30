@@ -8,7 +8,7 @@ export default function ScrollToTop() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // ✅ glatki scroll
+      behavior: "smooth",  
     });
   }, [pathname]);
 

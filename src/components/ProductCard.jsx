@@ -14,7 +14,7 @@ export default function ProductCard({
   const [activeGallery, setActiveGallery] = useState([]);
   const [currentImage, setCurrentImage] = useState(0);
 
-  // otvara popup s galerijom slika
+  // Popup with gallery photos
   const openGallery = (gallery) => {
     setActiveGallery(gallery);
     setCurrentImage(0);
@@ -84,7 +84,7 @@ export default function ProductCard({
           <div className="mt-8 space-y-6">
             <p className="text-gray-700">{category.extra.description}</p>
 
-            {/* 3 slike s opisima ispod */}
+            {/* 3 photos with description */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
   {category.extra.images
     .slice(0, category.extra.imagesToShow || category.extra.images.length)
